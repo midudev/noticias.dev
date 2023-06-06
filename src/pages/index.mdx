@@ -1,0 +1,58 @@
+import { SparkleIcon } from '@/components/SparkleIcon'
+import { generateRssFeed } from '@/lib/generateRssFeed'
+
+export async function getStaticProps() {
+  if (process.env.NODE_ENV === 'production') {
+    await generateRssFeed()
+  }
+  return { props: {} }
+}
+
+---
+
+![](@/images/1.webp)
+
+## La primera newsletter de muchas {{ date: '2023-05-15T00:00Z' }}
+
+### 📰  Noticias
+
+- 🔥 [Google ha anunciado Baseline](https://web.dev/baseline/), una forma de aportar claridad al soporte de los navegadores a las características de la plataforma web.
+- ⚛️ Ahora React va a tener también [canary releases](https://react.dev/blog/2023/05/03/react-canaries) para que puedas probar las novedades antes de que salgan en la versión estable.
+- ❌ Las propiedades privadas de clases en JavaScript [no se llevan bien con los Proxy](https://lea.verou.me/2023/04/private-fields-considered-harmful/) y hay gente que está dejando de usarlo por eso. Lo explica **Lea Verou**.
+
+### 🥫  Salseos
+
+- 🤔 [TypeScript te quita la felicidad](https://twitter.com/dhh/status/1655076668787097607) según David Heinemeier Hansson, creador de Ruby on Rails.
+- 👋 [Adiós React, Hola Worpdress](https://twitter.com/tannerlinsley/status/1657059988760829952). Tanner Linsley, creador de React Query, ha comentado que han migrado la página de nozzle.io de React a Wordpress. ¡En 2023! Muy interesantes las razones.
+- 🫢 Los secretos de GitHub Copilot X al descubierto. Marvin von Hagen ha conseguido [acceder a sus reglas internas](https://twitter.com/marvinvonhagen/status/1657060506371346432?t=v2GCmRsEhQvdTcE7Q2IvVg&s=33) con un poco de Prompt Engineering.
+
+### 👀  Ojo a esto
+
+- 🍑 Rich Harris ha cumplido su palabra. Ya se ha fusionado el cambio en Svelte donde **han migrado su código de TypeScript a JSDoc**. Las pruebas, en [este commit](https://github.com/sveltejs/svelte/pull/8569/commits/ea4e7931e41b4606abec51c8a67e1e3c282b8de8).
+
+- 🌏 Parece mentira, pero **Google Chrome está perdiendo poco a poco cuota de mercado**. En _Abril de 2023_, su [cuota ha llegado a ser del 63.45%](https://gs.statcounter.com/browser-market-share), la más baja desde hace años. Safari y Edge suben.
+
+### 🎨 Diseño
+
+- ✨ **Navegación de menú a submenú bien hecho**, en _Vercel_. _John Phamous_ nos explica [la magia que hay detrás para evitar problemas al cambiar de sección](https://twitter.com/JohnPhamous/status/1657083267299028992?t=gKjsr-pG9KO5ZL0R6Hq55Q&s=33). ¡Espectacular!
+
+- ⭐ **Trucos de Next.js en el diseño de su landing**. Rauno Freiberg nos cuenta [un montón de trucos de CSS que han usado en la landing de Next.js](https://rauno.me/craft/nextjs).
+
+- 🪟 Alguien le ha dedicado el tiempo suficiente para [recrear Windows 11 con Svelte.](https://win11.yashash.dev/)
+
+- Desde **Chrome 112** ya tienes disponible el **nesting de CSS**. ¡Por fin! Ahora puedes escribir esto:
+
+```css
+.nesting {
+  color: hotpink;
+  font-size: 24px;
+
+  > .is {
+    color: blue;
+
+    > .awesome {
+      color: deeppink;
+    }
+  }
+}
+```

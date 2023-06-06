@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>noticias.dev</title>
+        <link>undefined</link>
+        <description>Open-source Git client for macOS minimalists</description>
+        <lastBuildDate>Tue, 06 Jun 2023 08:45:37 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>noticias.dev</title>
+            <url>undefined/favicon.ico</url>
+            <link>undefined</link>
+        </image>
+        <copyright>All rights reserved 2023</copyright>
+        <item>
+            <title><![CDATA[La primera newsletter de muchas]]></title>
+            <link>undefined/#la-primera-newsletter-de-muchas</link>
+            <guid>undefined/#la-primera-newsletter-de-muchas</guid>
+            <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<div>Test</div><article><script type="text/metadata">{"id":"la-primera-newsletter-de-muchas","title":"La primera newsletter de muchas","date":"2023-05-15T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="" loading="lazy" width="1200" height="650" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<h3 id="--noticias">📰  Noticias</h3>
+<ul>
+<li>🔥 <a href="https://web.dev/baseline/">Google ha anunciado Baseline</a>, una forma de aportar claridad al soporte de los navegadores a las características de la plataforma web.</li>
+<li>⚛️ Ahora React va a tener también <a href="https://react.dev/blog/2023/05/03/react-canaries">canary releases</a> para que puedas probar las novedades antes de que salgan en la versión estable.</li>
+<li>❌ Las propiedades privadas de clases en JavaScript <a href="https://lea.verou.me/2023/04/private-fields-considered-harmful/">no se llevan bien con los Proxy</a> y hay gente que está dejando de usarlo por eso. Lo explica <strong>Lea Verou</strong>.</li>
+</ul>
+<h3 id="--salseos">🥫  Salseos</h3>
+<ul>
+<li>🤔 <a href="https://twitter.com/dhh/status/1655076668787097607">TypeScript te quita la felicidad</a> según David Heinemeier Hansson, creador de Ruby on Rails.</li>
+<li>👋 <a href="https://twitter.com/tannerlinsley/status/1657059988760829952">Adiós React, Hola Worpdress</a>. Tanner Linsley, creador de React Query, ha comentado que han migrado la página de nozzle.io de React a Wordpress. ¡En 2023! Muy interesantes las razones.</li>
+<li>🫢 Los secretos de GitHub Copilot X al descubierto. Marvin von Hagen ha conseguido <a href="https://twitter.com/marvinvonhagen/status/1657060506371346432?t=v2GCmRsEhQvdTcE7Q2IvVg&amp;s=33">acceder a sus reglas internas</a> con un poco de Prompt Engineering.</li>
+</ul>
+<h3 id="--ojo-a-esto">👀  Ojo a esto</h3>
+<ul>
+<li>
+<p>🍑 Rich Harris ha cumplido su palabra. Ya se ha fusionado el cambio en Svelte donde <strong>han migrado su código de TypeScript a JSDoc</strong>. Las pruebas, en <a href="https://github.com/sveltejs/svelte/pull/8569/commits/ea4e7931e41b4606abec51c8a67e1e3c282b8de8">este commit</a>.</p>
+</li>
+<li>
+<p>🌏 Parece mentira, pero <strong>Google Chrome está perdiendo poco a poco cuota de mercado</strong>. En <em>Abril de 2023</em>, su <a href="https://gs.statcounter.com/browser-market-share">cuota ha llegado a ser del 63.45%</a>, la más baja desde hace años. Safari y Edge suben.</p>
+</li>
+</ul>
+<h3 id="-diseño">🎨 Diseño</h3>
+<ul>
+<li>
+<p>✨ <strong>Navegación de menú a submenú bien hecho</strong>, en <em>Vercel</em>. <em>John Phamous</em> nos explica <a href="https://twitter.com/JohnPhamous/status/1657083267299028992?t=gKjsr-pG9KO5ZL0R6Hq55Q&amp;s=33">la magia que hay detrás para evitar problemas al cambiar de sección</a>. ¡Espectacular!</p>
+</li>
+<li>
+<p>⭐ <strong>Trucos de Next.js en el diseño de su landing</strong>. Rauno Freiberg nos cuenta <a href="https://rauno.me/craft/nextjs">un montón de trucos de CSS que han usado en la landing de Next.js</a>.</p>
+</li>
+<li>
+<p>🪟 Alguien le ha dedicado el tiempo suficiente para <a href="https://win11.yashash.dev/">recrear Windows 11 con Svelte.</a></p>
+</li>
+<li>
+<p>Desde <strong>Chrome 112</strong> ya tienes disponible el <strong>nesting de CSS</strong>. ¡Por fin! Ahora puedes escribir esto:</p>
+</li>
+</ul>
+<pre><code class="language-css"><span><span style="color: var(--shiki-token-function)">.nesting</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">color</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">hotpink</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">font-size</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">24</span><span style="color: var(--shiki-token-keyword)">px</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span></span>
+<span><span style="color: var(--shiki-color-text)">  &gt; .</span><span style="color: var(--shiki-token-constant)">is</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-constant)">color</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">blue</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span></span>
+<span><span style="color: var(--shiki-color-text)">    &gt; .</span><span style="color: var(--shiki-token-constant)">awesome</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-constant)">color</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">deeppink</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">    }</span></span>
+<span><span style="color: var(--shiki-color-text)">  }</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span></code></pre></article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+    </channel>
+</rss>
