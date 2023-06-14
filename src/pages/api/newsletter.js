@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+export default async function handler(req, res) {
   // only allow POST requests
   if (req.method !== 'POST') {
     return res.status(405).json({ message: 'Method not allowed' })
@@ -8,26 +8,41 @@ export default function handler(req, res) {
 
   const data = {
     email,
-    referrer_url: 'https://aprendejavascript.dev',
-    tags: ['aprendejavascript'],
+    referrer_url: 'https://noticias.dev',
   }
+
+  // try to get the email before trying to subscribe
+  const responseCheckAlreadyExist = await fetch(
+    `https://api.buttondown.email/v1/subscribers/${email}`,
+    {
+      method: 'GET',
+      headers: {
+        Authorization: `Token ${process.env.API_BUTTONDOWN}`,
+        'Content-Type': 'application/json',
+      },
+    }
+  )
+
+  const willBeNew = responseCheckAlreadyExist.status === 404
+
+  if (!willBeNew) return res.status(409).json({ message: 'Already subscribed' })
 
   return fetch('https://api.buttondown.email/v1/subscribers', {
     method: 'POST',
     headers: {
-      Authorization: `Token ${API_BUTTONDOWN}`,
+      Authorization: `Token ${process.env.API_BUTTONDOWN}`,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(data),
-  }).then((res) => {
-    if (!res.ok) {
-      console.error(res)
+  }).then((response) => {
+    if (!response.ok) {
+      console.error(response)
 
-      return new Response(JSON.stringify({ message: 'ko' }), { status: 400 })
+      return res.status(400).json({ message: 'ko' })
     }
 
-    return new Response(JSON.stringify({ message: 'ok' }), { status: 200 })
+    return res.json({
+      message: `ok`,
+    })
   })
-
-  res.status(200).json({ name: 'John Doe' })
 }
