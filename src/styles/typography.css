@@ -1,9 +1,9 @@
 .typography {
   --typography-body: theme(colors.gray.600);
-  --typography-headings: theme(colors.gray.900);
+  --typography-headings: theme(colors.gray.700);
   --typography-quotes: theme(colors.gray.500);
   --typography-quotes-border: theme(colors.gray.200);
-  --typography-links: theme(colors.yellow.500);
+  --typography-links: theme(colors.yellow.800);
   --typography-link-hover: theme(colors.yellow.600);
   --typography-link-underline: theme(colors.yellow.400 / 0.4);
   --typography-link-hover-underline: theme(colors.yellow.600 / 0.4);
@@ -17,6 +17,7 @@
   --typography-hr: theme(colors.gray.900 / 0.05);
   --typography-th-borders: theme(colors.gray.900 / 0.2);
   --typography-td-borders: theme(colors.gray.900 / 0.05);
+  --typography-title: theme(colors.gray.900);
 
   --shiki-color-text: theme(colors.white);
   --shiki-token-constant: theme(colors.emerald.300);
@@ -47,6 +48,7 @@
     --typography-hr: theme(colors.white / 0.1);
     --typography-th-borders: theme(colors.white / 0.1);
     --typography-td-borders: theme(colors.white / 0.05);
+    --typography-title: theme(colors.yellow.300);
   }
 
   color: var(--typography-body);
@@ -55,7 +57,7 @@
 
   h2 {
     font-family: theme(fontFamily.display);
-    color: theme(colors.yellow.300);
+    color: var(--typography-title);
     font-weight: theme(fontWeight.semibold);
     font-size: theme(fontSize.3xl);
     line-height: theme(lineHeight.8);
