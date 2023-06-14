@@ -34,3 +34,7 @@
 input:-webkit-autofill { 
   -webkit-background-clip: text;
 }
+
+input[type=email]:-webkit-autofill {
+  -webkit-text-fill-color: white
+}
