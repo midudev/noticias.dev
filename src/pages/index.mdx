@@ -10,6 +10,68 @@ export async function getStaticProps() {
 
 ---
 
+![](@/images/3.webp)
+
+## ¿Adiós JavaScript? Y el consejo de Bill Gates para mejorar en programación {{ date: '2023-06-14T00:00Z' }}
+
+### 📰  Noticias
+
+- **VSCode tiene nueva versión** que trae 2 novedades importantes. Poder [editar etiquetas en JSX de forma enlazada](https://www.youtube.com/watch?v=ycCjNcnl4Hw) (¡sin extensiones!) y un modo de sólo lectura.
+
+- 🐍 **¿Te imaginas usar React y Python?** Pues deja de imaginar. [ReactPy te trae la posibilidad de juntar estas dos tecnologías.](https://twitter.com/midudev/status/1668570418301612032)
+
+```py
+from reactpy import component, html, run
+
+@component
+def Button():
+  def handle_event(event):
+    print(event)
+
+  return html.button({"on_click": handle_event}, "Click me!")
+
+run(Button)
+```
+
+### 🔥 Reto de JavaScript
+
+¿Cuál es la salida del `console.log` del siguiente código? ¡Piénsalo bien!
+
+```js
+const promise = new Promise((resolve, reject) => {
+  reject("Error")
+  resolve("Bien")
+})
+
+promise
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err))
+```
+
+_Tienes la solución al reto al final de la newsletter._
+
+### 💡 El consejo de Bill Gates
+
+Aunque mucha gente no lo sepa, *Bill Gates fue durante mucho tiempo programador*. De hecho, se consideraba que era uno de los grandes. En un libro de 1997 se le preguntó sobre su secreto y su consejo es:
+
+> Si realmente quieres escribir un gran software, lo mejor es ir a trabajar con un grupo de personas que son muy buenas y trabajan en una variedad de productos diferentes. Si de verdad quieres convertirte en un gran desarrollador de software, necesitas mucha experiencia.
+
+> Pensar que vas a ser uno de los mejores desarrolladores de software del mundo sin trabajar junto a alguien con más antigüedad... Dudo que esa sea una visión muy artesanal.
+
+[Extraído de GenbetaDev](https://www.genbeta.com/desarrollo/secreto-para-convertirte-gran-desarrollador-bill-gates-experiencia-no-tuya)
+
+### 🥫  Salseos
+
+- 🔥 Douglas Crockford, creador de JSON, ha dicho que **deberíamos dejar de usar JavaScript**. [Puedes ver la charla aquí](https://www.youtube.com/watch?v=lc5Np9OqDHU). ¿Qué opinas?
+
+Mi opinión: **no estoy de acuerdo**. Habla que ya no se crean lenguajes de programación nuevos (¿Hola, Rust y Go?) y que deberíamos empezar de nuevo. La mentalidad del _greenfield_ (empezar con un campo verde, de cero) es que empezar algo de cero, y dejar de usar lo anterior que arrastra errores y malas decisiones, seguro que es mejor. Pero no siempre es así. A veces lo que pasa es que infravaloramos los retos que ya se han solucionado y que nos tocará solucionar de nuevo. Y que, además, no sabemos si la solución que estamos creando es mejor que la anterior.
+
+De hecho... creo que a día de hoy _JavaScript_ es mucho mejor lenguaje de lo que lo era cuando Douglas abogaba por él. ¿Igual tiene algo que ver que quiere [promocionar su propio lenguaje de programación](https://www.youtube.com/watch?v=R2idkNdKqpQ) y los desencuentros que [ha tenido con el TC39](https://auth0.com/blog/the-real-story-behind-es4/)?
+
+### 👀 Solución al reto
+
+**El reto anterior muestra en consola `Error`.** Las promesas sólo se pueden rechazar o resolver una vez. En este caso, una vez rechazada, ignora el `resolve` siguiente.
+
 ![](@/images/2.webp)
 
 ## 10 años de React y 14 de Node.js {{ date: '2023-06-06T00:00Z' }}
