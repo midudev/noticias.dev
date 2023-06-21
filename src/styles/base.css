@@ -31,6 +31,9 @@
   flex-direction: column;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
 input:-webkit-autofill { 
-  -webkit-background-clip: text;
+  color: yellow;
 }
