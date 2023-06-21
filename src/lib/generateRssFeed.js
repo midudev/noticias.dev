@@ -8,13 +8,13 @@ import * as mdxComponents from '@/components/mdx'
 import Content from '@/pages/index.mdx'
 
 export async function generateRssFeed() {
-  let siteUrl = process.env.NEXT_PUBLIC_SITE_URL
-  let author = {
+  const siteUrl = 'https://noticias.dev'
+  const author = {
     name: 'Miguel Ángel Durán',
     email: 'miduga@gmail.com',
   }
 
-  let feed = new Feed({
+  const feed = new Feed({
     title: 'noticias.dev',
     description:
       'Newsletter para programadores y desarrolladores web. 100% gratis. Todos los lunes.',
@@ -29,7 +29,7 @@ export async function generateRssFeed() {
     },
   })
 
-  let contentHtml = ReactDOMServer.renderToStaticMarkup(
+  const contentHtml = ReactDOMServer.renderToStaticMarkup(
     <FeedProvider>
       <MDXProvider components={mdxComponents}>
         <Content />
