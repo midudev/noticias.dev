@@ -16,13 +16,14 @@ export async function generateRssFeed() {
 
   let feed = new Feed({
     title: 'noticias.dev',
-    description: 'Open-source Git client for macOS minimalists',
+    description:
+      'Newsletter para programadores y desarrolladores web. 100% gratis. Todos los lunes.',
     author,
     id: siteUrl,
     link: siteUrl,
-    image: `${siteUrl}/favicon.ico`,
-    favicon: `${siteUrl}/favicon.ico`,
-    copyright: `All rights reserved ${new Date().getFullYear()}`,
+    image: `${siteUrl}/favicon.png`,
+    favicon: `${siteUrl}/favicon.png`,
+    copyright: `Las marcas registradas son de sus respectivos dueños.`,
     feedLinks: {
       rss2: `${siteUrl}/rss/feed.xml`,
     },
@@ -31,7 +32,6 @@ export async function generateRssFeed() {
   let contentHtml = ReactDOMServer.renderToStaticMarkup(
     <FeedProvider>
       <MDXProvider components={mdxComponents}>
-        <div>Test</div>
         <Content />
       </MDXProvider>
     </FeedProvider>
