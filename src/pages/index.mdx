@@ -10,13 +10,77 @@ export async function getStaticProps() {
 
 ---
 
+![](@/images/4.webp)
+
+## Angular cambia su sintaxis y ChatGPT dando keys válidas de Windows {{ date: '2023-06-21T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)
+> - HOY 21 de junio<br />**"¿No hay trabajo para devs? ¿El frontend es fácil? ¿Está PHP realmente muerto? Verdades incómodas en programación"**
+> - JUEVES 22 de junio<br />**"Desarrollo App con ChatGPT + NextJS en vivo"**
+
+### 📰  Noticias
+
+- 👀 Angular presenta una [nueva sintaxis basado en Svelte para simplificar su código](https://github.com/angular/angular/discussions/50719). ¡Y creo que tiene muy buena pinta!
+
+- 📈 ¡La encuesta del State of CSS ya está abierta! Participa, que siempre es genial ver representación hispana en este tipo de encuestas. [Puedes participar aquí](https://survey.devographics.com/es-ES/survey/state-of-css/2023).
+
+- 💅 [GitHub estrena diseño para su navegación superior](https://github.blog/2023-06-15-exploring-github-with-the-redesigned-navigation-now-in-public-beta/). Lo tienes disponible como _Feature Preview_, se llama _Global Navigation Update_.
+
+### 🔥  Reto de JavaScript
+
+¿Cuántos segundos tardan en salir el console.log en consola? ¡Piénsalo bien!
+
+```js
+function waitFor2seconds () {
+  return new Promise((resolve) => {
+    setTimeout(() => { resolve() }, 2000)
+  })
+}
+
+const promise = waitFor2seconds()
+
+await promise
+await promise
+await promise
+
+console.log('¿Cuántos segundos han pasado?')
+```
+
+_Tienes la solución al reto al final de la newsletter._
+
+### 🥫  Salseos
+
+- 💀 **Google ha matado Google Domains** y se [lo ha vendido a SquareSpace](https://newsroom.squarespace.com/blog/googledomains). No es la primera vez que Google mata uno de sus productos pero sorprende en un producto que tenía 10 millones de dominios. [A la gente no le ha gustado ni un pelo.](https://twitter.com/GergelyOrosz/status/1669579242357530624)
+
+- ⚛️ Siguen las discusiones sobre los **React Server Components**. Mark Erikson, mantainer de bibliotecas como Redux, dice que no está muy contento con todo el trabajo extra que está suponiendo y la poca claridad de la documentación. Incluso ha habido [cierto roce con Ricky del equipo Core de React en Twitter.](https://twitter.com/acemarke/status/1670268914389983232?s=46&t=vwYeBQCpbk63478Rsozcdw)
+
+### 🧰  Recursos y herramientas
+
+- ☠️ Una [galería de skeletons](https://www.brandbird.app/tools/ui-skeleton-gallery) (lo que muestras mientras se carga un contenido) para tus páginas web y aplicaciones.
+
+- 🙅‍♂️ No uses `disabled` en tus botones. O al menos, aprende [todo lo que debes tener en cuenta para hacer que tus botones sean lo más útiles posibles en tus diseños](https://adamsilver.io/blog/the-problem-with-disabled-buttons-and-what-to-do-instead/).
+
+- ✍️ Si te gustan las fuentes para programar, Intel ha sacado la suya. [Se llama Intel One Mono y no tiene mala pinta.](https://twitter.com/midudev/status/1671146701279891460)
+
+### 🤣  Pero esto qué es
+
+- 🪟 Resulta que le puedes decir a ChatGPT que se haga pasar por tu abuelita para que te cante... [¡keys válidas de Windows 10 Pro!](https://twitter.com/immasiddtweets/status/1669721470006857729?s=46&t=eGzq3S5wtgGgZj80bhD-Vg). No todo el mundo se lo cree pero yo lo he probado y las llaves las da.
+
+### ✅  Solución al reto de JavaScript
+
+La respuesta correcta es que tarda **2 segundos**. Eso es porque estamos guardando la promesa en una constante y se resuelve una vez. El primer `await` tarda 2 segundos, el segundo 0 segundos y el tercero 0 segundos. Por eso tarda 2 segundos en salir el `console.log`.
+
+Y no, no da error usar un `await` así. Se llama `top-level await` y te recomiendo que le eches un vistazo en [MDN](https://developer.mozilla.org/es/).
+
 ![](@/images/3.webp)
+
+---
 
 ## ¿Adiós JavaScript? Y el consejo de Bill Gates para mejorar en programación {{ date: '2023-06-14T00:00Z' }}
 
 ### 📰  Noticias
 
-- **VSCode tiene nueva versión** que trae 2 novedades importantes. Poder [editar etiquetas en JSX de forma enlazada](https://www.youtube.com/watch?v=ycCjNcnl4Hw) (¡sin extensiones!) y un modo de sólo lectura.
+- ✨ **VSCode tiene nueva versión** que trae 2 novedades importantes. Poder [editar etiquetas en JSX de forma enlazada](https://www.youtube.com/watch?v=ycCjNcnl4Hw) (¡sin extensiones!) y un modo de sólo lectura.
 
 - 🐍 **¿Te imaginas usar React y Python?** Pues deja de imaginar. [ReactPy te trae la posibilidad de juntar estas dos tecnologías.](https://twitter.com/midudev/status/1668570418301612032)
 
@@ -81,11 +145,8 @@ De hecho... creo que a día de hoy _JavaScript_ es mucho mejor lenguaje de lo qu
 ### 📰  Noticias
 
 - ⚛️ **¡React ha cumplido 10 años!** Cómo pasa el tiempo. La gente de Vercel han tenido una charla con parte del equipo de la biblioteca para hablar de su futuro. [Puedes verla aquí](https://www.youtube.com/watch?v=g5BGoLyGjY0).
-
 - 😮 ¿Sabes por qué **el emoji '👩🏾‍🌾' tiene un `length` de 7 en JavaScript**? Un [interesante artículo que te explica la razón](https://evanhahn.com/javascript-string-lengths/) y todo lo que esconden los emojis.
-
 - 🔥 **¡Ojo con Safari!** [La beta de Safari 17 soporta instalación de Progressive Web Apps](https://developer.apple.com/documentation/safari-release-notes/safari-17-release-notes), notificaciones Web Push, JPEG XL, el atributo popover y muchas cosas más. Apple le está dando bastante foco a su navegador.
-
 - 🆕 **TypeScript 5.1** ya es una realidad. Dos novedades destacadas: mejoras en los `return` implícitos de `undefined` y mejor soporte a JSX para React Server Components. [Mira todas las novedades en este artículo de su blog.](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/)
 
 ### 🥫  Salseos
@@ -95,9 +156,7 @@ De hecho... creo que a día de hoy _JavaScript_ es mucho mejor lenguaje de lo qu
 ### 🧰 Herramientas y bibliotecas
 
 - 🤖 Con [OpenChat puedes crear tu propio ChatGPT con tu contenido](https://openchat.so/). Acepta como fuente de datos webs, repositorios de GitHub o PDF. Por ahora es gratis y te permite añadirlo en tu web como un chatbot. 
-
 - 😎 Con [ReMDX puedes crear presentaciones minimalistas](https://github.com/cpojer/remdx) y bonitas con React y MDX.
-
 - 🎰 Existen muchas alternativas a `Math.random` pero [Aimless.js](https://github.com/ChrisCavs/aimless.js) lo lleva a otro nivel, ofreciendo una colección de utilidades declarativas para ofrecer resultados aleatorios.
 
 ---

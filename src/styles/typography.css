@@ -91,9 +91,16 @@
 
   /* Quotes */
   blockquote {
-    border-left: 3px solid var(--typography-quotes-border);
-    padding-left: theme(padding.6);
+    border: 1px solid var(--typography-quotes-border);
+    border-radius: 8px;
+    padding: theme(padding.4);
     color: var(--typography-quotes);
+  }
+
+  blockquote ul {
+    margin: 0;
+    padding-left: theme(padding.4);
+    color: var(--typography-headings);
   }
 
   /* Links */
