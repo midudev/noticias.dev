@@ -17,7 +17,7 @@ export async function generateRssFeed() {
   const feed = new Feed({
     title: 'noticias.dev',
     description:
-      'Newsletter para programadores y desarrolladores web. 100% gratis. Todos los lunes.',
+      'Newsletter para programadores y desarrolladores web. 100% gratis. Todos los martes.',
     author,
     id: siteUrl,
     link: siteUrl,

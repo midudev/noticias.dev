@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
         <title>noticias.dev - Noticias y recursos de Programación Web</title>
         <meta
           name="description"
-          content="Newsletter para programadores y desarrolladores web. 100% gratis. Todos los lunes."
+          content="Newsletter para programadores y desarrolladores web. 100% gratis. Todos los martes."
         />
         <meta property="og:url" content="https://noticias.dev" />
         <meta property="og:type" content="website" />
@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           property="og:description"
-          content="Newsletter para programadores y desarrolladores web. 100% gratis. Todos los lunes."
+          content="Newsletter para programadores y desarrolladores web. 100% gratis. Todos los martes."
         />
         <meta
           property="og:image"
@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           name="twitter:description"
-          content="Newsletter para programadores y desarrolladores web. 100% gratis. Todos los lunes."
+          content="Newsletter para programadores y desarrolladores web. 100% gratis. Todos los martes."
         />
         <meta
           name="twitter:image"
