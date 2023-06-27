@@ -27,10 +27,7 @@ export default function App({ Component, pageProps }) {
           property="og:description"
           content="Newsletter para programadores y desarrolladores web. 100% gratis. Todos los martes."
         />
-        <meta
-          property="og:image"
-          content="https://midu.dev/favicon/apple-touch-icon.png"
-        />
+        <meta property="og:image" content="https://noticias.dev/og.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="noticias.dev" />
@@ -43,10 +40,7 @@ export default function App({ Component, pageProps }) {
           name="twitter:description"
           content="Newsletter para programadores y desarrolladores web. 100% gratis. Todos los martes."
         />
-        <meta
-          name="twitter:image"
-          content="https://midu.dev/favicon/apple-touch-icon.png"
-        />
+        <meta name="twitter:image" content="https://noticias.dev/og.jpg" />
 
         <link rel="icon" href="/favicon.png" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
