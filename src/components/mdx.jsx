@@ -52,7 +52,7 @@ function ContentWrapper({ className, children }) {
 
 function ArticleHeader({ id, date }) {
   return (
-    <header className="relative mb-10 xl:mb-0">
+    <header className="relative xl:sticky xl:top-1 mb-10 xl:mb-0">
       <div className="pointer-events-none absolute left-[max(-0.5rem,calc(50%-18.625rem))] top-0 z-50 flex h-4 items-center justify-end gap-x-2 lg:left-0 lg:right-[calc(max(2rem,50%-38rem)+40rem)] lg:min-w-[32rem] xl:h-8">
         <Link href={`#${id}`} className="inline-flex">
           <FormattedDate
