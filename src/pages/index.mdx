@@ -11,6 +11,84 @@ export async function getStaticProps() {
 
 ---
 
+![Un pulpo gato programando](@/images/6.webp)
+
+## Nueva versión de JavaScript 2023, GitHub se pasa a React, usa jQuery en 2023 y gana 60K$ al mes  {{ date: '2023-06-04T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **Desarrollo Web desde 0 con Astro y transiciones CSS entre páginas**<br />
+> MAÑANA 5 de julio: **Creamos la base de datos de Twitter desde cero con MySQL**<br />
+> JUEVES 6 de julio: **Charla con BettaTech. ¿Mercado saturado? ¿Ir a la universidad? ¿Proyectos personales?**<br />
+> 20 de julio: **Curso de Node.js desde cero**<br /><br />
+> ¡Y el **25 de julio** arranca la [DEVS LEAGUE](https://www.devsleague.com/)!<br />**¡La Competición de creadores de contenido de programación**!
+
+### 📰 Noticias
+
+- 🆕 **¡Tenemos nueva versión de JavaScript!** __ECMAScript 2023__ ya es oficial. Trae novedades importantes como [nuevos métodos de array `findLast` y `findLastIndex`](https://github.com/tc39/proposal-array-find-from-last) para buscar elementos en un array a la inversa. Y todos los [nuevos métodos `toReversed`, `toSorted`, `toSpliced` y `with`](https://github.com/tc39/proposal-change-array-by-copy) que devuelven una copia del array.
+
+> ¿Sabes qué es ECMAScript? Podríamos decir que es _la receta_ para crear JavaScript. Es una especificación que define cómo debe funcionar el lenguaje.
+
+- 🐙 Poca gente se ha fijado, pero **GitHub está migrando poco a poco su web a React**. Todas las nuevas partes están hechas con la biblioteca de Meta. Por ejemplo, [el nuevo explorador de archivos está hecho con React](https://github.com/midudev/aprendiendo-react/blob/master/README.md).
+
+- ⚛️ **Next.js ha sacado una nueva versión**. Es algo que podríamos decir todas las semanas. Pero [esta trae importantes mejoras de rendimiento](https://nextjs.org/blog/next-11-1) tras unas cuantas versiones que han empeorado el rendimiento.
+
+### 🔥 Reto de JavaScript
+
+¿Cuál es la salida en _Consola_ del siguiente código JavaScript? Tienes la solución al final de la _newsletter_.
+
+```javascript
+const obj = {
+  1: 1,
+  2: 2,
+  3: 3
+}
+
+const keys = JSON.stringify(Object.keys(obj))
+const values = JSON.stringify(Object.values(obj))
+
+console.log(keys === values)
+```
+
+_Tienes la solución al reto al final de la newsletter._
+
+### 🥫  Salseos
+
+- 📹 Tienes un [resumen de los salseos y las noticias de JavaScript en mi canal de YouTube.](https://www.youtube.com/watch?v=bFJY2Jymh2k)
+
+- 🐦 **Twitter ha limitado el número de posts** que puedes ver al día. Pero ese no es el salseo. El salseo es que [hay programadores de Twitter pidiendo ayuda en foros](Ingenieros web de Twitter pidiendo ayuda a ingenieros... ¡que hayan trabajado en antes! _This is fine_.
+
+- 👴 Un archivo de **14.000 líneas de PHP con HTML, CSS y JavaScript todo mezclado**. ¡Con jQuery! Nada de flexbox, todo floats. Parece una pesadilla, pero [es un proyecto que factura más de 60.000$ al mes.](https://twitter.com/levelsio/status/1675829733668319233)
+
+- 🚨 **Kent C. Dodds dice que normalmente el problema de rendimiento de las webs son del backend.** Y que está bien intentar ahorrarte unos milisegundos en el frontend. Yo no estoy de acuerdo, ya te digo, pero [te dejo su mensaje para que opines por ti mismo.](https://twitter.com/kentcdodds/status/1674994384369258496)
+
+
+### 🛠️  Recursos
+
+- 🏗️ [Charla sobre los principios para escalar desarrollo de aplicaciones Frontend](https://www.youtube.com/watch?v=tqhLK0Fb5_4). Es de **Malte Ubl, CTO de Vercel**.
+
+- ✍️ Hoy vas a **aprender SVG y cómo funcionan elementos `<path>`** con este [tutorial interactivo espectacular](https://www.nan.fyi/svg-paths).
+
+- 🌏 `next-international` es una [biblioteca para hacer _i18N_ en tus proyectos de Next.js](https://github.com/QuiiBz/next-international#app-router). ¿Lo mejor? Compatible con _React Server Components_, carga sólo las traducciones que necesita y muy fácil de usar.
+
+### ✅ Solución al reto de JavaScript
+
+La solución es `false`. `Object.keys(obj)` devuelve un array con las claves del objeto. En este caso será el array `["1", "2", "3"]`. Fíjate que son cadenas de texto, ya que las llaves de los objetos siempre son strings. `Object.values(obj)` devuelve los valores del objeto `[1, 2, 3]` (son números). Al transformar ambos en una cadena de texto con `JSON.stringify` nos queda: 
+
+```javascript
+const keys = '["1", "2", "3"]'
+const values = '[1, 2, 3]'
+
+console.log(keys === values) // false
+```
+
+### 🎙️ ¿Sabías que tengo un podcast?
+
+¿Los devs siempre deben tener proyectos personales? [Es el episodio de mi último podcast.](https://open.spotify.com/show/1Et8hZk1DwKw6PtBFGpwSD) Lo he tenido un poco abandonado, pero mi idea es ir **grabando episodios de forma más continua**. ¡Si lo escuchas y te gusta, **compártelo**! Así seguro que me animo a seguir grabando más capítulos.
+
+Puedes encontrarme en [Spotify](https://open.spotify.com/show/1Et8hZk1DwKw6PtBFGpwSD), [Google](https://www.google.com/podcasts?feed=aHR0cHM6Ly93d3cuaXZvb3guY29tL3BvZGNhc3Qtd3Rmcm9udF9mZ19mMTY0NzM1Nl9maWx0cm9fMS54bWw=) y [iTunes](https://itunes.apple.com/us/podcast/wtfront/id1448113230?mt=2). 
+
+---
+
 ![Una chica en una oficina de su casa con su gato, programando en su computadora](@/images/5.webp)
 
 ## 10 cosas que todo programador debería saber, Figma Dev Mode y el creador de Copilot se queja {{ date: '2023-06-21T00:00Z' }}
