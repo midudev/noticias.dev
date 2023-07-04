@@ -1,12 +1,12 @@
 .typography {
   --typography-body: theme(colors.gray.600);
   --typography-headings: theme(colors.gray.700);
-  --typography-quotes: theme(colors.yellow.500);
-  --typography-quotes-border: theme(colors.yellow.500 / 0.4);
-  --typography-links: theme(colors.yellow.800);
-  --typography-link-hover: theme(colors.yellow.600);
-  --typography-link-underline: theme(colors.yellow.400 / 0.4);
-  --typography-link-hover-underline: theme(colors.yellow.600 / 0.4);
+  --typography-quotes: theme(colors.blue.800);
+  --typography-quotes-border: theme(colors.blue.900 / 0.4);
+  --typography-links: theme(colors.blue.800);
+  --typography-link-hover: theme(colors.blue.600);
+  --typography-link-underline: theme(colors.blue.400 / 0.4);
+  --typography-link-hover-underline: theme(colors.blue.600 / 0.4);
   --typography-pre: theme(colors.gray.300);
   --typography-pre-shadow: theme(boxShadow.md);
   --typography-bold: theme(colors.gray.900);
