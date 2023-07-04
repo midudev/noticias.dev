@@ -63,7 +63,7 @@ export function SignUpForm() {
   return (
     <div>
       <form
-        className="relative flex items-center pr-1 mt-8 isolate"
+        className="relative isolate mt-8 flex items-center pr-1"
         onSubmit={handleSubmit}
       >
         <label htmlFor={id} className="sr-only">
@@ -87,11 +87,11 @@ export function SignUpForm() {
         >
           {getButtonLiteral()}
         </Button>
-        <div className="absolute inset-0 transition rounded-lg -z-10 peer-focus:ring-4 peer-focus:ring-sky-300/15" />
+        <div className="absolute inset-0 -z-10 rounded-lg transition peer-focus:ring-4 peer-focus:ring-sky-300/15" />
         <div className="absolute inset-0 -z-10 rounded-lg bg-white/2.5 ring-1 ring-white/15 transition peer-focus:ring-sky-300" />
       </form>
-      <small className="block mt-2 italic text-yellow-200/80">
-        ¡+30.000 desarrolladores suscritos! 🎉
+      <small className="mt-2 block italic text-yellow-200/80">
+        ¡+31.500 desarrolladores suscritos! 🎉
       </small>
     </div>
   )
