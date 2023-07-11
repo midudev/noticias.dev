@@ -91,7 +91,7 @@ export function SignUpForm() {
         <div className="absolute inset-0 -z-10 rounded-lg bg-white/2.5 ring-1 ring-white/15 transition peer-focus:ring-sky-300" />
       </form>
       <small className="mt-2 block italic text-yellow-200/80">
-        ¡+31.500 desarrolladores suscritos! 🎉
+        ¡+32.000 desarrolladores suscritos! 🎉
       </small>
     </div>
   )
