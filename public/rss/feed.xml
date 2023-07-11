@@ -3,7 +3,7 @@
     <channel>
         <title>noticias.dev</title>
         <link>https://noticias.dev</link>
-        <description>Newsletter para programadores y desarrolladores web. 100% gratis. Todos los lunes.</description>
+        <description>Newsletter para programadores y desarrolladores web. 100% gratis. Todos los martes.</description>
         <lastBuildDate>Wed, 21 Jun 2023 10:19:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
