@@ -1,17 +1,9 @@
-import { useEffect, useId, useState } from 'react'
-
+import { useId } from 'react'
+import { useNewsletter, RESULTS } from '@/hooks/useNewsletter'
 import { Button } from '@/components/Button'
 
-const RESULTS = {
-  IDLE: 'IDLE',
-  SUCCESS: 'SUCCESS',
-  ERROR: 'ERROR',
-  LOADING: 'LOADING',
-  ALREADY_SUBSCRIBED: 'ALREADY_SUBSCRIBED',
-}
-
 export function SignUpForm() {
-  const [result, setResult] = useState(RESULTS.IDLE)
+  const { result, register } = useNewsletter()
 
   let id = useId()
 
@@ -21,26 +13,7 @@ export function SignUpForm() {
     // get email from formData from event
     const formData = new FormData(event.target)
     const email = formData.get('email')
-
-    setResult(RESULTS.LOADING)
-
-    const response = await fetch('/api/newsletter', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        email,
-      }),
-    })
-
-    if (response.status === 409) setResult(RESULTS.ALREADY_SUBSCRIBED)
-    else if (!response.ok) setResult(RESULTS.ERROR)
-    else setResult(RESULTS.SUCCESS)
-
-    setTimeout(() => {
-      setResult(RESULTS.IDLE)
-    }, 3500)
+    register({ email })
   }
 
   const getButtonClasses = () => {
@@ -63,7 +36,7 @@ export function SignUpForm() {
   return (
     <div>
       <form
-        className="relative isolate mt-8 flex items-center pr-1"
+        className="relative flex items-center pr-1 mt-8 isolate"
         onSubmit={handleSubmit}
       >
         <label htmlFor={id} className="sr-only">
@@ -87,10 +60,10 @@ export function SignUpForm() {
         >
           {getButtonLiteral()}
         </Button>
-        <div className="absolute inset-0 -z-10 rounded-lg transition peer-focus:ring-4 peer-focus:ring-sky-300/15" />
+        <div className="absolute inset-0 transition rounded-lg -z-10 peer-focus:ring-4 peer-focus:ring-sky-300/15" />
         <div className="absolute inset-0 -z-10 rounded-lg bg-white/2.5 ring-1 ring-white/15 transition peer-focus:ring-sky-300" />
       </form>
-      <small className="mt-2 block italic text-yellow-200/80">
+      <small className="block mt-2 italic text-yellow-200/80">
         ¡+32.000 desarrolladores suscritos! 🎉
       </small>
     </div>
