@@ -11,6 +11,87 @@ export async function getStaticProps() {
 
 ---
 
+![Un chico usando el ordenador y una chica usando el móvil en una ciudad futurista](@/images/9.webp)
+
+## El futuro de JavaScript, nuevas unidades de CSS para el viewport y el adiós de las cookies más cerca {{ date: '2023-07-18T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **Curso Strapi + Next.js 13**<br />
+> MAÑANA 19 de julio: **Revisando webs y portfolios de la comunidad**<br />
+> JUEVES 20 de julio: **Curso de Node.js desde cero**<br />
+> ¡Y el **25 de julio** arranca la [DEVS LEAGUE](https://www.devsleague.com/)!<br />**¡La Competición de creadores de contenido de programación**!
+
+### 📰 Noticias
+
+- 🍪 Llega **Chrome 115** y con ello la [Topics API](https://developer.chrome.com/blog/new-in-chrome-115/#topics-api), una tecnología que viene a matar las cookies. Podrás llamar al método `document.browsingTopics()` y te devolverá los temas de interés del usuario, sin necesidad de rastrear su historial.
+
+- 🪄 Y, ojo, que en la misma versión también llegan las _Scroll Driven Animations_, que nos permitirá animar elementos con CSS según el scroll. ¡Cuando instales la nueva versión, [mira estas demostraciones](https://scroll-driven-animations.style/)!
+
+- Hablando de las Scroll Driven Animations, Google ha sacado un [extenso artículo que te explica las mejores de rendimiento](https://developer.chrome.com/blog/scroll-animation-performance-case-study/) que ofrece respecto a usar JavaScript para conseguir lo mismo.
+
+### 🔥 Reto de JavaScript
+
+Hablando del `Optional Chaining`, tenemos un código que lo usa para recuperar el valor de `street` pero también usa otro operador para asegurarse que tenemos valor... **¿Cuál es la salida en consola?**
+
+```javascript
+const user = {
+  name: "midu",
+  address: {
+    street: false,
+    city: "Barcelona"
+  }
+};
+
+const street = user?.address?.street ?? "Sin calle"
+
+console.log(street) // -> ¿?
+```
+
+Tienes la solución al final de la _newsletter_.
+
+### 🚀 El futuro de JavaScript
+
+- ❓ ¿Conoces el operador Optional Chaining? Es `?.` y nos ayuda a acceder a propiedades anidadas de un objeto pero comprobando que el camino existe. Pues pronto podremos también hacer asignaciones usándolo `persona?.name = 'midu'`. [Más información en la propuesta](https://github.com/tc39/proposal-optional-chaining-assignment).
+
+- 🙌 ¡Por fin podremos transformar Arrays en Objetos con `groupBy`! Así podemos agrupar elementos de un array por una propiedad. Ya está en la fase 3, así que pronto lo tendremos en JavaScript. Ejemplo:
+
+```javascript
+const array = [1, 2, 3, 4, 5]
+
+const group = Object.groupBy(array, (num, index) => {
+  return num % 2 === 0 ? 'par': 'impar'
+})
+
+console.log(group) // =>  { impar: [1, 3, 5], par: [2, 4] }
+```
+
+### 📈 Sube de nivel
+
+- 👨‍💻 **¿Quieres practicar Pruebas Técnicas reales?** [He creado un recurso donde cada mes publicaremos una nueva prueba técnica.](https://pruebastecnicas.com/) Sólo tienes que crear una Pull Request con tu solución. Las mejores vendrán a un directo a defender su prueba.
+
+- 🇬🇧 Saber inglés multiplica tus posibilidades de éxito. Pero no todo el mundo puede pagar un curso. Aquí tienes [5 CURSOS GRATUITOS para aprender Inglés](https://twitter.com/midudev/status/1680952060240330753)
+
+- 🏗️ [Aprende Patrones de Diseño de Software](https://www.instagram.com/p/CuzNBM6Na6Q/), gratis y en español. Tiene ejemplos de diferentes lenguajes de programación y muchos ejemplos de cada uno.
+
+### 🧰 Recursos que no debes perderte
+
+- 🛞 [driver.js es una biblioteca escrita en Vanilla JS que te permite crear **tours de usuario**](https://driverjs.com/). Es decir, que puedes crear un tutorial para que el usuario sepa cómo usar tu web. ¡Muy útil para onboarding!
+
+- ⚡ [Web Vitals es una extensión de Addy Osmani](https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma) que te muestra las métricas de rendimiento de una web. Ofrece datos de laboratorio (tus datos locales) y datos de campo (los datos de usuarios reales). ¡Muy útil para ver cómo va tu web!
+
+- 🥳 ¿Quieres comparar cómo se crea un componente, se maneja un estado o se añaden eventos en React, Vue, Angular o Svelte? [Component.party te muestra de un vistazo sus diferencias.](https://component-party.dev/
+)
+
+### ✅ Solución al reto de JavaScript
+
+El otro operador era el Nullish Coalescing Operator `??`, que revisa si el operando de la izquierda es `null` o `undefined` y, si lo es, devuelve el operando de la derecha. En este caso, `street` es `false`, así que no es `null` ni `undefined`, así que **no se asigna el valor de la derecha**.
+
+No confundas el operador `??` con `||` que sí revisa valores _falsy_.
+
+Por lo tanto, la salida en consola será `false`.
+
+---
+
 ![Ultron programando en una computadora](@/images/8.webp)
 
 ## ¡ChatGPT lo vuelve a hacer! + Reddit deja React + Google Analytics ilegal y entrevistas rotas en programación {{ date: '2023-07-11T00:00Z' }}
