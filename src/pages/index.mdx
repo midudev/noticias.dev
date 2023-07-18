@@ -25,9 +25,9 @@ export async function getStaticProps() {
 
 - 🍪 Llega **Chrome 115** y con ello la [Topics API](https://developer.chrome.com/blog/new-in-chrome-115/#topics-api), una tecnología que viene a matar las cookies. Podrás llamar al método `document.browsingTopics()` y te devolverá los temas de interés del usuario, sin necesidad de rastrear su historial.
 
-- 🪄 Y, ojo, que en la misma versión también llegan las _Scroll Driven Animations_, que nos permitirá animar elementos con CSS según el scroll. ¡Cuando instales la nueva versión, [mira estas demostraciones](https://scroll-driven-animations.style/)!
+- 🪄 Y, ojo, que en la misma versión también llegan las _Scroll Driven Animations_, que nos permitirá **animar elementos con CSS según el scroll**. ¡Cuando instales la nueva versión, [mira estas demostraciones](https://scroll-driven-animations.style/)!
 
-- Hablando de las Scroll Driven Animations, Google ha sacado un [extenso artículo que te explica las mejores de rendimiento](https://developer.chrome.com/blog/scroll-animation-performance-case-study/) que ofrece respecto a usar JavaScript para conseguir lo mismo.
+- Hablando de las Scroll Driven Animations, Google ha sacado un [extenso artículo que te explica las mejoras de rendimiento](https://developer.chrome.com/blog/scroll-animation-performance-case-study/) que ofrece respecto a usar JavaScript para conseguir lo mismo.
 
 ### 🔥 Reto de JavaScript
 
@@ -51,9 +51,9 @@ Tienes la solución al final de la _newsletter_.
 
 ### 🚀 El futuro de JavaScript
 
-- ❓ ¿Conoces el operador Optional Chaining? Es `?.` y nos ayuda a acceder a propiedades anidadas de un objeto pero comprobando que el camino existe. Pues pronto podremos también hacer asignaciones usándolo `persona?.name = 'midu'`. [Más información en la propuesta](https://github.com/tc39/proposal-optional-chaining-assignment).
+- ❓ ¿Conoces el operador Optional Chaining del reto anterior? Es `?.` y **nos ayuda a acceder a propiedades anidadas de un objeto pero comprobando que el camino existe**. Pues pronto podremos también hacer asignaciones usándolo `persona?.name = 'midu'`. [Más información en la propuesta](https://github.com/tc39/proposal-optional-chaining-assignment).
 
-- 🙌 ¡Por fin podremos transformar Arrays en Objetos con `groupBy`! Así podemos agrupar elementos de un array por una propiedad. Ya está en la fase 3, así que pronto lo tendremos en JavaScript. Ejemplo:
+- 🙌  ¡Por fin **podremos transformar Arrays en Objetos con `groupBy`**! Así podemos agrupar elementos de un array por una propiedad. Ya está en la fase 3, así que pronto lo tendremos en JavaScript. Ejemplo:
 
 ```javascript
 const array = [1, 2, 3, 4, 5]
@@ -64,6 +64,12 @@ const group = Object.groupBy(array, (num, index) => {
 
 console.log(group) // =>  { impar: [1, 3, 5], par: [2, 4] }
 ```
+
+### 🎨 Cositas de CSS
+
+- 📱 **¿Conoces la unidad `vh`?** Es la altura del _viewport_. Muchas veces usamos `100vh` para indicar que debe usar toda la altura de la pantalla. Pero... **¿sabías que no hace lo que espera en móvil?** Por suerte [han sacado nuevas unidades, especialmente interesante la `dvh`](https://ishadeed.com/article/new-viewport-units).
+
+- ✨ La aplicación web de Threads trae **un montón de detalles en su CSS**. Si quieres descubrir todos los trucos que usan, [aquí tienes un artículo que te lo explica](https://ishadeed.com/article/threads-app-css/).
 
 ### 📈 Sube de nivel
 
