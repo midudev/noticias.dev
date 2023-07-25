@@ -11,6 +11,76 @@ export async function getStaticProps() {
 
 ---
 
+![Un pájaro volando delante de un edificio con forma de X](@/images/10.webp)
+
+## Twitter desaparece, tecnologías más demandadas en España y problemas para los programadores de la India {{ date: '2023-07-25T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **DevsLeague: Competición de creadores de contenido de programación**<br />
+> MAÑANA 26 de julio: **Revisando webs y portfolios de la comunidad**<br />
+> JUEVES 27 de julio: **Curso de Node.js desde cero: API con Express**<br />
+
+### 📰 Noticias
+
+- 📈 [¡Primera clase del curso de Node.js publicada!](https://www.youtube.com/watch?v=yB4n_K7dZV8&feature=youtu.be) Es **100% gratis y en español**. Desde cero hasta crear tus primeras aplicaciones, pasando por callbacks y asincronía.
+
+- 🐦 **Twitter desaparece** tal y como lo conocemos. [Elon Musk ha anunciado que pasará a llamarse X](https://twitter.com/elonmusk/status/1683171310388535296). Ya ha cambiado el logo en diferentes sitios.
+
+- 💥 [Native PHP es una tecnología que te permite desarrolla apps de escritorio nativas](https://nativephp.com/) con PHP. Algo parecido a _Electron_ y _Tauri_ pero **con el lenguaje que llevan años matando.**
+
+- 👋 [Dan Abramov, mítico y archiconocido desarrollador de React, deja Meta](https://twitter.com/dan_abramov/status/1682029195843739649). Todavía no se sabe su próximo destino pero las apuestas apuntan a _Vercel_ o _Shopify_. ¿Tú qué dices?
+
+- 🇪🇸 **Las tecnologías más demandadas en España** son _JavaScript_, _React_, _TypeScript_, _Node.js_ y _Docker_, [según un reporte de Honeypot.](https://cult.honeypot.io/software-developer-salaries-2023/software-developer-salaries-spain/)
+
+### 🔥 Reto de JavaScript
+
+Este reto seguro que te sorprende. ¿Realmente existe el tercer parámetro en el callback de `forEach`? ¿O esto no funciona? ¡Averigua la salida de la consola!
+
+```javascript
+const numbers = [1, 2, 3, 4, 5]
+const squares = []
+
+numbers.forEach((num, index, what) => {
+  what[index] = num * num
+})
+
+console.log(numbers)
+```
+
+Tienes la **solución al final** de la _newsletter_.
+
+### 🥫 Salseo
+
+- 🇮🇳 El **CEO de Stability AI** dice que [la mayoría de los programadores de la India van a desaparecer por culpa de la IA](https://www.cnbc.com/2023/07/18/stability-ai-ceo-most-outsourced-coders-in-india-will-go-in-2-years.html). Pero ninguno de Francia. La opinión hay que pillarla con pinzas, que [no es la primera vez que se le acusa de inventarse cosas.](https://www.forbes.com/sites/kenrickcai/2023/06/04/stable-diffusion-emad-mostaque-stability-ai-exaggeration/)
+
+- 🤖 Hay [reportes que dicen que **GPT-4 funciona peor que antes**](https://twitter.com/svpino/status/1681614284613099520). También la **generación de código**. Yo tengo que decir que he notado una mejora de velocidad a costa de calidad. ¿Cómo lo ves tú?
+
+### 🧰 Recursos y curiosidad
+
+- 👨‍💻 ¿Quieres **mejorar practicando programación**? [En este vídeo te he dejado los recursos que uso yo para subir de nivel programando](https://twitter.com/midudev/status/1682796190557954051).
+
+- 🧩 [Prismane es un catálogo con más de 100 componentes de React](https://www.prismane.io/) para crear tu próxima página web mucho más rápido.
+
+- 📐 ¿Te cuesta aprender **CSS Flexbox**? [Este playground te puede ayudar a entenderlo](https://www.flexer.dev) y generar los estilos que necesitas.
+
+- 🆕 [`@font-face` estrena nueva sintaxis](https://fullystacked.net/posts/new-font-face-syntax). Ya está soportado en todos los navegadores modernos pero todavía pasarán meses hasta que se pueda usar con garantías.
+
+- 😱 **[¿A qué edad te enteraste que _TypeScript_ está desarrollado con... _TypeScript_?](https://twitter.com/midudev/status/1683507582089170944)** Es una técnica llamada _Compiler Bootstraping_ y es más común de lo que crees. También pasa lo mismo con _Java_, _Rust_, _Python_ y muchos más.
+
+### ♻️ Changelog
+
+- 🦕 [Deno Fresh 1.3 lanzado](https://deno.com/blog/fresh-1.3). Este framework es una especie de `Next.js` pero que usa Deno, Preact y con arquitectura de islas. **¡Super interesante!**
+
+- 🧑‍🚀 [Astro 2.9.0](https://github.com/withastro/astro/releases/tag/astro%402.9.0) viene con soporte experimental para _View Transitions_ **sin necesidad de escribir JavaScript**. ¡Y pinta de lujo!
+
+### ✅ Solución al reto de JavaScript
+
+La salida de la consola es `[ 1, 4, 9, 16, 25 ]`. ¿Cómo es esto posible? El tercer parámetro del callback de `forEach` es el array que se está iterando. Por lo tanto, podemos modificarlo. En este caso, estamos modificando el array `numbers` dentro del callback. Por eso, cuando hacemos `console.log(numbers)` nos devuelve el array modificado.
+
+Otra cosa es que sea buena idea. De hecho, mejor usar un `.map` en este caso. ¿Te la sabías? ¡Cuéntamelo en Twitter!
+
+---
+
 ![Un chico usando el ordenador y una chica usando el móvil en una ciudad futurista](@/images/9.webp)
 
 ## El futuro de JavaScript, nuevas unidades de CSS para el viewport y el adiós de las cookies más cerca {{ date: '2023-07-18T00:00Z' }}
