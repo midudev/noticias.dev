@@ -9,6 +9,80 @@ export async function getStaticProps() {
   return { props: {} }
 }
 
+--- 
+
+![Stack Overflow de libros y ordenadores](@/images/11.webp)
+
+## Stack Overflow planta cara a ChatGPT, el mercado tech se recupera y salseo en el mundo del desarrollo web {{ date: '2023-08-01T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **DevsLeague: Competición de creadores de contenido de programación**<br />
+> MAÑANA 2 de agosto: **Pruebas técnicas en programación, revisión y entrevista**<br />
+> JUEVES 3 de agosto: **Curso de Node.js desde cero: API con Express**<br />
+
+### 📰 Noticias
+
+- 📚 [Stack Overflow ha anunciado OverflowAI](https://twitter.com/StackOverflow/status/1684529654743330817), un conjunto de productos para competir con ChatGPT usando toda la información que tienen de su comunidad.
+
+- 🪄 Parece magia, pero es _CSS_. ¡Ya tienes la última versión de Chrome y Edge con [soporte para animaciones basadas en el scroll](https://www.youtube.com/watch?v=AbCYziNyjvk)! Con **0 líneas de JavaScript**.
+
+- 📡 [Curso de Introducción a Express y creación de APIs con Node.js desde cero](https://www.youtube.com/watch?v=YmZE1HXjpd4)
+
+- 👀 Si buscas un servicio de monitorización de webs y APIs, [tienes que conocer Open Status.](https://www.openstatus.dev/) Es un producto **totalmente de código abierto** y que puedes desplegar donde quieras, para usarlo sólo pagando el _hosting_.
+
+### 🔥 Reto de JavaScript
+
+¡Ojo con este código! Te advierto que es correcto usar los `case` sin llaves, eso funciona. Pero... ¿cuál es el problema? ¿Es que no devuelve lo que esperamos? ¿Da algún error? ¿Qué sale en la consola?
+
+```javascript
+function dameOpcion(opcion) {
+  switch (opcion) {
+    case 1:
+      const mensaje = "Opción 1 seleccionada.";
+    case 2:
+      const mensaje = "Opción 2 seleccionada."; 
+    default:
+      const mensaje = "Opción no reconocida.";
+  }
+
+  return mensaje
+}
+
+console.log(dameOpcion(1))
+```
+
+Tienes la **solución al final** de la _newsletter_.
+
+### 🥫 Salseos
+
+- 🐍 **Guillermo Rauch** ha compartido el número de [versiones diferentes instaladas de Python en su máquina](https://twitter.com/rauchg/status/1684725866729971712). Alguien le ha hecho un [diagrama para evitarlo.](https://twitter.com/jeanmarcalkazzi/status/1676325612825313281)
+
+- 🇺🇸 Gente influyente del mercado tecnológico en USA están [cabreados porque Europa va a pedir una Visa a los turistas de allí.](https://twitter.com/paulg/status/1685313934973165568) Ah, la hipotenusa.
+
+- 📭 ¿Alguna vez te has imaginado **cómo es el día a día de un Senior Manager en Amazon**? Sí, has acertado, [cientos de correos te esperan en tu bandeja de entrada](https://newsletter.pragmaticengineer.com/p/a-day-in-the-life-of-a-senior-manager).
+
+### 😮 ¡Ojo con esto!
+
+- 📈 Ojo con el mercado tech. Datos que demuestran que [Google, Amazon, Microsoft y Meta están volviendo a contratar](https://twitter.com/AznWeng/status/1678396820295147520). Respecto a finales del primer trimestre **han subido sus ofertas un 100%, 40%, 85% y 162% respectivamente**. ¡Pinta bien! Veremos si la tendencia sigue al alza.
+
+- 🗜️ La gente de _VSCode_ han compartido [la técnica que han usado para disminuir el tamaño de la aplicación un 20%](https://code.visualstudio.com/blogs/2023/07/20/mangling-vscode). **¡Muy interesante!**
+
+- 🔥 Están trabajando en una [interesante propuesta para añadir Observables a los eventos del DOM](https://github.com/domfarolino/observable). **¡Pinta de lujo!** Menos código y más potencia. Ya hacía falta.
+
+### 🧰 Recursos 
+
+- 👮‍♂️ [Valibot es una biblioteca super pequeña que te permite validar los tipos](https://github.com/fabian-hiller/valibot) de un objeto en tiempo de ejecución. Una **alternativa pequeña a zod**.
+
+- 🗺️ Crea [mapas interactivos de JavaScript con muy pocas líneas gracias a Mapkick](https://chartkick.com/mapkick-js), una alternativa más liviana de Leaflet.
+
+- ⚛️ Si usas React, la gente de [Million ha sacado una optimización automática para tus apps](https://twitter.com/aidenybai/status/1685710426040832000). **No necesitas cambiar tu código**, instalas la librería, configuras el plugin y usa una versión optimizada del VDOM para hacer tu app más rápida.
+
+- ♿️ Si necesitas crear una modal o diálogo accesible, [a11y dialog es lo que necesitas](https://a11y-dialog.netlify.app/).
+
+### ✅ Solución al reto de JavaScript
+
+El error será "SyntaxError: Identifier 'mensaje' has already been declared." En _JavaScript_, las variables declaradas con `const` tienen un alcance (scope) de bloque, lo que significa que solo están disponibles dentro del bloque donde fueron declaradas y **no pueden ser recreadas ni reasignadas**. Los bloques se limitan por las llaves `{}`. Al usar el `case` sin llaves, estamos intentando crear dos veces la misma constante en el mismo _scope_.
+
 ---
 
 ![Un pájaro volando delante de un edificio con forma de X](@/images/10.webp)
