@@ -9,6 +9,386 @@ export async function getStaticProps() {
   return { props: {} }
 }
 
+--- 
+
+![Stack Overflow de libros y ordenadores](@/images/11.webp)
+
+## Stack Overflow planta cara a ChatGPT, el mercado tech se recupera y salseo en el mundo del desarrollo web {{ date: '2023-08-01T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **DevsLeague: Competición de creadores de contenido de programación**<br />
+> MAÑANA 2 de agosto: **Pruebas técnicas en programación, revisión y entrevista**<br />
+> JUEVES 3 de agosto: **Curso de Node.js desde cero: API con Express**<br />
+
+### 📰 Noticias
+
+- 📚 [Stack Overflow ha anunciado OverflowAI](https://twitter.com/StackOverflow/status/1684529654743330817), un conjunto de productos para competir con ChatGPT usando toda la información que tienen de su comunidad.
+
+- 🪄 Parece magia, pero es _CSS_. ¡Ya tienes la última versión de Chrome y Edge con [soporte para animaciones basadas en el scroll](https://www.youtube.com/watch?v=AbCYziNyjvk)! Con **0 líneas de JavaScript**.
+
+- 📡 [Curso de Introducción a Express y creación de APIs con Node.js desde cero](https://www.youtube.com/watch?v=YmZE1HXjpd4)
+
+- 👀 Si buscas un servicio de monitorización de webs y APIs, [tienes que conocer Open Status.](https://www.openstatus.dev/) Es un producto **totalmente de código abierto** y que puedes desplegar donde quieras, para usarlo sólo pagando el _hosting_.
+
+### 🔥 Reto de JavaScript
+
+¡Ojo con este código! Te advierto que es correcto usar los `case` sin llaves, eso funciona. Pero... ¿cuál es el problema? ¿Es que no devuelve lo que esperamos? ¿Da algún error? ¿Qué sale en la consola?
+
+```javascript
+function dameOpcion(opcion) {
+  switch (opcion) {
+    case 1:
+      const mensaje = "Opción 1 seleccionada.";
+    case 2:
+      const mensaje = "Opción 2 seleccionada."; 
+    default:
+      const mensaje = "Opción no reconocida.";
+  }
+
+  return mensaje
+}
+
+console.log(dameOpcion(1))
+```
+
+Tienes la **solución al final** de la _newsletter_.
+
+### 🥫 Salseos
+
+- 🐍 **Guillermo Rauch** ha compartido el número de [versiones diferentes instaladas de Python en su máquina](https://twitter.com/rauchg/status/1684725866729971712). Alguien le ha hecho un [diagrama para evitarlo.](https://twitter.com/jeanmarcalkazzi/status/1676325612825313281)
+
+- 🇺🇸 Gente influyente del mercado tecnológico en USA están [cabreados porque Europa va a pedir una Visa a los turistas de allí.](https://twitter.com/paulg/status/1685313934973165568) Ah, la hipotenusa.
+
+- 📭 ¿Alguna vez te has imaginado **cómo es el día a día de un Senior Manager en Amazon**? Sí, has acertado, [cientos de correos te esperan en tu bandeja de entrada](https://newsletter.pragmaticengineer.com/p/a-day-in-the-life-of-a-senior-manager).
+
+- 🍅 El bueno de [Theo Browne ha sacado un tuit para darle picante al desarrollo web](https://twitter.com/t3dotgg/status/1685041189542838272). Y mucha gente no ha perdido la oportunidad de sacarse toda la bilis.
+
+### 😮 ¡Ojo con esto!
+
+- 📈 Ojo con el mercado tech. Datos que demuestran que [Google, Amazon, Microsoft y Meta están volviendo a contratar](https://twitter.com/AznWeng/status/1678396820295147520). Respecto a finales del primer trimestre **han subido sus ofertas un 100%, 40%, 85% y 162% respectivamente**. ¡Pinta bien! Veremos si la tendencia sigue al alza.
+
+- 🗜️ La gente de _VSCode_ han compartido [la técnica que han usado para disminuir el tamaño de la aplicación un 20%](https://code.visualstudio.com/blogs/2023/07/20/mangling-vscode). **¡Muy interesante!**
+
+- 🔥 Están trabajando en una [interesante propuesta para añadir Observables a los eventos del DOM](https://github.com/domfarolino/observable). **¡Pinta de lujo!** Menos código y más potencia. Ya hacía falta.
+
+### 🧰 Recursos 
+
+- 👮‍♂️ [Valibot es una biblioteca super pequeña que te permite validar los tipos](https://github.com/fabian-hiller/valibot) de un objeto en tiempo de ejecución. Una **alternativa pequeña a zod**.
+
+- 🗺️ Crea [mapas interactivos de JavaScript con muy pocas líneas gracias a Mapkick](https://chartkick.com/mapkick-js), una alternativa más liviana de Leaflet.
+
+- ⚛️ Si usas React, la gente de [Million ha sacado una optimización automática para tus apps](https://twitter.com/aidenybai/status/1685710426040832000). **No necesitas cambiar tu código**, instalas la librería, configuras el plugin y usa una versión optimizada del VDOM para hacer tu app más rápida.
+
+- ♿️ Si necesitas crear una modal o diálogo accesible, [a11y dialog es lo que necesitas](https://a11y-dialog.netlify.app/).
+
+### ✅ Solución al reto de JavaScript
+
+El error será "SyntaxError: Identifier 'mensaje' has already been declared." En _JavaScript_, las variables declaradas con `const` tienen un alcance (scope) de bloque, lo que significa que solo están disponibles dentro del bloque donde fueron declaradas y **no pueden ser recreadas ni reasignadas**. Los bloques se limitan por las llaves `{}`. Al usar el `case` sin llaves, estamos intentando crear dos veces la misma constante en el mismo _scope_.
+
+---
+
+![Un pájaro volando delante de un edificio con forma de X](@/images/10.webp)
+
+## Twitter desaparece, tecnologías más demandadas en España y problemas para los programadores de la India {{ date: '2023-07-25T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **DevsLeague: Competición de creadores de contenido de programación**<br />
+> MAÑANA 26 de julio: **Revisando webs y portfolios de la comunidad**<br />
+> JUEVES 27 de julio: **Curso de Node.js desde cero: API con Express**<br />
+
+### 📰 Noticias
+
+- 📈 [¡Primera clase del curso de Node.js publicada!](https://www.youtube.com/watch?v=yB4n_K7dZV8&feature=youtu.be) Es **100% gratis y en español**. Desde cero hasta crear tus primeras aplicaciones, pasando por callbacks y asincronía.
+
+- 🐦 **Twitter desaparece** tal y como lo conocemos. [Elon Musk ha anunciado que pasará a llamarse X](https://twitter.com/elonmusk/status/1683171310388535296). Ya ha cambiado el logo en diferentes sitios.
+
+- 💥 [Native PHP es una tecnología que te permite desarrolla apps de escritorio nativas](https://nativephp.com/) con PHP. Algo parecido a _Electron_ y _Tauri_ pero **con el lenguaje que llevan años matando.**
+
+- 👋 [Dan Abramov, mítico y archiconocido desarrollador de React, deja Meta](https://twitter.com/dan_abramov/status/1682029195843739649). Todavía no se sabe su próximo destino pero las apuestas apuntan a _Vercel_ o _Shopify_. ¿Tú qué dices?
+
+- 🇪🇸 **Las tecnologías más demandadas en España** son _JavaScript_, _React_, _TypeScript_, _Node.js_ y _Docker_, [según un reporte de Honeypot.](https://cult.honeypot.io/software-developer-salaries-2023/software-developer-salaries-spain/)
+
+### 🔥 Reto de JavaScript
+
+Este reto seguro que te sorprende. ¿Realmente existe el tercer parámetro en el callback de `forEach`? ¿O esto no funciona? ¡Averigua la salida de la consola!
+
+```javascript
+const numbers = [1, 2, 3, 4, 5]
+const squares = []
+
+numbers.forEach((num, index, what) => {
+  what[index] = num * num
+})
+
+console.log(numbers)
+```
+
+Tienes la **solución al final** de la _newsletter_.
+
+### 🥫 Salseo
+
+- 🇮🇳 El **CEO de Stability AI** dice que [la mayoría de los programadores de la India van a desaparecer por culpa de la IA](https://www.cnbc.com/2023/07/18/stability-ai-ceo-most-outsourced-coders-in-india-will-go-in-2-years.html). Pero ninguno de Francia. La opinión hay que pillarla con pinzas, que [no es la primera vez que se le acusa de inventarse cosas.](https://www.forbes.com/sites/kenrickcai/2023/06/04/stable-diffusion-emad-mostaque-stability-ai-exaggeration/)
+
+- 🤖 Hay [reportes que dicen que **GPT-4 funciona peor que antes**](https://twitter.com/svpino/status/1681614284613099520). También la **generación de código**. Yo tengo que decir que he notado una mejora de velocidad a costa de calidad. ¿Cómo lo ves tú?
+
+### 🧰 Recursos y curiosidad
+
+- 👨‍💻 ¿Quieres **mejorar practicando programación**? [En este vídeo te he dejado los recursos que uso yo para subir de nivel programando](https://twitter.com/midudev/status/1682796190557954051).
+
+- 🧩 [Prismane es un catálogo con más de 100 componentes de React](https://www.prismane.io/) para crear tu próxima página web mucho más rápido.
+
+- 📐 ¿Te cuesta aprender **CSS Flexbox**? [Este playground te puede ayudar a entenderlo](https://www.flexer.dev) y generar los estilos que necesitas.
+
+- 🆕 [`@font-face` estrena nueva sintaxis](https://fullystacked.net/posts/new-font-face-syntax). Ya está soportado en todos los navegadores modernos pero todavía pasarán meses hasta que se pueda usar con garantías.
+
+- 😱 **[¿A qué edad te enteraste que _TypeScript_ está desarrollado con... _TypeScript_?](https://twitter.com/midudev/status/1683507582089170944)** Es una técnica llamada _Compiler Bootstraping_ y es más común de lo que crees. También pasa lo mismo con _Java_, _Rust_, _Python_ y muchos más.
+
+### ♻️ Changelog
+
+- 🦕 [Deno Fresh 1.3 lanzado](https://deno.com/blog/fresh-1.3). Este framework es una especie de `Next.js` pero que usa Deno, Preact y con arquitectura de islas. **¡Super interesante!**
+
+- 🧑‍🚀 [Astro 2.9.0](https://github.com/withastro/astro/releases/tag/astro%402.9.0) viene con soporte experimental para _View Transitions_ **sin necesidad de escribir JavaScript**. ¡Y pinta de lujo!
+
+### ✅ Solución al reto de JavaScript
+
+La salida de la consola es `[ 1, 4, 9, 16, 25 ]`. ¿Cómo es esto posible? El tercer parámetro del callback de `forEach` es el array que se está iterando. Por lo tanto, podemos modificarlo. En este caso, estamos modificando el array `numbers` dentro del callback. Por eso, cuando hacemos `console.log(numbers)` nos devuelve el array modificado.
+
+Otra cosa es que sea buena idea. De hecho, mejor usar un `.map` en este caso. ¿Te la sabías? ¡Cuéntamelo en Twitter!
+
+---
+
+![Un chico usando el ordenador y una chica usando el móvil en una ciudad futurista](@/images/9.webp)
+
+## El futuro de JavaScript, nuevas unidades de CSS para el viewport y el adiós de las cookies más cerca {{ date: '2023-07-18T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **Curso Strapi + Next.js 13**<br />
+> MAÑANA 19 de julio: **Revisando webs y portfolios de la comunidad**<br />
+> JUEVES 20 de julio: **Curso de Node.js desde cero**<br />
+> ¡Y el **25 de julio** arranca la [DEVS LEAGUE](https://www.devsleague.com/)!<br />**¡La Competición de creadores de contenido de programación**!
+
+### 📰 Noticias
+
+- 🍪 Llega **Chrome 115** y con ello la [Topics API](https://developer.chrome.com/blog/new-in-chrome-115/#topics-api), una tecnología que viene a matar las cookies. Podrás llamar al método `document.browsingTopics()` y te devolverá los temas de interés del usuario, sin necesidad de rastrear su historial.
+
+- 🪄 Y, ojo, que en la misma versión también llegan las _Scroll Driven Animations_, que nos permitirá **animar elementos con CSS según el scroll**. ¡Cuando instales la nueva versión, [mira estas demostraciones](https://scroll-driven-animations.style/)!
+
+- Hablando de las Scroll Driven Animations, Google ha sacado un [extenso artículo que te explica las mejoras de rendimiento](https://developer.chrome.com/blog/scroll-animation-performance-case-study/) que ofrece respecto a usar JavaScript para conseguir lo mismo.
+
+### 🔥 Reto de JavaScript
+
+Hablando del `Optional Chaining`, tenemos un código que lo usa para recuperar el valor de `street` pero también usa otro operador para asegurarse que tenemos valor... **¿Cuál es la salida en consola?**
+
+```javascript
+const user = {
+  name: "midu",
+  address: {
+    street: false,
+    city: "Barcelona"
+  }
+};
+
+const street = user?.address?.street ?? "Sin calle"
+
+console.log(street) // -> ¿?
+```
+
+Tienes la solución al final de la _newsletter_.
+
+### 🚀 El futuro de JavaScript
+
+- ❓ ¿Conoces el operador Optional Chaining del reto anterior? Es `?.` y **nos ayuda a acceder a propiedades anidadas de un objeto pero comprobando que el camino existe**. Pues pronto podremos también hacer asignaciones usándolo `persona?.name = 'midu'`. [Más información en la propuesta](https://github.com/tc39/proposal-optional-chaining-assignment).
+
+- 🙌  ¡Por fin **podremos transformar Arrays en Objetos con `groupBy`**! Así podemos agrupar elementos de un array por una propiedad. Ya está en la fase 3, así que pronto lo tendremos en JavaScript. Ejemplo:
+
+```javascript
+const array = [1, 2, 3, 4, 5]
+
+const group = Object.groupBy(array, (num, index) => {
+  return num % 2 === 0 ? 'par': 'impar'
+})
+
+console.log(group) // =>  { impar: [1, 3, 5], par: [2, 4] }
+```
+
+### 🎨 Cositas de CSS
+
+- 📱 **¿Conoces la unidad `vh`?** Es la altura del _viewport_. Muchas veces usamos `100vh` para indicar que debe usar toda la altura de la pantalla. Pero... **¿sabías que no hace lo que espera en móvil?** Por suerte [han sacado nuevas unidades, especialmente interesante la `dvh`](https://ishadeed.com/article/new-viewport-units).
+
+- ✨ La aplicación web de Threads trae **un montón de detalles en su CSS**. Si quieres descubrir todos los trucos que usan, [aquí tienes un artículo que te lo explica](https://ishadeed.com/article/threads-app-css/).
+
+### 📈 Sube de nivel
+
+- 👨‍💻 **¿Quieres practicar Pruebas Técnicas reales?** [He creado un recurso donde cada mes publicaremos una nueva prueba técnica.](https://pruebastecnicas.com/) Sólo tienes que crear una Pull Request con tu solución. Las mejores vendrán a un directo a defender su prueba.
+
+- 🇬🇧 Saber inglés multiplica tus posibilidades de éxito. Pero no todo el mundo puede pagar un curso. Aquí tienes [5 CURSOS GRATUITOS para aprender Inglés](https://twitter.com/midudev/status/1680952060240330753)
+
+- 🏗️ [Aprende Patrones de Diseño de Software](https://www.instagram.com/p/CuzNBM6Na6Q/), gratis y en español. Tiene ejemplos de diferentes lenguajes de programación y muchos ejemplos de cada uno.
+
+### 🧰 Recursos que no debes perderte
+
+- 🛞 [driver.js es una biblioteca escrita en Vanilla JS que te permite crear **tours de usuario**](https://driverjs.com/). Es decir, que puedes crear un tutorial para que el usuario sepa cómo usar tu web. ¡Muy útil para onboarding!
+
+- ⚡ [Web Vitals es una extensión de Addy Osmani](https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma) que te muestra las métricas de rendimiento de una web. Ofrece datos de laboratorio (tus datos locales) y datos de campo (los datos de usuarios reales). ¡Muy útil para ver cómo va tu web!
+
+- 🥳 ¿Quieres comparar cómo se crea un componente, se maneja un estado o se añaden eventos en React, Vue, Angular o Svelte? [Component.party te muestra de un vistazo sus diferencias.](https://component-party.dev/
+)
+
+### ✅ Solución al reto de JavaScript
+
+El otro operador era el Nullish Coalescing Operator `??`, que revisa si el operando de la izquierda es `null` o `undefined` y, si lo es, devuelve el operando de la derecha. En este caso, `street` es `false`, así que no es `null` ni `undefined`, así que **no se asigna el valor de la derecha**.
+
+No confundas el operador `??` con `||` que sí revisa valores _falsy_.
+
+Por lo tanto, la salida en consola será `false`.
+
+---
+
+![Ultron programando en una computadora](@/images/8.webp)
+
+## ¡ChatGPT lo vuelve a hacer! + Reddit deja React + Google Analytics ilegal y entrevistas rotas en programación {{ date: '2023-07-11T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **Desarrollamos la API de Threads desde cero**<br />
+> MAÑANA 12 de julio: **Revisando webs y portfolios de la comunidad**<br />
+> JUEVES 13 de julio: **¡Haz una prueba técnica para desarrolladores Front-End!**<br />
+> 20 de julio: **Curso de Node.js desde cero**<br /><br />
+> ¡Y el **25 de julio** arranca la [DEVS LEAGUE](https://www.devsleague.com/)!<br />**¡La Competición de creadores de contenido de programación**!
+
+### 📰 Noticias
+
+- 🤖 [ChatGPT ha sacado oficialmente su _Code Interpreter_](https://hipertextual.com/2023/07/chatgpt-lanza-code-interpreter-complemento) y las primeras pruebas te vuelan la cabeza. Te permite subir ficheros, analizarlos, transformarlos... y te genera el **código en Python**. ¡Espectacular!
+
+- 🍃 [¡Viene nueva versión de Tailwind!](https://www.youtube.com/watch?v=CLkxRnRQtDE) Con **mejoras de rendimiento** (la mitad de tiempo), mucho **más inteligente** (¡no necesitarás indicarle la configuración de _content_, lo hace automáticamente!) y catálogo de componentes llamado _Catalyst_.
+
+- 🚀 [GitLab desplegó en viernes y... bueno, **no le fue bien**](https://www.theregister.com/2023/07/07/gitlab_outage/). También es verdad que les podía haber pasado cualquier otro día. ¡Pero ahí queda la historia!
+
+- 🆕 [Prettier sube de versión](https://prettier.io/blog/2023/07/05/3.0.0.html) con novedades y cambios que rompen. [Vite llega a su versión 4.4](https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md#440-2023-07-06) con la novedad que están probando LightingCSS, una **alternativa más rápida de PostCSS**.
+
+### 🔥 Reto de JavaScript
+
+¿Cuál es la salida en _Consola_ del siguiente código JavaScript? Tienes la solución al final de la _newsletter_.
+
+```javascript
+const numbers = [1, 2, 3]
+numbers[10] = 11
+console.log(numbers.length)
+```
+
+¡Tienes la solución al final de la _newsletter_!
+
+### 🥫 Salseos
+
+- 🦊 [La evolución de uso de Firefox no pinta bien.](https://twitter.com/midudev/status/1677591994992934913) Sigue cayendo y ya tiene una cuota de mercado menor al 5%. No quiero sonar catastrofista pero... **¿podrá aguntar mucho más así?**
+
+- 👨‍💻 **Las entrevista de programación están rotas.** Lo explica una persona con más de 30 años de experiencia en el mundo del desarrollo donde, a pesar de contar con recomendaciones, [le pedían hacer ejercicios en una pizarra blanca.](https://twitter.com/catalinmpit/status/1678067310081310720)
+
+- 🔪 **Siempre que saca algo ChatGPT, se mata algo o alguien.** En este caso [Twitter se ha llenado de mensajes matando a los Data Analyst](https://twitter.com/nickfloats/status/1678067608975822849). ¡Larga vida al análisis de datos!
+
+- 🥊 Mientra que [_Deno_ dice que _CommonJS_ está haciendo daño a _JavaScript_](https://deno.com/blog/commonjs-is-hurting-javascript), [_Bun_ dice que lo va a soportar y que **aceptemos que no se va a ir a ningún lado**.](https://bun.sh/blog/commonjs-is-not-going-away)
+
+### 👀 ¡Ojo con esto!
+
+- 💚 Parece que [Kick, la competencia de Twitch, usa Vue y Tailwind](https://twitter.com/icarusgkx/status/1678128674481094656?t=UVpWwz9pAHrC-CMcqct6Cg&s=33). Esto, mientras se confirma que [Reddit deja React y se pasa a Lit](https://twitter.com/luciascarlet/status/1677011510479179778).
+
+- 🧑‍⚖️ ¡Cuidado! [En Suecia consideran que **Google Analytics es ilegal**](https://techcrunch.com/2023/07/03/google-analytics-sweden-gdpr-fines/) porque no cumple la GDPR (ley de privacidad de datos de la UE). Ni con aviso de cookies. Se suman a otros paises como [Francia o Italia](https://twitter.com/rtayar/status/1499290761036275714).
+
+> ¡Actualización! Unas horas después de enviar la lista de correo, resulta que [la UE y EEUU han llegado a un acuerdo.](https://twitter.com/analyticsnerd/status/1678459561215229953) Por lo que **Google Analytics, que llevaba años siendo virtualmente ilegal en Europa, vuelve a ser legal**.
+
+### 🧰 Recursos para programadores
+
+- 📈 Una [espectacular galería de gráficas](https://www.react-graph-gallery.com/) desarrolladas con React y D3.js.
+- ⚡ Entiende [https://www.youtube.com/watch?v=ZKH3DLT4BKw], de la mano de **Addy Osmani**.
+- 🪟 [React 95 es un catálogo de componentes para simular Windows 95](https://react95.github.io/React95/?path=/story/all--all). **No sé por qué querrías hacer esto**, pero ahora puedes.
+- 🎧 _Spotify_ ha sacado su [SDK con soporte para TypeScript](https://developer.spotify.com/blog/2023-07-03-typescript-sdk).
+- 📐 En CSS ya no sólo tendremos las _Container Queries_ (como Media Queries para a nivel de elementos)... ¡es que **también podrán tener estados**! [Este artículo te lo explica para, por ejemplo, detectar si un elemento está sticky o no.](https://ishadeed.com/article/css-state-queries/)
+
+### ✅ Solución al reto de JavaScript
+
+¡Esta era fácil! ¿No? La respuesta es **11**. Te explico:
+
+- No pasa nada que sea `const` ya que no estamos reasignando el array.
+- Al asignar el valor `11` en la posición `10` del array, se crean las posiciones `3` a `9` en memoria, pero se dejan  vacías.
+- Al hacer `console.log(numbers.length)` nos devuelve `11` porque es la longitud del array, aunque solo tenga 3 elementos.
+
+---
+
+![Un pulpo gato programando](@/images/6.webp)
+
+## Nueva versión de JavaScript 2023, GitHub se pasa a React, usa jQuery en 2023 y gana 60K$ al mes {{ date: '2023-06-04T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **Desarrollo Web desde 0 con Astro y transiciones CSS entre páginas**<br />
+> MAÑANA 5 de julio: **Creamos la base de datos de Twitter desde cero con MySQL**<br />
+> JUEVES 6 de julio: **Charla con BettaTech. ¿Mercado saturado? ¿Ir a la universidad? ¿Proyectos personales?**<br />
+> 20 de julio: **Curso de Node.js desde cero**<br /><br />
+> ¡Y el **25 de julio** arranca la [DEVS LEAGUE](https://www.devsleague.com/)!<br />**¡La Competición de creadores de contenido de programación**!
+
+### 📰 Noticias
+
+- 🆕 **¡Tenemos nueva versión de JavaScript!** __ECMAScript 2023__ ya es oficial. Trae novedades importantes como [nuevos métodos de array `findLast` y `findLastIndex`](https://github.com/tc39/proposal-array-find-from-last) para buscar elementos en un array a la inversa. Y todos los [nuevos métodos `toReversed`, `toSorted`, `toSpliced` y `with`](https://github.com/tc39/proposal-change-array-by-copy) que devuelven una copia del array.
+
+> ¿Sabes qué es ECMAScript? Podríamos decir que es _la receta_ para crear JavaScript. Es una especificación que define cómo debe funcionar el lenguaje.
+
+- 🐙 Poca gente se ha fijado, pero **GitHub está migrando poco a poco su web a React**. Todas las nuevas partes están hechas con la biblioteca de Meta. Por ejemplo, [el nuevo explorador de archivos está hecho con React](https://github.com/midudev/aprendiendo-react/blob/master/README.md).
+
+- ⚛️ **Next.js ha sacado una nueva versión**. Es algo que podríamos decir todas las semanas. Pero [esta trae importantes mejoras de rendimiento](https://nextjs.org/blog/next-11-1) tras unas cuantas versiones que han empeorado el rendimiento.
+
+### 🔥 Reto de JavaScript
+
+¿Cuál es la salida en _Consola_ del siguiente código JavaScript? Tienes la solución al final de la _newsletter_.
+
+```javascript
+const obj = {
+  1: 1,
+  2: 2,
+  3: 3
+}
+
+const keys = JSON.stringify(Object.keys(obj))
+const values = JSON.stringify(Object.values(obj))
+
+console.log(keys === values)
+```
+
+_Tienes la solución al reto al final de la newsletter._
+
+### 🥫  Salseos
+
+- 📹 Tienes un [resumen de los salseos y las noticias de JavaScript en mi canal de YouTube.](https://www.youtube.com/watch?v=bFJY2Jymh2k)
+
+- 🐦 **Twitter ha limitado el número de posts** que puedes ver al día. Pero ese no es el salseo. El salseo es que [hay programadores de Twitter pidiendo ayuda en foros](Ingenieros web de Twitter pidiendo ayuda a ingenieros... ¡que hayan trabajado en antes! _This is fine_.
+
+- 👴 Un archivo de **14.000 líneas de PHP con HTML, CSS y JavaScript todo mezclado**. ¡Con jQuery! Nada de flexbox, todo floats. Parece una pesadilla, pero [es un proyecto que factura más de 60.000$ al mes.](https://twitter.com/levelsio/status/1675829733668319233)
+
+- 🚨 **Kent C. Dodds dice que normalmente el problema de rendimiento de las webs son del backend.** Y que está bien intentar ahorrarte unos milisegundos en el frontend. Yo no estoy de acuerdo, ya te digo, pero [te dejo su mensaje para que opines por ti mismo.](https://twitter.com/kentcdodds/status/1674994384369258496)
+
+
+### 🛠️  Recursos
+
+- 🏗️ [Charla sobre los principios para escalar desarrollo de aplicaciones Frontend](https://www.youtube.com/watch?v=tqhLK0Fb5_4). Es de **Malte Ubl, CTO de Vercel**.
+
+- ✍️ Hoy vas a **aprender SVG y cómo funcionan elementos `<path>`** con este [tutorial interactivo espectacular](https://www.nan.fyi/svg-paths).
+
+- 🌏 `next-international` es una [biblioteca para hacer _i18N_ en tus proyectos de Next.js](https://github.com/QuiiBz/next-international#app-router). ¿Lo mejor? Compatible con _React Server Components_, carga sólo las traducciones que necesita y muy fácil de usar.
+
+### ✅ Solución al reto de JavaScript
+
+La solución es `false`. `Object.keys(obj)` devuelve un array con las claves del objeto. En este caso será el array `["1", "2", "3"]`. Fíjate que son cadenas de texto, ya que las llaves de los objetos siempre son strings. `Object.values(obj)` devuelve los valores del objeto `[1, 2, 3]` (son números). Al transformar ambos en una cadena de texto con `JSON.stringify` nos queda: 
+
+```javascript
+const keys = '["1", "2", "3"]'
+const values = '[1, 2, 3]'
+
+console.log(keys === values) // false
+```
+
+### 🎙️ ¿Sabías que tengo un podcast?
+
+¿Los devs siempre deben tener proyectos personales? [Es el episodio de mi último podcast.](https://open.spotify.com/show/1Et8hZk1DwKw6PtBFGpwSD) Lo he tenido un poco abandonado, pero mi idea es ir **grabando episodios de forma más continua**. ¡Si lo escuchas y te gusta, **compártelo**! Así seguro que me animo a seguir grabando más capítulos.
+
+Puedes encontrarme en [Spotify](https://open.spotify.com/show/1Et8hZk1DwKw6PtBFGpwSD), [Google](https://www.google.com/podcasts?feed=aHR0cHM6Ly93d3cuaXZvb3guY29tL3BvZGNhc3Qtd3Rmcm9udF9mZ19mMTY0NzM1Nl9maWx0cm9fMS54bWw=) y [iTunes](https://itunes.apple.com/us/podcast/wtfront/id1448113230?mt=2). 
+
 ---
 
 ![Una chica en una oficina de su casa con su gato, programando en su computadora](@/images/5.webp)

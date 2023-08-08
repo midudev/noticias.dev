@@ -64,7 +64,7 @@ export function Intro() {
       </h1>
       <p className="mt-4 text-sm/6 font-semibold text-gray-300">
         Newsletter para programadores y desarrolladores web. 100% gratis. Todos
-        los lunes.
+        los martes.
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
