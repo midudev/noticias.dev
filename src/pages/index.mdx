@@ -11,6 +11,82 @@ export async function getStaticProps() {
 
 --- 
 
+![Una chica que parece programadora con muchos billetes encima de su mesa](@/images/12.webp)
+
+## Estudio de sueldos en programación, novedades de CSS importantes y Scrum apesta {{ date: '2023-09-06T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **CURSO de ASTRO desde CERO**<br />
+> MAÑANA 7 septiembre: **Curso de Node.js + MySQL desde CERO**<br />
+> 13 septiembre: **MiduConf, conferencia de programación y desarrollo**<br />
+
+El **13 de septiembre** celebramos el día de la programción. 256 regalos y speakers TOP internacionales. **[¡Consigue tu ticket gratuito!](https://www.miduconf.com/)**
+
+### 📰 Noticias
+
+- 💸 [Estudio de salarios de programadores en España](https://twitter.com/david_bonilla/status/1698612597358993785) de la gente de Manfred. Datos de más de 35.000 devs y perfiles técnicos.
+
+- 🆕 **[Astro, el framework web de moda, ha sacado su versión 3](https://astro.build/blog/astro-3/)**. Incluye de forma nativa la posibilidad de usar _View Transitions_, mejoras de rendimiento... ¡y pinta brutal!
+
+- 🔪 **¡Node mata al mítico paquete dotenv!** La última versión _20.6.0_ puede leer de forma nativa los ficheros `.env`. ¡Una dependencia menos! Se usaría así:
+
+```sh
+node --env-file=.env app.js
+```
+
+### 🥫 Salseos
+
+- 🔥 Se ha viralizado un [post en X que dice que Scrum es un C*ncer](https://www.youtube.com/watch?v=1Ibr_zStmfU). Lo cierto es que Scrum es un framework que nació con unos ideales que igual se han ido perdiendo...
+
+- 👴 **Sobre las últimas tecnologías** alguien opina que no le importa un pimiento y que lo importante es entregar valor al usuario.
+
+- 😢 Algunas empresas se vuelven a [quejar que "les están robando el talento"](https://www.elindependiente.com/economia/2023/09/03/las-tecnologicas-espanolas-se-resignan-ante-las-extranjeras-por-el-robo-de-talento-joven-no-podemos-hacer-nada/) y que no pueden hacer nada. No todo es dinero, igual mejorar las condiciones laborales ayuda...
+
+### 🤣 Un meme de programación
+
+<img src='https://pbs.twimg.com/media/F5MFdrzWAAAztIX?format=webp&name=medium' alt='Un meme de programación. Primera viñeta, un chico que sabe JavaScript buscando trabajo. Segunda viñeta, en la calle tirado sin encontrar nada. Tercera viñeta, alguien se acerca y le dice que necesita uno. En la cuarta viñeta sale llorando el que estaba en la calle porque le dicen que es para hacer PHP.' />
+
+### 🎨 Cosas de CSS
+
+- ¡Ya han salido los [resultados del State of CSS 2023!](https://2023.stateofcss.com/es-ES/). Un resumen: **Tailwind sigue creciendo pero baja su satisfacción**, CSS ha evolucionado mucho este año, CSS en JS ha pasado de moda pero [Panda parece que convence](https://panda-css.com/) y Bootstrap cae muchísimo año tras año.
+
+- **Firefox ya soporta CSS Nesting.** Así que todos los navegadores modernos ya lo pueden usar y [eleva el soporte a un 77% de los usuarios.](https://caniuse.com/css-nesting). Cada vez hay menos excusas para no usarlo:
+
+```css
+.example {
+  font-family: system-ui;
+  font-size: 1.2rem;
+  & a {
+    color: tomato;
+    &:hover, &:focus {
+      color: ivory;
+      background-color: tomato;
+    }
+  }
+}
+```
+
+### 🪄 Trucos para programadores
+
+- ¿Sabías que puedes [compartir tus proyectos en localhost a cualquiera con una URL](https://twitter.com/midudev/status/1697626615163834866)? `cloudflared` es una alternativa a ngrok.
+
+```sh
+$ brew install cloudflared
+$ cloudflared tunnel --url http://localhost:3000
+```
+
+- Hay una **pestaña en las Chrome DevTools** que te permite ver de un vistazo todos los detalles del CSS de una página. Se llama _CSS Overview_ y [te enseño cómo usarlo en esta guía en vídeo.](https://twitter.com/midudev/status/1697590842116989424)
+
+### 5 Consejos para programadores Junior 👨‍💻:
+
+1. No te agobies con los errores, aprende de ellos
+2. No tengas prisa, valora tu evolución
+3. Lee el código de otras personas
+4. Descansa cuando lo necesites
+5. Practica todo lo que aprendes
+
+--- 
+
 ![Stack Overflow de libros y ordenadores](@/images/11.webp)
 
 ## Stack Overflow planta cara a ChatGPT, el mercado tech se recupera y salseo en el mundo del desarrollo web {{ date: '2023-08-01T00:00Z' }}
