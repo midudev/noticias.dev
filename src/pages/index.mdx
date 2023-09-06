@@ -11,7 +11,7 @@ export async function getStaticProps() {
 
 --- 
 
-![Una chica que parece programadora con muchos billetes encima de su mesa](@/images/12.webp)
+![Una chica que parece programadora con muchos billetes encima de su mesa](@/images/13.webp)
 
 ## Estudio de sueldos en programación, novedades de CSS importantes y Scrum apesta {{ date: '2023-09-06T00:00Z' }}
 
@@ -84,6 +84,74 @@ $ cloudflared tunnel --url http://localhost:3000
 3. Lee el código de otras personas
 4. Descansa cuando lo necesites
 5. Practica todo lo que aprendes
+![Una oficina llena de cosas, con un ordenador encendido. No hay nadie.](@/images/12.webp)
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **DevsLeague ¡LA FINAL!: Competición entre programadores**<br />
+> JUEVES 3 de agosto: **Curso de Node.js desde cero: Arquitectura MVC con API**<br />
+> VIERNES 4 de agosto (16H): **Charlando de programación y desarrollo**<br />
+
+---
+
+## ¿RIP Web Developers?, Google asusta y las mejores bases de datos {{ date: '2023-08-08T00:00Z' }}
+
+### 📰 Noticias
+
+- 🙏 Un minuto de silencio para Bram Moolenaar, creador del famoso editor VIM, que falleció el pasado 3 de agosto a los 62 años de edad tal y como [informó su familia](https://groups.google.com/g/vim_announce/c/tWahca9zkt4?pli=1). **Una gran perdida para el mundo del open source y la programación.**
+
+- 👀 Ojo que **Google está trabajando en una iniciativa llamada [Web Environment Integrity](https://github.com/RupertBenWiser/Web-Environment-Integrity/blob/main/explainer.md)**, una especie de DRM para navegadores y dispositivos. Ya hay voces críticas que dicen que es [una forma de **controlar el mercado de navegadores** que acaba con la neutralidad en la red](https://vivaldi.com/es/blog/la-ultima-mala-idea-de-google/)
+
+- 📈 Han salido los [**resultados de la encuesta State of Database**](https://stateofdb.com/). Algunos datos interesantes: **la gente prefiere SQL sobre noSQL**, PostgreSQL es lo más usado, junto con MySQL y Redis. Y de ORMs tenemos a Supabase, Prisma y Mongoose coronando.
+
+- 🚀 [La página web oficial de Node.js ha migrado a Next.js](https://nodejs.org/en)... ¡y se nota mucho la mejora de velocidad! Pruébala y verás.
+
+- 👴 Hablando de Node.js, que sepas que [Vercel está deprecando las versiones de Node 14 y 16](https://vercel.com/changelog/node-js-14-and-16-are-being-deprecated). **Si tienes proyectos que usan estas versiones, debes migrar cuanto antes a la última versión LTS, la 18.**
+
+### 🔥 Reto de JavaScript
+
+¿Cuál es la salida de este código en JavaScript?
+
+```javascript
+console.log(typeof NaN)
+```
+
+¡Tienes la explicación al final!
+
+### 🥫 Salseos
+
+- 💰 **¿El dinero da la felicidad?** La [historia de un chico de 33 años](https://twitter.com/catalinmpit/status/1688262365765103616) que, tras conseguir un patrimonio de 3 millones de dólares, ha perdido toda motivación. ¿Qué opinas?
+
+- 🫤 [Gente en Twitter ha estado quejándose del meme de "Gracias, JavaScript"](https://twitter.com/midudev/status/1687745383345086464?s=46&t=Y2CgvDlOg5A_g5tgKYPjpw) diciendo que JS no paga tanto o menospreciando el lenguaje respecto a otras opciones. Mi opinión: **deja que la gente le de las gracias a lo que considere y pueda celebrar sus éxitos.**
+
+- ☠️ RIP Web Developers. Ese es [el clickbait que se repite en Twitter para el enésimo producto que te genera una web con IA](https://twitter.com/MindWisdomMoney/status/1687770669658857473?s=20). El tema es que **hace años que puedes comprar plantillas si quieres una web genérica.**
+
+- 🚗 **¿Podría un equipo crear un Uber en 4 u 8 semanas?** [Eso dicen en un podcast.](https://www.instagram.com/reel/Cu96AzYLM8r/) **No parece realista y suena a infravalorar el trabajo del desarrollo**. Igual un MVP básico podría ser posible, pero muchas veces no se tiene en cuenta mucho trabajo que hay detrás de una app o web.
+
+- 🙅‍♂️ ¡Nadie quiere usar los Web Components! Pero... ¿por qué? [Este artículo desgrana los problemas de esta tecnología](https://daverupert.com/2023/07/why-not-webcomponents/). **Spoiler: marketing.**
+
+### 🧰 Recursos
+
+- ⭐ Si estás buscando alguna biblioteca de Node.js pero no sabes cuál es fiable, [Node JS Toolbox te ofrece una puntuación para las bibliotecas más usadas, separadas por categoría.](https://nodejstoolbox.com/)
+
+- 🧩 ¡Ha salido una **nueva versión de NextUI**! [Un catálogo de componentes con un estilo muy minimalista, que recuerda a Vercel.](https://nextui.org/) Esta nueva versión ha migrado a Tailwind, trae mejores de personalización, mejor rendimiento y nuevos componentes.
+
+- 👟 [Shoelace es un catálogo de componentes agnóstico al framework](https://shoelace.style/). Se puede usar en _React_, _Angular_ y _Vue_. Está basado en _Web Components_ y son muy fáciles de usar.
+
+### 🤯 ¡Esto qué es!
+
+- 🍎 [macintosh.js es una máquina virtual de **Apple Macintosh con System 8**](https://github.com/felixrieseberg/macintosh.js). Todo desarrollado con _JavaScript_ y _Electron_. ¡Espectacular!
+
+- 🩻 **¿Has usado alguna vez _Backbone_?** Es una biblioteca de _JavaScript_ que nació en 2010 y fue muy famosa. Pues bien, [la semana pasada salió la versión 1.5.0.](https://backbonejs.org/) ¡Sigue viva!
+
+### ✅ La solución al reto de JavaScript
+
+La salida es `number`. **Aunque es paradójico** porque `NaN` significa _Not a Number_, pero en realidad es un valor numérico que quiere decir que no es un número. ¡Ah!
+
+```javascript
+console.log(typeof NaN) // -> number
+```
+
+Hay otros valores especiales númericos como `Infinity` o `-Infinity`. ¿Lo sabías?
 
 --- 
 
@@ -492,7 +560,7 @@ Puedes encontrarme en [Spotify](https://open.spotify.com/show/1Et8hZk1DwKw6PtBFG
 ```js
 const result = (() => (
   5, 10, 15
-))
+))()
 
 console.log(result)
 ```
