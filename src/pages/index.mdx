@@ -11,6 +11,102 @@ export async function getStaticProps() {
 
 --- 
 
+![Una chica que parece programadora con muchos billetes encima de su mesa](@/images/14.webp)
+
+## ¡Llega Bun y pinta muy bien! La muerte de las cookies y el movimiento de Google {{ date: '2023-12-06T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)** (18H - hora España)<br /><br />
+> HOY: **Evento de Apple - iPhone 15 y más**<br />
+> MAÑANA 13 septiembre: **MiduConf, conferencia de programación y desarrollo**<br />
+> JUEVES 14 septiembre: **Desarrollo API con Bun desde cero**
+
+Recuerda que mañana, **13 de septiembre**, celebramos el día de la programción. **256 regalos** y speakers TOP internacionales. **[¡Consigue tu ticket gratuito!](https://www.miduconf.com/)**
+
+### 📰 Noticias
+
+- 💸 [Bun 1.0 es una realidad](https://bun.sh/). Es una **alternativa a Node**, npm, Webpack, compilador de TypeScript y test runner. ¡Todo en uno y con una velocidad tremenda!
+
+De hecho, [Vercel ya lo soporta de forma nativa](https://vercel.com/changelog/bun-install-is-now-supported-with-zero-configuration) y puedes bajar los tiempos de tus [despliegues a casi la mitad](https://twitter.com/midudev/status/1701188821772067264).
+
+- 🍪 Google ya ha incorporado [Privacy Sandbox](https://privacysandbox.com/intl/es_es/) en Chrome. ¿Para qué sirve? Básicamente para **matar las cookies de terceros**. Ahora el navegador, si tiene el permiso del usuario, creará un array con tus intereses.
+
+- 💀 [**Node 16 ha llegado a End of Life**](https://nodejs.org/en/blog/announcements/nodejs16-eol), esto quiere decir que debes actualizar a la versión 18 en cuanto puedas.
+
+### 🔥 Reto de JavaScript
+
+Tenemos el siguiente código de _JavaScript_... ¿qué sale en consola? 
+
+```javascript
+async function fetchInfo() {
+  return await Promise.resolve("¡Hecho!")
+}
+
+const info = fetchInfo()
+console.log(info) // -> ???
+```
+
+Tienes la solución al final de la _newsletter_.
+
+### 😱 ¡Ofertaca de DonDominio!
+
+[Consigue tu dominio .dev o .com a 6€ (+ impuestos) usando el cupón **MIDUCONFDD**](https://midu.link/dondominio)
+
+### 👀 ¿Qué ha pasado con Gatsby?
+
+[Gatsby es un framework de React](https://www.gatsbyjs.com/) que, durante mucho tiempo, fue **la mayor competencia de Next.js.**
+
+En su día la empresa incluso **consiguió mayor inversión que Vercel**, aunque las cosas han cambiado mucho con el tiempo.
+
+Hace poco [Netlify compró Gatsby](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/), no se sabe por cuanto, pero con los despidos recientes de Netlify [parece que no tiene mucha actividad.](https://twitter.com/FredKSchott/status/1693007599803752638)
+
+[Hay rumores que dicen que el proyecto está muerto](https://twitter.com/wardpeet/status/1693014604694061194) aunque [Netlify ha salido al paso diciendo que vienen novedades pronto](https://twitter.com/Netlify/status/1694035000734216263). Sea como sea, no pinta que esté en su mejor momento...
+
+### 🥫 Salseo con las tecnológicas españolas
+
+Dice [el periódico El Independiente](https://www.elindependiente.com/economia/2023/09/03/las-tecnologicas-espanolas-se-resignan-ante-las-extranjeras-por-el-robo-de-talento-joven-no-podemos-hacer-nada/) que **"las tecnológicas españolas se resignan ante las extranjeras por el robo de talento joven"**.
+
+Primero: **El talento no se "roba" porque NO es PROPIEDAD de las tecnológicas españolas.**
+
+**"No podemos hacer nada"**, dicen. Sólo hablan de "salarios altos" y hay **0 autocrítica**.
+
+Sería bueno recordar que la mayoría de la gente está dispuesta a sacrificar el sueldo por una mejor CALIDAD de VIDA.
+
+Conciliación, formación, flexibilidad, ambiente, cultura... Obvio que el sueldo es importantísimo y claro que habrá que pagar a ese talento como se merece.
+
+PERO es que mucho talento joven se busca las oportunidades fuera porque están DE SOBRAS preparados y sólo encuentran trabajos PRECARIOS.
+
+Ahí queda eso. **¿Tú qué opinas?**
+
+### 🧑‍🏫 5 consejos del creador de C++ para juniors
+
+1. No te especialices demasiado. Sé flexible
+2. Construye una vida fuera del ordenador
+3. Aprende a comunicar tus ideas y saber escuchar
+4. Piensa en tu carrera a largo plazo. No te quemes
+5. Todas las habilidades suman en programación
+
+Los consejos salen de esta [entrevista de 3 minutos.](https://youtu.be/-QxI-RP6-HM)
+
+
+### ✅ Solución al reto de JavaScript
+
+La respuesta correcta es `Promise { <pending> }`. ¿Por qué? Porque `fetchInfo` es una función asíncrona que devuelve una promesa. Por lo tanto, cuando hacemos `const info = fetchInfo()` estamos asignando a `info` una promesa.
+
+Para obtener el valor de la promesa, debemos usar `await` o `.then`. Por ejemplo:
+
+```javascript
+async function fetchInfo() {
+  return await Promise.resolve("¡Hecho!")
+}
+
+const info = await fetchInfo()
+console.log(info) // -> "¡Hecho!"
+```
+
+El error viene por pensar que, como estamos haciendo el `await` dentro del `fetchInfo` y estamos devolviendo el valor, se va a resolver automáticamente. Pero no, hay que esperar a que se resuelva fuera.
+
+--- 
+
 ![Una chica que parece programadora con muchos billetes encima de su mesa](@/images/13.webp)
 
 ## Estudio de sueldos en programación, novedades de CSS importantes y Scrum apesta {{ date: '2023-09-06T00:00Z' }}
