@@ -11,6 +11,77 @@ export async function getStaticProps() {
 
 --- 
 
+![Un panda rojo programando en frente de una laptop](@/images/15.webp)
+
+## Secretos oscuros de Mozilla, evolución de despidos tech, el CEO de Shopify la lía... {{ date: '2023-10-03T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)**<br /><br />
+> HOY a las 20H: **SUPERAR el SÍNDROME del IMPOSTOR: Cuando piensas que no vales**<br />
+> MAÑANA 4 octubre: **CLON de SPOTIFY desde CERO con transiciones**<br />
+> JUEVES 5 octubre: **PRUEBA TÉCNICA de NODE.JS REAL para Backend y FullStack**
+
+### 🥫 Salseo con el CEO de Shopify y los side projects
+
+El CEO de Shopify [no quiere que sus empleados se distraigan con proeyctos personales.](https://twitter.com/simonvlc/status/1708405042342924795?t=HeDBu5sAJ_vk93aWuKK9aA&s=19) Así lo ha hecho saber en un memo interno.
+
+En el mismo indica que, aunque es normal que puedas dar clases de yoga en fin de semana o que entrenes un equipo de fútbol uno o dos veces por semana, **cualquier actividad que drene tu energía y te distraiga de Shopify no está permitida y se debe informar a la empresa.**
+
+**Es una postura bastante controvertida** ya que no habla específicamente del horario laboral y ya muchas veces han apuntado lo hipócrita que resulta su posición teniendo en cuenta que [él mismo es parte del Board of Directors de otras empresas como Coinbase](https://www.coinbase.com/blog/tobias-lutke-ceo-of-shopify-to-join-coinbase-board-of-directors) y que tiene inversiones en otras compañías.
+
+### 🔥 Reto de JavaScript
+
+Tenemos el siguiente código de _JavaScript_... ¿qué sale en consola? 
+
+```javascript
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1);
+}
+
+for (let i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1);
+}
+```
+
+Tienes la solución al final de la _newsletter_.
+
+### 📰 Noticias
+
+- 📡 [WebSockets va a llegar como tecnología nativa, sin dependencias, a Node.js.](https://github.com/nodejs/node/pull/49830) Algo que llevamos años pidiendo, por fin, **una realidad.**
+
+- 🖼️ **¡Photoshop llega a la web!** Y es impresionante el rendimiento que tiene y [todas las tecnologías web que usa para conseguirlo](https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a). Eso sí, **sólo compatible con Chrome, Edge y Firefox**. Pronto en Safari pero sorprendentemente no funciona en Brave, por ejemplo.
+
+- 🎮 [Epic Games despide al 16% de su compañía, 870 empleados en total.](https://vandal.elespanol.com/noticia/1350765707/epic-games-despide-a-870-empleados-el-16-de-su-plantilla/) Mal timing teniendo en cuenta lo que pasó con Unity hace poco. Lo hacen porque "gastan más de lo que ingresan". En la imagen grande de los despidos en Tech, igualmente, estamos viendo que llevamos unos cuantos [meses seguidos de bajada de despidos](https://layoffs.fyi/). ¡A ver si sigue así!
+
+- 🔫 Brave ha aprovechado el nuevo sistema de privacidad de Chrome para atacar a Google, [corrigiendo el anuncio de la nueva feature...](https://x.com/brave/status/1707446445261881818)
+
+- 🤖 Ojo, que la IA de Google, Bard, [está filtrando conversaciones enteras](https://www.20minutos.es/tecnologia/inteligencia-artificial/google-filtraba-error-conversaciones-chatbot-bard-estaban-apareciendo-informacion-buscador-5177101/). Parece que ya está arreglado, pero es una muestra más del peligro que pueden tener estas IA conversacionales.
+
+- 🔪 Google acaba con otro de sus productos. En este caso, [Google Podcast dejará de existir en 2024.](https://expansion.mx/tecnologia/2023/09/26/google-podcasts-desaparecera)
+
+### 🫣 Los secretos oscuros de Mozilla Foundation
+
+La fundación Mozilla es la que está detrás del navegador Firefox. **Es una organización sin ánimo de lucro** que se financia con, se supone, donaciones y que tiene como objetivo defender la privacidad y la libertad en Internet.
+
+Pero... **¿sabías que Mozilla cuenta con dos empresas que sí son con ánimo de lucro?** **Mozilla Corporation** y **MZLA Technologies Corporation**.
+
+En 2021, Mozilla tenía **activos por valor de mil millones de dólares.** Sólo en _cash_, tenía 400 millones. Pero... ¿de dónde sale ese dinero?
+
+Pues igual te sorprende que **la mayoría de los ingresos de Mozilla vienen de un sólo pagador.** De hecho, son aproximadamente el 85% de sus ingresos. ¿Quién es? **Google.**
+
+**Google paga unos 400 millones de dólares al año para que Firefox use su buscador por defecto.** **¡Y eso que Firefox es un competidor directo de Chrome!**
+
+**¡Las donaciones sólo son 7 millones de dólares!** Para que te hagas una idea, la actual CEO de Mozilla, Mitchell Baker, ganó en 2021 un total de 5.6 millones de dólares. **Pagados por la Mozilla Corporation.**
+
+Si quieres descubrir más sobre las finanzas de Mozilla, que al menos hace levantar alguna ceja, te invito que leas el artículo de _Bryan Lunduke_ donde lo explica todo con detalle: [El dinero de Firefox: las extrañas cuentas de Mozilla](https://lunduke.locals.com/post/4387539/firefox-money-investigating-the-bizarre-finances-of-mozilla).
+
+### ✅ Solución al reto de JavaScript
+
+La respuesta correcta es `3 3 3` y `0 1 2`. ¿Por qué? Porque en el primer bucle estamos usando `var` y en el segundo `let`. **`var` tiene un alcance de función** y **`let` tiene un alcance de bloque definido por llaves.**
+
+Como el `setTimeout` se ejecuta después de que el bucle se haya ejecutado por completo, **cuando se ejecuta el callback de `setTimeout` en el primer bucle, el valor de `i` es 3.** En el segundo bucle, como `let` tiene un alcance de bloque, **el valor de `i` es el que se espera.**
+
+--- 
+
 ![Una comparación de Bun con npm y pnpm y salgo al lado con corazones en los ojos viendo los resultados](@/images/14.webp)
 
 ## ¡Llega Bun y pinta muy bien! La muerte de las cookies y el movimiento de Google {{ date: '2023-09-12T00:00Z' }}
