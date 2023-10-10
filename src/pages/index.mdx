@@ -11,6 +11,81 @@ export async function getStaticProps() {
 
 --- 
 
+![Godzilla programando](@/images/16.webp)
+
+## Secretos oscuros de Mozilla, evolución de despidos tech, el CEO de Shopify la lía... {{ date: '2023-10-03T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)**<br /><br />
+> HOY a las 18H: **PRUEBA TÉCNICA de JAVASCRIPT**<br />
+> MAÑANA 10 octubre: **CURSO de HTML y DESARROLLO WEB desde CERO**<br />
+> JUEVES 11 octubre: **CURSO de NODE.JS, CHAT y SOCKETS**
+
+### 📰 Noticias
+
+- 🆕 Pronto podremos **cambiar el tamaño de un textarea según su contenido** con una línea de CSS. Se llama `form-sizing: content` y te dejo una [demo para que veas cómo funciona.](https://twitter.com/midudev/status/1711363074022580549)
+
+- 🟦 [¡TypeScript 5.3 se acerca!](https://devblogs.microsoft.com/typescript/announcing-typescript-5-3-beta/) Soporte para _import attributes_, mejora en la inferencia al usar `switch (true)`, mejoras de rendimiento y mucho más.
+
+- 📭 Si buscas una [API gratuita para enviar emails desde tu app o web](https://twitter.com/midudev/status/1711055791665340920), no te pierdas Resend. En muy pocas líneas de código lo puedes conseguir y puedes **enviar gratis hasta 3000 correos.**
+
+- 🐶 [Bruno es un cliente de API alternativa de Postman e Insomnia](https://www.usebruno.com/). Es una app nativa para Windows, macOS y Linux. Y es que con los **cambios polémicos de estos dos últimos**, mucha gente está buscando otras opciones.
+
+- 🦀 [Evan You ha anunciado que Vite se pasa a Rust](https://twitter.com/youyuxi/status/1709943106215530867). Van a crear una versión de _Rollup_ (alternativa de Webpack) a _Rust_. Se llamará _Rolldown_. Recordemos que hace unos meses [el propio Evan You troleaba con la idea de pasarlo todo a Rust](https://twitter.com/youyuxi/status/1644656077169127425), en referencia a Turbopack de Vercel.
+
+- 🏠 [Los datos dan la razón al trabajo en remoto](https://twitter.com/hkanji/status/1710692484282487270). La gente es más productiva, llega menos tarde, falta menos y es más feliz. Eso sí, parece que también hace que la gente se sienta menos parte de la empresa. ¿Cómo lo ves?
+
+### 🔥 Reto de JavaScript
+
+Tenemos el siguiente código de _JavaScript_... ¿qué sale en la salida del programa?
+
+```javascript
+function createGodzilla ({ size = 2, power = 100 }) {
+  return { name: 'Godzilla', size, power }
+}
+
+createGodzilla()
+```
+
+Tienes la solución al final de la _newsletter_.
+
+### 🥫 ¿Ir a la universidad o no para aprender programación?
+
+Todo el mundo tiene una opinión al respecto. Por una parte, el famoso *Levelsio* que tiene diferentes empresas, dice que [a día de hoy no lo recomienda y anima a la gente a crear sus propios productos.](https://twitter.com/levelsio/status/1709981239711510723)
+
+En el otro extremo está *ThePrimeagen* [diciendo que vayas a la universidad y tengas hijos cuanto antes](https://twitter.com/ThePrimeagen/status/1710697975930925324?t=6HU6XtijPup9NkQ-lQ-jVw&s=19).
+
+Mi opinión es que cada persona es un mundo. Ir a la universidad está genial. Yo fui a la universidad. Pero también es verdad que hoy en día existen muchas alternativas para aprender a programar. Hay que tener en cuenta el tiempo (hablamos de años) y que hay gente que prefiere otro camino.
+
+¡Simplemente elige el tuyo!
+
+### 👀 ¡Bibliotecas que no puedes perderte!
+
+- 🧩 [Tailwind Elements son +500](https://tailwind-elements.com/
+) componentes gratis y compatibles con Angular, React, Vue y más.
+
+- 📰 [Article Extractor](https://github.com/extractus/article-extractor) es una biblioteca para Node, Bun y Deno que te permite **extraer el contenido de un artículo en 2 líneas de código**.
+
+- 📈 Si necesitas **gráficas de alta calidad para tu web**, _Trading View_ tiene una [biblioteca de código abierto que se llama Lightweight Charts que es brutal](https://www.tradingview.com/lightweight-charts/). La usan en producción ellos y muchas otras empresas.
+
+### ✅ Solución al reto de JavaScript
+
+La respuesta correcta es un error `TypeError: Cannot read properties of undefined (reading 'size')` y es que hay un error en el código. **Es sutil pero importante.**
+
+Es el tipo de error que no te pasaría en _TypeScript_, ya que el problema es que aunque pensamos que estamos pasando valores por defecto a los parámetros, como le estamos pasando un objeto, deberíamos hacer una de estas dos formas:
+
+```javascript
+// fíjate que por defecto le pasamos un objeto vacío
+function createGodzilla ({ size = 2, power = 100 } = {}) {
+  return { name: 'Godzilla', size, power }
+}
+
+// o podríamos llamar a la función siempre con un objeto
+createGodzilla({})
+```
+
+
+--- 
+
 ![Un panda rojo programando en frente de una laptop](@/images/15.webp)
 
 ## Secretos oscuros de Mozilla, evolución de despidos tech, el CEO de Shopify la lía... {{ date: '2023-10-03T00:00Z' }}
