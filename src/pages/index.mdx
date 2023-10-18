@@ -9,7 +9,74 @@ export async function getStaticProps() {
   return { props: {} }
 }
 
---- 
+---
+
+![Un programador con un triangulo de fondo](@/images/17.webp)
+
+## Un empleado de Vercel la lía, modo oscuro en CSS más fácil, GitHub pierde millones con Copilot... {{ date: '2023-10-03T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)**<br /><br />
+> HOY a las 18H: **CURSO de CSS desde CERO**<br />
+> MAÑANA 18 octubre: **Resuelvo PRUEBA TÉCNICA de REACT para Junior y Trainee**<br />
+
+### 🥫 Un empleado de Vercel la lía
+
+Vercel es una de las empresas más importantes del mundo del desarrollo web. **Es la empresa detrás de Next.js, el framework de React más usado.**
+
+La última semana se ha visto envuelta en una polémica ya que [un empleado parece que amenazó a un usuario de Twitter](https://twitter.com/nico_jeannen/status/1713139186474406206), usando información privilegiada, con abogados y acciones en su contra si no cambiaba el nombre de su proyecto personal.
+
+Ya [Vercel ha confirmado que ha tomado cartas en el asunto](https://twitter.com/vercel_support/status/1713295474998772215), despidiendo al empleado, y [el propio Guillermo Rauch ha clarificado la situación.](https://twitter.com/nico_jeannen/status/1713910752745333158)
+
+Pero al encenderse la mecha en la red social, también [se ha puesto foco sobre los términos y condiciones de Vercel](https://twitter.com/thinkcly/status/1713507306887880952), que **pueden eliminar tu proyecto sin ninguna razón**, o la [creación de plantillas de código abierto basado en productos con mucho éxito.](https://twitter.com/rauchg/status/1713096064171937832)
+
+En mi opinión, cuanto más grande es una empresa, es más fácil que algún empleado pueda aprovechar una situación de privilegio para hacer algo mal. Creo que lo mejor es que **la respuesta de Vercel siempre ha sido de frente y que no han intentado ocultar nada.**
+
+Ahora también parece que están teniendo en cuenta todo el feedback respecto a la creación de estas plantillas que no ha caido bien a parte de la comunidad. **¿Qué opinas tú?**
+
+### 🔥 Reto de JavaScript
+
+Nos han dado este código de JavaScript y nos han preguntado qué sale en consola. ¿Lo sabes? ¿Realmente funciona el código? La respuesta al final.
+
+```js
+let a = 10;
+let b = 20;
+
+function sum() {
+  let a = 30;
+  {
+    let b = 40
+    return a + b
+  }
+}
+
+console.log(sum()) // -> ?
+```
+
+### 📰 Noticias
+
+- 💸 Dicen que [GitHub pierde millones por culpa de Copilot](https://hipertextual.com/2023/10/microsoft-perderia-millones-de-dolares-github-copilot). Yo no me lo creo y el propio ex-CEO de la empresa [dice que es mentira](https://twitter.com/natfriedman/status/1712140497127342404).
+
+- 🎨 [CSS introducirá un nuevo método `light-dark`](https://twitter.com/midudev/status/1714228713074655420) para poder aplicar color al modo claro y modo oscuro sin usar media queries.
+
+- ⚡ Necesitas conocer la extensión [Live Preview de Microsoft](https://twitter.com/midudev/status/1713904323497709809) para Visual Studio Code. Te crea un servidor local y te permite ver los cambios en tiempo real. En mi opinión, una mejor alternativa a Live Server.
+
+- 🆚 [Entiende la diferencia entre Callback y Promesas en JavaScript](https://twitter.com/midudev/status/1712449971864076436)
+
+- 🆓 El próximo 22 y 23 de noviembre, tienes un montón de [Workshops gratuitos sobre IA, Rendimiento Web y Ciber Seguridad. ¡Apúntate!](https://codemo.tech/WorkshopFestMidudev) Estaré presentando el evento.
+
+### ✅ Solución al reto de JavaScript
+
+La respuesta correcta es `70`. ¿Por qué? Hay diferentes conceptos que aplican: **scope y closures.**
+
+Primero, tenemos que entender que **las variables declaradas con `let` tienen un ámbito de bloque**. Es decir, son accesibles dentro de las llaves `{}` donde se declaran.
+
+Luego, es correcto usar `{}` para crear bloques de código. Sí, sin necesidad de `if` o `function`. Y estas crean un nuevo ámbito. Así que dentro podemos crear variables con `let` que sólo serán accesibles dentro de ese bloque.
+
+Al final lo que ocurre es que en cada ámbito, aunque puedan ser accesibles las de fuera, estamos creando nuevas variables con el mismo nombre. Así que, en el caso de `a`, la variable que se usa es la de dentro de la función. Y en el caso de `b`, la variable que se usa es la de dentro del bloque `{}`.
+
+Y así el resultado final es `70`.
+
+---
 
 ![Godzilla programando](@/images/16.webp)
 
