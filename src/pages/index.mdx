@@ -11,6 +11,94 @@ export async function getStaticProps() {
 
 ---
 
+![Aparece midudev sonriendo al lado de su estrella de la fama de GitHub](@/images/18.webp)
+
+## Mejora tu lógica de programación, el renacimiento de Angular, novedades GitHub Universe y salseos... {{ date: '2023-10-03T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)**<br /><br />
+> HOY a las 18H: **REVISIÓN de PORTFOLIOS y WEBS de la COMUNIDAD**<br />
+> MAÑANA 14 noviembre 18H: **CURSO de CSS: Animaciones desde cero**<br />
+
+###  🔥 Angular 17, el renacimiento del framework
+
+**¡Nueva versión de Angular!** Y de las importantes. Ya no sólo por su **cambio de imagen** y el lanzamiento de una [renovada documentación](https://angular.dev/)...
+
+También trae una nueva sintaxis que viene a reemplazar las directivas de control. Por ejemplo, para condicionales antes hacíamos esto:
+
+```html
+<div *ngIf="loggedIn; else anonymousUser">
+  The user is logged in
+</div>
+<ng-template #anonymousUser>
+  The user is not logged in
+</ng-template>
+```
+
+Y ahora podremos hacer esto:
+
+```
+@if (loggedIn) {
+  The user is logged in
+} @else {
+  The user is not logged in
+}
+```
+
+Menos verboso, sintaxis más clara y que, además, viene con mejoras de rendimiento. Y no es el único cambio. **Vite por defecto** como empaquetador, nuevas vistas aplazables con `@defer`, soporte experimental de _View Transitions_...
+
+### 👨‍💻 Reto de JavaScript
+
+Nos han pasado un código y nos preguntan **qué saldrá en consola al ejecutar este código**. ¿`1`? ¿`2`? ¿`1` y `2`? ¿O no aparecerá nada?
+
+```javascript
+const delay = (ms) =>
+  new Promise(resolve => setTimeout(resolve, ms))
+
+const p1 = delay(500).then(() => {
+  console.log('1')
+});
+
+const p2 = delay(300).then(() => {
+  console.log('2')
+});
+
+await Promise.race([p1, p2])
+```
+
+### 🧠 Mejora tu lógica de programación
+
+¡Ya está en marcha **Codember**! Una web con **retos de programación para mejorar tu lógica**. Es como un juego interactivo, donde entras a una terminal y tienes que investigar para encontrar los retos y los secretos.
+
+**Es totalmente gratuito** y puedes solucionar los retos en cualquier lenguaje de programación. **¡[Entra en Codember](https://codember.dev/)!**
+
+### 🐙 ¡Novedades GitHub Universe y Copilot!
+
+**La semana pasada estuve en San Francisco 🇺🇸** para asistir a la **GitHub Universe 2023**, el evento para programadores de _GitHub_.
+
+Casi todas las novedades han sido respecto a _Copilot_. Lo más importante es que pronto **[lo vamos a tener integrado en la web de _GitHub_](https://twitter.com/midudev/status/1722306396161781785)** y podremos: crear _Pull Request_, preguntar sobre el código del repositorio y detectar vulnerabilidades automáticamente.
+
+Más novedades:
+- ¡**No habrá subida de precio de Copilot** con todas las nuevas funcionalidades!
+- [Primer vistazo a Copilot Workspace.](https://twitter.com/midudev/status/1722313419364376617) Le pasas una _issue_ y te crea todo el código necesario para resolverla. 🤯 Sin fecha confirmada de lanzamiento.
+- **Copilot Chat llega a Diciembre 2023** para todos los usuarios.
+- **Extensión para los IDE de JetBrains** ya disponible en beta para Copilot Chat.
+- Copilot también llegará a las aplicaciones móviles.
+- Podremos entrenar nuestras propias versiones de Copilot con nuestro código y documentación.
+- [Nueva fuente para programadores](https://twitter.com/midudev/status/1723008228374540407).
+- [Ver tour virtual de las oficinas de GitHub](https://twitter.com/midudev/status/1723073598636666907).
+
+### 🍅 ¡Salseos tech!
+
+- 🔥 [Snap ha echado a 20 Product Managers](https://www.engadget.com/snap-lays-off-20-product-managers-to-speed-up-decision-making-071010069.html) para... ¡tomar decisiones más rápido! Igual el problema no son los PM, pero tener un producto que siga interesando a la gente...
+- 🏋️‍♂️ Se quejan que [`create-react-app` tiene demasiadas dependencias](https://twitter.com/tsoding/status/1723444810961318017). Más de 1000 dependencias para crear un _Hola Mundo_ en React. Ya no es un paquete que esté recomendado pero hay que tener en cuenta que viene linter, formateador, empaquetador, test runner...
+- ⚛️ Ya está disponible [la encuesta State of React 2023](https://survey.devographics.com/es-ES/survey/state-of-react/2023). Para que votéis lo que os gusta, lo que no os gusta de React y lo que esperáis en su futuro.
+
+### ✅ Solución al reto de JavaScript
+
+La respuesta es que veremos `1` y `2`. Aunque `Promise.race` devuelve la primera promesa que se resuelve, **no cancela las otras promesas**. Así que, aunque `p2` se resuelva después, el `console.log` de la promesa `p1` se ejecutará igualmente.
+
+---
+
 ![Un programador con un triangulo de fondo](@/images/17.webp)
 
 ## Un empleado de Vercel la lía, modo oscuro en CSS más fácil, GitHub pierde millones con Copilot... {{ date: '2023-10-03T00:00Z' }}
