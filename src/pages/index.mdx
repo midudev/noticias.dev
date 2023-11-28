@@ -11,6 +11,63 @@ export async function getStaticProps() {
 
 ---
 
+![El logo de CSS 3 tachado y el nuevo de CSS4 aparece](@/images/20.webp)
+
+## ¡Pronto CSS 4! ¿Google ataca a Firefox? El futuro de JavaScript... {{ date: '2023-11-28T00:00Z' }}
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)**<br /><br />
+> HOY a las 18H: **CHARLANDO con HÉCTOR de LEÓN: SALSEOS y PROGRAMACIÓN**<br />
+> MAÑANA 29 noviembre 18H: **TUTORIAL de ANGULAR 17 desde cero**<br />
+> JUEVES 30 noviembre 18H: **DESARROLLO APP que transforma DIBUJOS en CÓDIGO**<br />
+> VIERNES 1 diciembre 16H: **AdventJS: Retos de programación de Navidad**<br />
+> MARTES 5 diciembre 18H: **TALLER de UX y FIGMA con CARMEN ANSIO**<br />
+
+Recuerda que si quieres mejorar tu lógica de programación mientras te diviertes, tienes [Codember](https://codember.dev/). Es un **juego con retos de programación y secretos**. Totalmente **gratis**. Entra a la web: https://codember.dev/
+
+### 🆕 ¡Por fin va a llegar CSS4! Te lo cuento...
+
+- 🤔 Parecía que nunca llegaría una nueva versión de CSS. La última se lanzó en 2009 y es la mítica versión 3.
+
+- 📝 Pero... ¡[en 2020 se inició una conversación](https://github.com/w3c/csswg-drafts/issues/4770) sobre la posibilidad de sacar una nueva versión!
+
+- 😅 Ha pasado mucho tiempo, y hasta una pandemia mundial en medio, pero en las últimas semanas han habido avances y [se ha confirmado que han vuelto a retomar la conversación.](https://github.com/w3c/csswg-drafts/issues/4770#issuecomment-1802342332)
+
+- 💡 ¿Y por qué? Primero, un tema de márketing, para conseguir de nuevo una oleada de hype con esta versión. Y luego por un tema técnico, para [aglutinar las features que tienen sentido](https://github.com/orgs/CSS-Next/projects/1/views/2) y así poder llegar a un acuerdo todos los navegadores a lo que se debe aspirar.
+
+### 👨‍💻 Reto de JavaScript
+
+Hemos encontrado este código de JavaScript y nos preguntan qué aparecerá en la salida de la consola. ¿Lo sabes?
+
+```javascript
+console.log(!!null)
+console.log(!!"")
+console.log(!!1)
+```
+
+### 📰 ¡Noticias y novedades en el mundo de JavaScript!
+
+- 🔥 ¡El futuro de JavaScript está en juego! Responde la [encuesta del State of JavaScript](https://survey.devographics.com/es-ES/survey/state-of-js/2023).
+
+- 📘 [Nuevo TypeScript 5.3](https://devblogs.microsoft.com/typescript/announcing-typescript-5-3/) y trae cositas interesantes: mejoras de narrowing al usar `switch (true)` y al comparar booleanos. Y, como siempre, muchas mejoras de rendimiento.
+
+- 🤖 Google ha anunciado su competidor de GitHub Copilot. Se llama Duet AI y por ahora está en beta cerrada. [Puedes apuntarte aquí](https://cloud.google.com/duet-ai).
+
+### 🍅 ¡El salseo! ¿Google atacando a Firefox?
+
+En los últimos días, hay gente [en Reddit que se ha quejado que YouTube funciona lento en navegadores que no son Chrome ni Edge](https://www.reddit.com/r/firefox/comments/17zdpkl/this_behaviour_from_google_is_beyond_disgusting/?context=3). Algo que han notado justamente los [usuarios de Firefox](https://www.reddit.com/r/firefox/comments/17ywbjj/comment/k9w3ei4/?utm_source=reddit&utm_medium=web2x&context=3).
+
+Al final, realmente, es que con **las últimas medidas de YouTube de endurecer sus medidas anti-adblocker**, se pone un vídeo envuelto en un `<div class="ad-interrupting">` y se hace un timeout de 5 segundos para esperar que el vídeo se cargue. Como Firefox elimina el `<div>` se produce ese timeout de 5 segundos y parece que carga más lento.
+
+Así que ya vemos que **no es algo dirigido a Firefox** pero sí que afectará a ciertas adblockers o navegadores que eliminen esos elementos de la web.
+
+### ✅ Solución al reto de JavaScript
+
+La respuesta correcta es `false`, `false` y `true`. ¿Por qué? El operador `!` niega el valor que tiene delante pero antes de hacerlo, **convierte el valor a booleano.** Por lo tanto `null` es _falsy_, con `!` lo pasamos a `true` y con el segundo `!` lo pasamos a `false`.
+
+Lo mismo pasa con `""` pero en el último `1` es _truthy_, el primer `!` lo pasa a `false` y el segundo `!` lo pasa a `true`.
+
+---
+
 ![Alguien sale corriendo de las oficinas en llamas de OpenAI](@/images/19.webp)
 
 ## ¡TERREMOTO en OpenAI! Despido de Sam Altman y Microsoft se mete por medio... {{ date: '2023-11-21T00:00Z' }}
