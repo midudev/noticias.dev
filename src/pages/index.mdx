@@ -11,6 +11,73 @@ export async function getStaticProps() {
 
 ---
 
+![](@/images/21.webp)
+
+## 
+
+> **[Próximos directos en Twitch 🟣](https://twitch.tv/midudev)**<br /><br />
+> HOY a las 18H: **DESARROLLO desde cero para REALTIME (multijugador, chats y más)**<br />
+> MAÑANA 13 diciembre 18H: **AUTH con NEXT 14 y rutas privadas**<br />
+> LUNES 18 diciembre 18H: **NOTICIAS de JAVASCRIPT**<br />
+
+¡Disfruta de los retos de programación del AdventJS! [¡Entra en la web!](https://adventjs.dev)
+
+## ¡Nueva IA de Google! Astro 4, ChatGPT está tonto, Meta saca un killer de Tailwind (sale mal)
+
+### Noticias
+
+- 🆕 [Se ha lanzado Astro 4](https://astro.build/blog/astro-4/). Trae internacionalización, nuevas View Transitions, mejoras de rendimiento. ¿Por qué una major? Porque migra a Vite 5.
+
+- 🎨 [Todo lo nuevo de CSS este 2023 en un sólo post](https://developer.chrome.com/blog/css-wrapped-2023?hl=es-419), gracias a la gente de Google. Nuevas media queries, animaciones, selectores, propiedades, colores...
+
+- 😬 Hablando de estilos, [Meta ha lanzado StyleX, un nuevo sistema para trabajar con estilos en proyectos de _React_](https://stylexjs.com/blog/introducing-stylex/). A mi no me convence personalmente pero ya lo están usando en _Facebook_, _WhatsApp_, _Instagram_ y _Threads_.
+
+- 🔄 Si tienes que crear unos **diagramas con relaciones**, ojo con este [recurso para hacerlo con TypeScript](https://tsdiagram.com/). Ojalá algo así en mis tiempos de universidad.
+
+### Reto de JavaScript
+
+Nos han pasado este código de JavaScript y nos preguntan qué aparecerá en la salida de la consola. ¿Lo sabes?
+
+```javascript
+let a = 3
+let b = new Number(3)
+let c = 3
+
+console.log(a == b)
+console.log(a === b)
+console.log(b === c)
+```
+
+### Google lanza Gemini, su nueva IA
+
+- 🤖 [Google ha lanzado Gemini](https://deepmind.google/technologies/gemini/#introduction), su nueva IA. Segúns sus propios datos saca, en la mayoría de los casos, mejores puntuaciones que GPT4.
+
+- 🔥 Es multimodal, así que funciona para generar texto, imagen, vídeo y hasta audio.
+
+- 👀 Sacaron un [vídeo demostración donde parecía que en tiempo real](https://www.youtube.com/watch?v=UIZAiXYceBI) la IA se aduecuaba a lo que estaba viendo...
+
+- 😅 Pero al final resultó ser un [vídeo bastante cocinado paso a paso](https://developers.googleblog.com/2023/12/how-its-made-gemini-multimodal-prompting.html), más para márketing que algo real.
+
+- 👍 Igualmente tiene bastante buena pinta. Google Bard ya uso Gemini PRO y [hoy mismo ha salido la API para que puedas probarlo en tus proyectos.](https://blog.google/technology/ai/gemini-api-developers-cloud/)
+
+## 🥫 Salseos tech
+
+- 🙃 Si últimamente ChatGPT te parece que anda tonto o vago, no es tu idea. Lo han confirmado en [OpenAI que están trabajando para solucionar el problema.](https://twitter.com/ChatGPTapp/status/1732979491071549792)
+
+- 🤔 [¿Qué hacen 100.000 trabajadores en Spotify?](https://www.reddit.com/r/NoStupidQuestions/comments/18bj68z/what_do_10000_employees_at_spotify_do/) Eso se preguntan en Reddit. Alguien que trabajó allí dice que [había un equipo de 15 personas para 2 botones](https://www.reddit.com/r/NoStupidQuestions/comments/18bj68z/comment/kc5ecxl/?utm_source=share&utm_medium=web2x&context=3). ¿Te parece poco? Bueno, pues depende del botón.
+
+- 🎇 ¿Sería productivo trabajando 15 horas? En [este post de Twitter, un emprendedor se jacta de estar viviendo con su compañeros y estar trabajando en jornadas de 15 horas](https://twitter.com/torrenegra/status/1732074512143753559). Yo no soy productivo ni 8 horas. ¿Qué opinas?
+
+### ✅ Solución al reto de JavaScript
+
+La respuesta correcta es `true`, `false` y `false`. ¿Por qué? Porque `a` y `c` son números y `b` es de `typeof` `'object'`.
+
+Pero entonces... ¿Por qué es `true` la primera comparación? La **coerción de tipos** en este caso hace que el objeto `b` se convierta a número y, como tienen el mismo valor, la comparación es `true`.
+
+Por cierto, nunca uses `new Number()`. :P
+
+---
+
 ![El logo de CSS 3 tachado y el nuevo de CSS4 aparece](@/images/20.webp)
 
 ## ¡Pronto CSS 4! ¿Google ataca a Firefox? El futuro de JavaScript... {{ date: '2023-11-28T00:00Z' }}
