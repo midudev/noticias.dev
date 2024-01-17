@@ -4,7 +4,7 @@
         <title>noticias.dev</title>
         <link>https://noticias.dev</link>
         <description>Newsletter para programadores y desarrolladores web. 100% gratis. Todos los martes.</description>
-        <lastBuildDate>Wed, 21 Jun 2023 10:19:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jan 2024 12:03:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,12 +14,1304 @@
         </image>
         <copyright>Las marcas registradas son de sus respectivos dueños.</copyright>
         <item>
+            <title><![CDATA[Microsoft supera a Apple, el lenguaje del año y la pesadilla de las Cookies]]></title>
+            <link>https://noticias.dev/#microsoft-supera-a-apple-el-lenguaje-del-año-y-la-pesadilla-de-las-cookies</link>
+            <guid>https://noticias.dev/#microsoft-supera-a-apple-el-lenguaje-del-año-y-la-pesadilla-de-las-cookies</guid>
+            <pubDate>Tue, 17 Jan 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"microsoft-supera-a-apple-el-lenguaje-del-año-y-la-pesadilla-de-las-cookies","title":"Microsoft supera a Apple, el lenguaje del año y la pesadilla de las Cookies","date":"2023-01-17T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Logos de Apple y Microsoft encima de gráficas de acciones de bolsa subiendo" loading="lazy" width="1024" height="512" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.8fcbc1a1.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.8fcbc1a1.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.8fcbc1a1.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.8fcbc1a1.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.8fcbc1a1.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.8fcbc1a1.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.8fcbc1a1.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.8fcbc1a1.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.8fcbc1a1.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.8fcbc1a1.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong><br/><br/>
+HOY a las 18H: <strong>CURSO GIT + GITHUB para contribuir a PROYECTOS</strong><br/>
+MAÑANA 18 enero 18H: <strong>BASE DE DATOS SQL + BACKEND: SISTEMA de VOTACIÓN</strong><br/>
+LUNES 22 enero 18H: <strong>NOTICIAS de JAVASCRIPT</strong><br/></p>
+</blockquote>
+<h3 id="-noticias-de-programación">📰 Noticias de programación</h3>
+<ul>
+<li>
+<p>🏆 <strong>Microsoft SUPERA a APPLE en capitalización del mercado</strong>. Un giro ¿inesperado? en la industria. Lo cierto es que la empresa de Redmond lleva tiempo haciendo las cosas bien. Detalles en <a href="https://twitter.com/TrungTPhan/status/1746583253392482564">Twitter</a>.</p>
+</li>
+<li>
+<p>💻 <strong>El lenguaje del año según TIOBE es...</strong> C#. A mi me parece un top bastante polémico y sin mucho sentido (sólo hay que ver que Typescript está en el puesto 35 por debajo de lenguajes como... X++). Revisa igualmente el <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a> si te interesa.</p>
+</li>
+<li>
+<p>🌟 Descubre el <strong>TOP 100  de 2023</strong> en <a href="https://codepen.io/2023/popular">Codepen</a>. Inspiración y creatividad en su máxima expresión.</p>
+</li>
+<li>
+<p>🎉 Lo mejor del <strong>CES 2024</strong>: <a href="https://twitter.com/AngryTomtweets/status/1746539718139851154">Innovaciones y tecnología de punta</a>. Un coche volador, una tele transparente y un cacharro con IA...</p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript">🔥 Reto de JavaScript</h3>
+<p>Nos han pasado este código de JavaScript y nos preguntan qué aparecerá en la salida de la consola. ¿Lo sabes?</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">number</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">NaN</span></span>
+<span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">check</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> number </span><span style="color: var(--shiki-token-keyword)">===</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">NaN</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(check</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">Number</span><span style="color: var(--shiki-token-function)">.isNaN</span><span style="color: var(--shiki-color-text)">(number))</span></span>
+<span></span></code></pre>
+<p>Tienes la solución al final del post.</p>
+<h3 id="-la-pesadilla-de-las-cookies-no-termina">🍪 La pesadilla de las Cookies no termina</h3>
+<p>Supongo que te habrás dado cuenta que, de repente, muchos periódicos y blogs de España <strong>han empezado a pedirte que aceptes las cookies o... ¡qué pagues!</strong></p>
+<p>¿Por qué? ¿Qué está pasando? <strong>¿Es legal?</strong> ¿Qué podemos hacer? Sí, es legal según la propia <a href="https://www.aepd.es/guias/guia-cookies.pdf">guía sobre el uso de las cookies.</a></p>
+<p><strong>Otra cosa es que sea cómodo para el usuario o ético.</strong> Igualmente, este mismo año Google Chrome va a acabar con las cookies de terceros así que... a ver con qué nos sorprenden en el corto plazo.</p>
+<p>¿Quieres soluciones? Toma 3:</p>
+<ol>
+<li>Instala <a href="https://www.mozilla.org/firefox/new/">Firefox</a> o <a href="https://brave.com/">Brave</a></li>
+<li>Extensiones como <a href="https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies">I Still Don&#x27;t Care About Cookies</a> o <a href="https://chromewebstore.google.com/detail/todav%C3%ADa-no-me-importan-la/edibdbjcniadpccecjdfdjjppcpchdlm">Todavía no me importan las cookies</a></li>
+<li>Considera desactivar JavaScript en esas páginas.</li>
+</ol>
+<h3 id="-solución-al-reto-de-javascript">✅ Solución al reto de JavaScript</h3>
+<p>La respuesta correcta es <code>false true</code>. ¿Por qué? Porque <code>NaN</code> es un <strong>valor especial que no es igual a nada</strong>, ni siquiera a sí mismo. Por eso <code>NaN == NaN</code> es <code>false</code>.</p>
+<p>Esto no es un error de JavaScript, como mucha gente cree. Es un <a href="https://en.wikipedia.org/wiki/NaN#Comparison_with_NaN">comportamiento esperado según la especificación IEEE 754.</a>.</p>
+
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Gente fundida trabajando demasiadas horas en el trabajo" loading="lazy" width="1792" height="1024" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.87a57da3.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.87a57da3.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.87a57da3.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.87a57da3.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.87a57da3.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.87a57da3.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.87a57da3.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.87a57da3.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.87a57da3.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.87a57da3.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong><br/><br/>
+HOY a las 18H: <strong>DESARROLLO desde cero para chats, multijugador y más</strong><br/>
+MAÑANA 13 diciembre 18H: <strong>AUTH con NEXT 14 y rutas privadas</strong><br/>
+LUNES 18 diciembre 18H: <strong>NOTICIAS de JAVASCRIPT</strong><br/></p>
+</blockquote>
+<p>¡Disfruta de los retos de programación del AdventJS! <a href="https://adventjs.dev">¡Entra en la web!</a></p>
+<h3 id="-noticias-de-programación-1">📰 Noticias de programación</h3>
+<ul>
+<li>
+<p>🆕 <a href="https://astro.build/blog/astro-4/">Se ha lanzado Astro 4</a>. Trae internacionalización, nuevas View Transitions, mejoras de rendimiento. ¿Por qué una major? Porque migra a Vite 5.</p>
+</li>
+<li>
+<p>🎨 <a href="https://developer.chrome.com/blog/css-wrapped-2023?hl=es-419">Todo lo nuevo de CSS este 2023 en un sólo post</a>, gracias a la gente de Google. Nuevas media queries, animaciones, selectores, propiedades, colores...</p>
+</li>
+<li>
+<p>😬 Hablando de estilos, <a href="https://stylexjs.com/blog/introducing-stylex/">Meta ha lanzado StyleX, un nuevo sistema para trabajar con estilos en proyectos de <em>React</em></a>. A mi no me convence personalmente pero ya lo están usando en <em>Facebook</em>, <em>WhatsApp</em>, <em>Instagram</em> y <em>Threads</em>.</p>
+</li>
+<li>
+<p>🔄 Si tienes que crear unos <strong>diagramas con relaciones</strong>, ojo con este <a href="https://tsdiagram.com/">recurso para hacerlo con TypeScript</a>. Ojalá algo así en mis tiempos de universidad.</p>
+</li>
+<li>
+<p>🔥 ¿Necesitas un DOMINIO para tu proyecto? <strong>Consigue tu .dev o .com por sólo 6€ al año.</strong> Usa el código <em>DONDOMINIOMOLA</em> en <a href="https://midu.link/dondominio">https://midu.link/dondominio</a></p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript-1">👨‍💻 Reto de JavaScript</h3>
+<p>Nos han pasado este código de JavaScript y nos preguntan qué aparecerá en la salida de la consola. ¿Lo sabes?</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> a </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">3</span></span>
+<span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> b </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">new</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">Number</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-constant)">3</span><span style="color: var(--shiki-color-text)">)</span></span>
+<span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> c </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">3</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(a </span><span style="color: var(--shiki-token-keyword)">==</span><span style="color: var(--shiki-color-text)"> b)</span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(a </span><span style="color: var(--shiki-token-keyword)">===</span><span style="color: var(--shiki-color-text)"> b)</span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(b </span><span style="color: var(--shiki-token-keyword)">===</span><span style="color: var(--shiki-color-text)"> c)</span></span>
+<span></span></code></pre>
+<h3 id="-google-lanza-gemini-su-nueva-ia">♊ Google lanza Gemini, su nueva IA</h3>
+<ul>
+<li>
+<p>🤖 <a href="https://deepmind.google/technologies/gemini/#introduction">Google ha lanzado Gemini</a>, su nueva IA. Segúns sus propios datos saca, en la mayoría de los casos, mejores puntuaciones que GPT4.</p>
+</li>
+<li>
+<p>📸 Es multimodal, así que funciona para generar texto, imagen, vídeo y hasta audio.</p>
+</li>
+<li>
+<p>👀 Sacaron un <a href="https://www.youtube.com/watch?v=UIZAiXYceBI">vídeo demostración donde parecía que en tiempo real</a> la IA se aduecuaba a lo que estaba viendo...</p>
+</li>
+<li>
+<p>😅 Pero al final resultó ser un <a href="https://developers.googleblog.com/2023/12/how-its-made-gemini-multimodal-prompting.html">vídeo bastante cocinado paso a paso</a>, más para márketing que algo real.</p>
+</li>
+<li>
+<p>👍 Igualmente tiene bastante buena pinta. Google Bard ya uso Gemini PRO y <a href="https://blog.google/technology/ai/gemini-api-developers-cloud/">hoy mismo ha salido la API para que puedas probarlo en tus proyectos.</a></p>
+</li>
+</ul>
+<h3 id="-salseos-tech">🥫 Salseos tech</h3>
+<ul>
+<li>
+<p>🙃 Si últimamente ChatGPT te parece que anda tonto o vago, no es tu idea. Lo han confirmado en <a href="https://twitter.com/ChatGPTapp/status/1732979491071549792">OpenAI que están trabajando para solucionar el problema.</a></p>
+</li>
+<li>
+<p>🤔 <a href="https://www.reddit.com/r/NoStupidQuestions/comments/18bj68z/what_do_10000_employees_at_spotify_do/">¿Qué hacen 100.000 trabajadores en Spotify?</a> Eso se preguntan en Reddit. Alguien que trabajó allí dice que <a href="https://www.reddit.com/r/NoStupidQuestions/comments/18bj68z/comment/kc5ecxl/?utm_source=share&amp;utm_medium=web2x&amp;context=3">había un equipo de 15 personas para 2 botones</a>. ¿Te parece poco? Bueno, pues depende del botón.</p>
+</li>
+<li>
+<p>🎇 ¿Sería productivo trabajando 15 horas? En <a href="https://twitter.com/torrenegra/status/1732074512143753559">este post de Twitter, un emprendedor se jacta de estar viviendo con su compañeros y estar trabajando en jornadas de 15 horas</a>. Yo no soy productivo ni 8 horas. ¿Qué opinas?</p>
+</li>
+</ul>
+<h3 id="-solución-al-reto-de-javascript-1">✅ Solución al reto de JavaScript</h3>
+<p>La respuesta correcta es <code>true</code>, <code>false</code> y <code>false</code>. ¿Por qué? Porque <code>a</code> y <code>c</code> son números y <code>b</code> es de <code>typeof</code> <code>&#x27;object&#x27;</code>.</p>
+<p>Pero entonces... ¿Por qué es <code>true</code> la primera comparación? La <strong>coerción de tipos</strong> en este caso hace que el objeto <code>b</code> se convierta a número y, como tienen el mismo valor, la comparación es <code>true</code>.</p>
+<p>Por cierto, nunca uses <code>new Number()</code>. :P</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[¡Pronto CSS 4! ¿Google ataca a Firefox? El futuro de JavaScript...]]></title>
+            <link>https://noticias.dev/#pronto-css-4-google-ataca-a-firefox-el-futuro-de-javascript</link>
+            <guid>https://noticias.dev/#pronto-css-4-google-ataca-a-firefox-el-futuro-de-javascript</guid>
+            <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"pronto-css-4-google-ataca-a-firefox-el-futuro-de-javascript","title":"¡Pronto CSS 4! ¿Google ataca a Firefox? El futuro de JavaScript...","date":"2023-11-28T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="El logo de CSS 3 tachado y el nuevo de CSS4 aparece" loading="lazy" width="1000" height="500" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.6ce744db.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.6ce744db.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.6ce744db.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.6ce744db.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.6ce744db.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.6ce744db.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.6ce744db.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.6ce744db.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.6ce744db.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.6ce744db.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong><br/><br/>
+HOY a las 18H: <strong>CHARLANDO con HÉCTOR de LEÓN: SALSEOS y PROGRAMACIÓN</strong><br/>
+MAÑANA 29 noviembre 18H: <strong>TUTORIAL de ANGULAR 17 desde cero</strong><br/>
+JUEVES 30 noviembre 18H: <strong>DESARROLLO APP que transforma DIBUJOS en CÓDIGO</strong><br/>
+VIERNES 1 diciembre 16H: <strong>AdventJS: Retos de programación de Navidad</strong><br/>
+MARTES 5 diciembre 18H: <strong>TALLER de UX y FIGMA con CARMEN ANSIO</strong><br/></p>
+</blockquote>
+<p>Recuerda que si quieres mejorar tu lógica de programación mientras te diviertes, tienes <a href="https://codember.dev/">Codember</a>. Es un <strong>juego con retos de programación y secretos</strong>. Totalmente <strong>gratis</strong>. Entra a la web: <a href="https://codember.dev/">https://codember.dev/</a></p>
+<h3 id="-por-fin-va-a-llegar-css4-te-lo-cuento">🆕 ¡Por fin va a llegar CSS4! Te lo cuento...</h3>
+<ul>
+<li>
+<p>🤔 Parecía que nunca llegaría una nueva versión de CSS. La última se lanzó en 2009 y es la mítica versión 3.</p>
+</li>
+<li>
+<p>📝 Pero... ¡<a href="https://github.com/w3c/csswg-drafts/issues/4770">en 2020 se inició una conversación</a> sobre la posibilidad de sacar una nueva versión!</p>
+</li>
+<li>
+<p>😅 Ha pasado mucho tiempo, y hasta una pandemia mundial en medio, pero en las últimas semanas han habido avances y <a href="https://github.com/w3c/csswg-drafts/issues/4770#issuecomment-1802342332">se ha confirmado que han vuelto a retomar la conversación.</a></p>
+</li>
+<li>
+<p>💡 ¿Y por qué? Primero, un tema de márketing, para conseguir de nuevo una oleada de hype con esta versión. Y luego por un tema técnico, para <a href="https://github.com/orgs/CSS-Next/projects/1/views/2">aglutinar las features que tienen sentido</a> y así poder llegar a un acuerdo todos los navegadores a lo que se debe aspirar.</p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript-2">👨‍💻 Reto de JavaScript</h3>
+<p>Hemos encontrado este código de JavaScript y nos preguntan qué aparecerá en la salida de la consola. ¿Lo sabes?</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-keyword)">!!</span><span style="color: var(--shiki-token-constant)">null</span><span style="color: var(--shiki-color-text)">)</span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-keyword)">!!</span><span style="color: var(--shiki-token-string-expression)">&quot;&quot;</span><span style="color: var(--shiki-color-text)">)</span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-keyword)">!!</span><span style="color: var(--shiki-token-constant)">1</span><span style="color: var(--shiki-color-text)">)</span></span>
+<span></span></code></pre>
+<h3 id="-noticias-y-novedades-en-el-mundo-de-javascript">📰 ¡Noticias y novedades en el mundo de JavaScript!</h3>
+<ul>
+<li>
+<p>🔥 ¡El futuro de JavaScript está en juego! Responde la <a href="https://survey.devographics.com/es-ES/survey/state-of-js/2023">encuesta del State of JavaScript</a>.</p>
+</li>
+<li>
+<p>📘 <a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-3/">Nuevo TypeScript 5.3</a> y trae cositas interesantes: mejoras de narrowing al usar <code>switch (true)</code> y al comparar booleanos. Y, como siempre, muchas mejoras de rendimiento.</p>
+</li>
+<li>
+<p>🤖 Google ha anunciado su competidor de GitHub Copilot. Se llama Duet AI y por ahora está en beta cerrada. <a href="https://cloud.google.com/duet-ai">Puedes apuntarte aquí</a>.</p>
+</li>
+</ul>
+<h3 id="-el-salseo-google-atacando-a-firefox">🍅 ¡El salseo! ¿Google atacando a Firefox?</h3>
+<p>En los últimos días, hay gente <a href="https://www.reddit.com/r/firefox/comments/17zdpkl/this_behaviour_from_google_is_beyond_disgusting/?context=3">en Reddit que se ha quejado que YouTube funciona lento en navegadores que no son Chrome ni Edge</a>. Algo que han notado justamente los <a href="https://www.reddit.com/r/firefox/comments/17ywbjj/comment/k9w3ei4/?utm_source=reddit&amp;utm_medium=web2x&amp;context=3">usuarios de Firefox</a>.</p>
+<p>Al final, realmente, es que con <strong>las últimas medidas de YouTube de endurecer sus medidas anti-adblocker</strong>, se pone un vídeo envuelto en un <code>&lt;div class=&quot;ad-interrupting&quot;&gt;</code> y se hace un timeout de 5 segundos para esperar que el vídeo se cargue. Como Firefox elimina el <code>&lt;div&gt;</code> se produce ese timeout de 5 segundos y parece que carga más lento.</p>
+<p>Así que ya vemos que <strong>no es algo dirigido a Firefox</strong> pero sí que afectará a ciertas adblockers o navegadores que eliminen esos elementos de la web.</p>
+<h3 id="-solución-al-reto-de-javascript-2">✅ Solución al reto de JavaScript</h3>
+<p>La respuesta correcta es <code>false</code>, <code>false</code> y <code>true</code>. ¿Por qué? El operador <code>!</code> niega el valor que tiene delante pero antes de hacerlo, <strong>convierte el valor a booleano.</strong> Por lo tanto <code>null</code> es <em>falsy</em>, con <code>!</code> lo pasamos a <code>true</code> y con el segundo <code>!</code> lo pasamos a <code>false</code>.</p>
+<p>Lo mismo pasa con <code>&quot;&quot;</code> pero en el último <code>1</code> es <em>truthy</em>, el primer <code>!</code> lo pasa a <code>false</code> y el segundo <code>!</code> lo pasa a <code>true</code>.</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[¡TERREMOTO en OpenAI! Despido de Sam Altman y Microsoft se mete por medio...]]></title>
+            <link>https://noticias.dev/#terremoto-en-openai-despido-de-sam-altman-y-microsoft-se-mete-por-medio</link>
+            <guid>https://noticias.dev/#terremoto-en-openai-despido-de-sam-altman-y-microsoft-se-mete-por-medio</guid>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"terremoto-en-openai-despido-de-sam-altman-y-microsoft-se-mete-por-medio","title":"¡TERREMOTO en OpenAI! Despido de Sam Altman y Microsoft se mete por medio...","date":"2023-11-21T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Alguien sale corriendo de las oficinas en llamas de OpenAI" loading="lazy" width="1792" height="1024" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.0d829bc7.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.0d829bc7.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.0d829bc7.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.0d829bc7.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.0d829bc7.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.0d829bc7.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.0d829bc7.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.0d829bc7.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.0d829bc7.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.0d829bc7.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong><br/><br/>
+HOY a las 18H: <strong>CHARLANDO con FERNANDO HERRERA</strong><br/>
+MAÑANA 22 noviembre 20H: <strong>TUTORIAL de ANGULAR 17 desde CERO</strong><br/>
+JUEVES 23 noviembre 20H: <strong>CURSO NEXT.JS 14 - SERVER ACTIONS</strong><br/>
+LUNES 27 noviembre 18H: <strong>NOTICIAS de PROGRAMACIÓN y TECH</strong></p>
+</blockquote>
+<p>¡Ah! Si quieres <a href="https://codember.dev/">mejorar tu lógica de programación, estamos en pleno Codember</a>. Es un <strong>juego con retos de programación y secretos</strong>. Totalmente <strong>gratis</strong>. Entra a la web: <a href="https://codember.dev/">https://codember.dev/</a></p>
+<h3 id="-locura-en-el-mundo-de-la-inteligencia-artificial-openai-en-llamas">🔥 ¡Locura en el mundo de la Inteligencia Artificial! OpenAI en llamas</h3>
+<p>El pasado 17 de noviembre, <strong>Sam Altman era despedido como CEO de OpenAI, la empresa de ChatGPT.</strong> Desde ese momento han pasado MUCHAS cosas que te paso a explicar porque es un momento histórico en el mundo de la IA y la tecnología.</p>
+<p><a href="https://www.youtube.com/watch?v=p4XSrQK19mw">Ver el vídeo con toda la explicación</a></p>
+<h4 id="17-de-noviembre-el-despido">17 de noviembre... ¡El despido!</h4>
+<ul>
+<li><a href="https://twitter.com/OpenAI/status/1725611900262588813">👋 OpenAI despide a Sam Altman</a> al considerar que Altman no era &quot;consistentemente sincero en sus comunicaciones&quot;.</li>
+<li><em>Mira Murati</em>, CTO de OpenAI, pasa a ser la CEO de la empresa.</li>
+<li><em>Greg Brockman</em>, cofundador y presidente de OpenAI, también es eliminado del Board of Directors. <a href="https://twitter.com/gdb/status/1725736242137182594">Su reacción en X</a>.</li>
+<li>👀 <strong>El consejo de administración son 6 personas contando a Sam y Greg.</strong> Los otros 4 son los que votan para despedir a Altman. Entre ellos están el CEO de Quora, competidor de ChatGPT, y Ilya Sutskever, co-fundador y amigo de Sam.</li>
+<li>🕵️‍♂️ ¿Razones reales del despido? <a href="https://twitter.com/dzhng/status/1725637133883547705">Teoría de problemas de seguridad</a>, que <a href="https://twitter.com/FreddieRaynolds/status/1725656473080877144">ignoraba los avisos de los ingenieros</a> o que <a href="https://twitter.com/rowancheung/status/1725961157863755790">había conseguido una Inteligencia Artificial General</a> (AGI).</li>
+</ul>
+<h4 id="18-y-19-de-noviembre-el-rollback-️">18 y 19 de noviembre, el rollback ♻️</h4>
+<ul>
+<li>Primeros rumores que dice que <a href="https://twitter.com/rowancheung/status/1726011179766816815">Sam Altman volvería a ser CEO según The Verge.</a></li>
+<li>Todo el board debe dimitir si quiere que Sam vuelva. <a href="https://twitter.com/rowancheung/status/1726048462884737099">Hay un ultimatúm.</a></li>
+<li>📸 <a href="https://twitter.com/sama/status/1726345564059832609/photo/1">Sam Altman publica una foto en las oficinas de OpenAI</a> diciendo que será la última vez que tenga un pase de invitado. ¿Es porque vuelve como CEO?</li>
+<li>✍️ Parece que <a href="https://twitter.com/blader/status/1726058402542244106">se llega a un acuerdo para que vuelva</a>. Pero...</li>
+</ul>
+<h4 id="microsoft-se-queda-con-sam-el-ex-ceo-de-twitch-a-escena">¡Microsoft se queda con Sam! El ex-CEO de Twitch a escena</h4>
+<ul>
+<li>😮 Emmett Shear, ex-CEO de Twitch, confirma que <a href="https://twitter.com/eshear/status/1726526112019382275">será el nuevo CEO de OpenAI</a>. Por sorpresa.</li>
+<li>😱 Satya Nadella, CEO de Microsoft, confirma que Sam Altman y Greg Brockman fundarán una empresa subsidiaria dentro de Microsoft y serán <a href="https://twitter.com/satyanadella/status/1726509045803336122">el nuevo CEO y presidente de la misma.</a></li>
+<li>☄️ Elon Musk, bastante activo en todo momento, <a href="https://twitter.com/elonmusk/status/1726666446355517448">publica un vídeo editado con el Risitas para dar su punto de vista.</a></li>
+<li>Ilya Sutskever <a href="https://twitter.com/ilyasut/status/1726590052392956028">se arrepiente</a> de haber despedido a Sam Altman.</li>
+<li>Mira Murati, CTO de OpenAI, dice que <a href="https://twitter.com/miramurati/status/1726542556203483392">&quot;OpenAI no es nada sin su gente&quot;</a>.</li>
+<li>📧 <a href="https://www.xataka.com/empresas-y-economia/openai-se-hunde-490-empleados-se-amotinan-quieren-que-sam-altman-vuelva-como-ceo">738 empleados de OpenAI</a> (de unos 770 en total) suscriben una carta pidiendo al consejo de administración que dimita y que devuelva a Sam a su puesto original.</li>
+</ul>
+<p>¡Y por ahora así ha quedado la cosa! Es un resumen rápido, pero te recuerdo que tengo un <a href="https://www.youtube.com/watch?v=p4XSrQK19mw">vídeo donde te explico todo el salseo.</a></p>
+<h3 id="-reto-de-javascript-3">👨‍💻 Reto de JavaScript</h3>
+<p>Tenemos este código que mezcla <code>var</code> y <code>let</code> y nos preguntan qué aparecerá en la salida de la consola. ¿Lo sabes?</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">function</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">greetUser</span><span style="color: var(--shiki-color-text)">() {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(userAge);</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(userName);</span></span>
+<span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-keyword)">var</span><span style="color: var(--shiki-color-text)"> userName </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&quot;Carlos&quot;</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> userAge </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">26</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-function)">greetUser</span><span style="color: var(--shiki-color-text)">();</span></span>
+<span></span></code></pre>
+<h3 id="-noticias-de-programación-2">📰 Noticias de Programación</h3>
+<ul>
+<li><a href="https://vitejs.dev/blog/announcing-vite5">⚡ ¡Ha salido la versión 5.0 de Vite!</a> El empaquetador de aplicaciones web más importante del momento. Trae muchas mejores de rendimiento.</li>
+<li>🆕 CSS trae una <a href="https://blog.stephaniestimac.com/posts/2023/10/css-text-wrap/">nueva propiedad llamada <code>text-wrap: pretty</code></a>. Está pensada para hacer que los párrafos queden mejor y evitar líneas finales con una sola palabra.</li>
+<li>🔍 <a href="https://prettier.io/blog/2023/11/13/3.1.0">Prettier ha sacado la versión 3.1</a>, con soporte para la nueva sintaxis de Angular y un modo experimental para ternarias.</li>
+<li>🤯 Y hablando de formateadores de código, <a href="https://twitter.com/biomejs/status/1726365565348991346">Biome (una alternativa de Prettier hecha con Rust) ya pasa el 95% de los tests de JavaScript de Prettier</a>. ¡Es mucho más rápido y tiene muy buena pinta!</li>
+<li>👨‍💻 ¿Quieres crear animaciones a través del Scroll? Pues lo puedes hacer sólo con CSS. <a href="https://www.youtube.com/watch?v=RwjgfNX41TE">¡En este curso te explico cómo!</a></li>
+</ul>
+<h3 id="-solución-al-reto-de-javascript-3">✅ Solución al reto de JavaScript</h3>
+<p>La respuesta correcta es que tendremos un error <code>ReferenceError: Cannot access &#x27;userAge&#x27; before initialization</code>. ¿Por qué? Las variables <code>let</code> y <code>const</code> tienen un <strong>temporal dead zone</strong>.</p>
+<p>Es decir, que no podemos acceder a ellas hasta que no se inicializan. En este caso, hasta que no se declara la variable <code>userAge</code> no podemos acceder a ella.</p>
+<p>Con <code>var</code> no ocurre y, aunque devolvería <code>undefined</code>, al menos no daría un error.</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[Mejora tu lógica de programación, el renacimiento de Angular, novedades GitHub Universe y salseos...]]></title>
+            <link>https://noticias.dev/#mejora-tu-lógica-de-programación-el-renacimiento-de-angular-novedades-github-universe-y-salseos</link>
+            <guid>https://noticias.dev/#mejora-tu-lógica-de-programación-el-renacimiento-de-angular-novedades-github-universe-y-salseos</guid>
+            <pubDate>Tue, 14 Nov 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"mejora-tu-lógica-de-programación-el-renacimiento-de-angular-novedades-github-universe-y-salseos","title":"Mejora tu lógica de programación, el renacimiento de Angular, novedades GitHub Universe y salseos...","date":"2023-11-14T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Aparece midudev sonriendo al lado de su estrella de la fama de GitHub" loading="lazy" width="1000" height="567" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.23acec7d.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.23acec7d.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.23acec7d.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.23acec7d.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.23acec7d.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.23acec7d.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.23acec7d.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.23acec7d.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.23acec7d.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.23acec7d.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong><br/><br/>
+HOY a las 18H: <strong>REVISIÓN de PORTFOLIOS y WEBS de la COMUNIDAD</strong><br/>
+MAÑANA 14 noviembre 18H: <strong>CURSO de CSS: Animaciones desde cero</strong><br/></p>
+</blockquote>
+<h3 id="-angular-17-el-renacimiento-del-framework">🔥 Angular 17, el renacimiento del framework</h3>
+<p><strong>¡Nueva versión de Angular!</strong> Y de las importantes. Ya no sólo por su <strong>cambio de imagen</strong> y el lanzamiento de una <a href="https://angular.dev/">renovada documentación</a>...</p>
+<p>También trae una nueva sintaxis que viene a reemplazar las directivas de control. Por ejemplo, para condicionales antes hacíamos esto:</p>
+<pre><code class="language-html"><span><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">div</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">*ngIf</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;loggedIn; else anonymousUser&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
+<span><span style="color: var(--shiki-color-text)">  The user is logged in</span></span>
+<span><span style="color: var(--shiki-color-text)">&lt;/</span><span style="color: var(--shiki-token-string-expression)">div</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
+<span><span style="color: var(--shiki-color-text)">&lt;</span><span style="color: var(--shiki-token-string-expression)">ng-template</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">#anonymousUser</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
+<span><span style="color: var(--shiki-color-text)">  The user is not logged in</span></span>
+<span><span style="color: var(--shiki-color-text)">&lt;/</span><span style="color: var(--shiki-token-string-expression)">ng-template</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
+<span></span></code></pre>
+<p>Y ahora podremos hacer esto:</p>
+<pre><code>@if (loggedIn) {
+  The user is logged in
+} @else {
+  The user is not logged in
+}
+</code></pre>
+<p>Menos verboso, sintaxis más clara y que, además, viene con mejoras de rendimiento. Y no es el único cambio. <strong>Vite por defecto</strong> como empaquetador, nuevas vistas aplazables con <code>@defer</code>, soporte experimental de <em>View Transitions</em>...</p>
+<h3 id="-reto-de-javascript-4">👨‍💻 Reto de JavaScript</h3>
+<p>Nos han pasado un código y nos preguntan <strong>qué saldrá en consola al ejecutar este código</strong>. ¿<code>1</code>? ¿<code>2</code>? ¿<code>1</code> y <code>2</code>? ¿O no aparecerá nada?</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">delay</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> (ms) </span><span style="color: var(--shiki-token-keyword)">=&gt;</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-keyword)">new</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">Promise</span><span style="color: var(--shiki-color-text)">(resolve </span><span style="color: var(--shiki-token-keyword)">=&gt;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">setTimeout</span><span style="color: var(--shiki-color-text)">(resolve</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> ms))</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">p1</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">delay</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-constant)">500</span><span style="color: var(--shiki-color-text)">)</span><span style="color: var(--shiki-token-function)">.then</span><span style="color: var(--shiki-color-text)">(() </span><span style="color: var(--shiki-token-keyword)">=&gt;</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-string-expression)">&#39;1&#39;</span><span style="color: var(--shiki-color-text)">)</span></span>
+<span><span style="color: var(--shiki-color-text)">});</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">p2</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">delay</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-constant)">300</span><span style="color: var(--shiki-color-text)">)</span><span style="color: var(--shiki-token-function)">.then</span><span style="color: var(--shiki-color-text)">(() </span><span style="color: var(--shiki-token-keyword)">=&gt;</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-string-expression)">&#39;2&#39;</span><span style="color: var(--shiki-color-text)">)</span></span>
+<span><span style="color: var(--shiki-color-text)">});</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-keyword)">await</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">Promise</span><span style="color: var(--shiki-token-function)">.race</span><span style="color: var(--shiki-color-text)">([p1</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> p2])</span></span>
+<span></span></code></pre>
+<h3 id="-mejora-tu-lógica-de-programación">🧠 Mejora tu lógica de programación</h3>
+<p>¡Ya está en marcha <strong>Codember</strong>! Una web con <strong>retos de programación para mejorar tu lógica</strong>. Es como un juego interactivo, donde entras a una terminal y tienes que investigar para encontrar los retos y los secretos.</p>
+<p><strong>Es totalmente gratuito</strong> y puedes solucionar los retos en cualquier lenguaje de programación. <strong>¡<a href="https://codember.dev/">Entra en Codember</a>!</strong></p>
+<h3 id="-novedades-github-universe-y-copilot">🐙 ¡Novedades GitHub Universe y Copilot!</h3>
+<p><strong>La semana pasada estuve en San Francisco 🇺🇸</strong> para asistir a la <strong>GitHub Universe 2023</strong>, el evento para programadores de <em>GitHub</em>.</p>
+<p>Casi todas las novedades han sido respecto a <em>Copilot</em>. Lo más importante es que pronto <strong><a href="https://twitter.com/midudev/status/1722306396161781785">lo vamos a tener integrado en la web de <em>GitHub</em></a></strong> y podremos: crear <em>Pull Request</em>, preguntar sobre el código del repositorio y detectar vulnerabilidades automáticamente.</p>
+<p>Más novedades:</p>
+<ul>
+<li>¡<strong>No habrá subida de precio de Copilot</strong> con todas las nuevas funcionalidades!</li>
+<li><a href="https://twitter.com/midudev/status/1722313419364376617">Primer vistazo a Copilot Workspace.</a> Le pasas una <em>issue</em> y te crea todo el código necesario para resolverla. 🤯 Sin fecha confirmada de lanzamiento.</li>
+<li><strong>Copilot Chat llega a Diciembre 2023</strong> para todos los usuarios.</li>
+<li><strong>Extensión para los IDE de JetBrains</strong> ya disponible en beta para Copilot Chat.</li>
+<li>Copilot también llegará a las aplicaciones móviles.</li>
+<li>Podremos entrenar nuestras propias versiones de Copilot con nuestro código y documentación.</li>
+<li><a href="https://twitter.com/midudev/status/1723008228374540407">Nueva fuente para programadores</a>.</li>
+<li><a href="https://twitter.com/midudev/status/1723073598636666907">Ver tour virtual de las oficinas de GitHub</a>.</li>
+</ul>
+<h3 id="-salseos-tech-1">🍅 ¡Salseos tech!</h3>
+<ul>
+<li>🔥 <a href="https://www.engadget.com/snap-lays-off-20-product-managers-to-speed-up-decision-making-071010069.html">Snap ha echado a 20 Product Managers</a> para... ¡tomar decisiones más rápido! Igual el problema no son los PM, pero tener un producto que siga interesando a la gente...</li>
+<li>🏋️‍♂️ Se quejan que <a href="https://twitter.com/tsoding/status/1723444810961318017"><code>create-react-app</code> tiene demasiadas dependencias</a>. Más de 1000 dependencias para crear un <em>Hola Mundo</em> en React. Ya no es un paquete que esté recomendado pero hay que tener en cuenta que viene linter, formateador, empaquetador, test runner...</li>
+<li>⚛️ Ya está disponible <a href="https://survey.devographics.com/es-ES/survey/state-of-react/2023">la encuesta State of React 2023</a>. Para que votéis lo que os gusta, lo que no os gusta de React y lo que esperáis en su futuro.</li>
+</ul>
+<h3 id="-solución-al-reto-de-javascript-4">✅ Solución al reto de JavaScript</h3>
+<p>La respuesta es que veremos <code>1</code> y <code>2</code>. Aunque <code>Promise.race</code> devuelve la primera promesa que se resuelve, <strong>no cancela las otras promesas</strong>. Así que, aunque <code>p2</code> se resuelva después, el <code>console.log</code> de la promesa <code>p1</code> se ejecutará igualmente.</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[Un empleado de Vercel la lía, modo oscuro en CSS más fácil, GitHub pierde millones con Copilot...]]></title>
+            <link>https://noticias.dev/#un-empleado-de-vercel-la-lía-modo-oscuro-en-css-más-fácil-github-pierde-millones-con-copilot</link>
+            <guid>https://noticias.dev/#un-empleado-de-vercel-la-lía-modo-oscuro-en-css-más-fácil-github-pierde-millones-con-copilot</guid>
+            <pubDate>Tue, 03 Oct 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"un-empleado-de-vercel-la-lía-modo-oscuro-en-css-más-fácil-github-pierde-millones-con-copilot","title":"Un empleado de Vercel la lía, modo oscuro en CSS más fácil, GitHub pierde millones con Copilot...","date":"2023-10-03T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Un programador con un triangulo de fondo" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.5129ca94.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.5129ca94.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.5129ca94.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.5129ca94.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.5129ca94.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.5129ca94.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.5129ca94.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.5129ca94.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.5129ca94.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.5129ca94.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong><br/><br/>
+HOY a las 18H: <strong>CURSO de CSS desde CERO</strong><br/>
+MAÑANA 18 octubre: <strong>Resuelvo PRUEBA TÉCNICA de REACT para Junior y Trainee</strong><br/></p>
+</blockquote>
+<h3 id="-un-empleado-de-vercel-la-lía">🥫 Un empleado de Vercel la lía</h3>
+<p>Vercel es una de las empresas más importantes del mundo del desarrollo web. <strong>Es la empresa detrás de Next.js, el framework de React más usado.</strong></p>
+<p>La última semana se ha visto envuelta en una polémica ya que <a href="https://twitter.com/nico_jeannen/status/1713139186474406206">un empleado parece que amenazó a un usuario de Twitter</a>, usando información privilegiada, con abogados y acciones en su contra si no cambiaba el nombre de su proyecto personal.</p>
+<p>Ya <a href="https://twitter.com/vercel_support/status/1713295474998772215">Vercel ha confirmado que ha tomado cartas en el asunto</a>, despidiendo al empleado, y <a href="https://twitter.com/nico_jeannen/status/1713910752745333158">el propio Guillermo Rauch ha clarificado la situación.</a></p>
+<p>Pero al encenderse la mecha en la red social, también <a href="https://twitter.com/thinkcly/status/1713507306887880952">se ha puesto foco sobre los términos y condiciones de Vercel</a>, que <strong>pueden eliminar tu proyecto sin ninguna razón</strong>, o la <a href="https://twitter.com/rauchg/status/1713096064171937832">creación de plantillas de código abierto basado en productos con mucho éxito.</a></p>
+<p>En mi opinión, cuanto más grande es una empresa, es más fácil que algún empleado pueda aprovechar una situación de privilegio para hacer algo mal. Creo que lo mejor es que <strong>la respuesta de Vercel siempre ha sido de frente y que no han intentado ocultar nada.</strong></p>
+<p>Ahora también parece que están teniendo en cuenta todo el feedback respecto a la creación de estas plantillas que no ha caido bien a parte de la comunidad. <strong>¿Qué opinas tú?</strong></p>
+<h3 id="-reto-de-javascript-5">🔥 Reto de JavaScript</h3>
+<p>Nos han dado este código de JavaScript y nos han preguntado qué sale en consola. ¿Lo sabes? ¿Realmente funciona el código? La respuesta al final.</p>
+<pre><code class="language-js"><span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> a </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">10</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> b </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">20</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-keyword)">function</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">sum</span><span style="color: var(--shiki-color-text)">() {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> a </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">30</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">  {</span></span>
+<span><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> b </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">40</span></span>
+<span><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">return</span><span style="color: var(--shiki-color-text)"> a </span><span style="color: var(--shiki-token-keyword)">+</span><span style="color: var(--shiki-color-text)"> b</span></span>
+<span><span style="color: var(--shiki-color-text)">  }</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-function)">sum</span><span style="color: var(--shiki-color-text)">()) </span><span style="color: var(--shiki-token-comment)">// -&gt; ?</span></span>
+<span></span></code></pre>
+<h3 id="-noticias">📰 Noticias</h3>
+<ul>
+<li>
+<p>💸 Dicen que <a href="https://hipertextual.com/2023/10/microsoft-perderia-millones-de-dolares-github-copilot">GitHub pierde millones por culpa de Copilot</a>. Yo no me lo creo y el propio ex-CEO de la empresa <a href="https://twitter.com/natfriedman/status/1712140497127342404">dice que es mentira</a>.</p>
+</li>
+<li>
+<p>🎨 <a href="https://twitter.com/midudev/status/1714228713074655420">CSS introducirá un nuevo método <code>light-dark</code></a> para poder aplicar color al modo claro y modo oscuro sin usar media queries.</p>
+</li>
+<li>
+<p>⚡ Necesitas conocer la extensión <a href="https://twitter.com/midudev/status/1713904323497709809">Live Preview de Microsoft</a> para Visual Studio Code. Te crea un servidor local y te permite ver los cambios en tiempo real. En mi opinión, una mejor alternativa a Live Server.</p>
+</li>
+<li>
+<p>🆚 <a href="https://twitter.com/midudev/status/1712449971864076436">Entiende la diferencia entre Callback y Promesas en JavaScript</a></p>
+</li>
+<li>
+<p>🆓 El próximo 22 y 23 de noviembre, tienes un montón de <a href="https://codemo.tech/WorkshopFestMidudev">Workshops gratuitos sobre IA, Rendimiento Web y Ciber Seguridad. ¡Apúntate!</a> Estaré presentando el evento.</p>
+</li>
+</ul>
+<h3 id="-solución-al-reto-de-javascript-5">✅ Solución al reto de JavaScript</h3>
+<p>La respuesta correcta es <code>70</code>. ¿Por qué? Hay diferentes conceptos que aplican: <strong>scope y closures.</strong></p>
+<p>Primero, tenemos que entender que <strong>las variables declaradas con <code>let</code> tienen un ámbito de bloque</strong>. Es decir, son accesibles dentro de las llaves <code>{}</code> donde se declaran.</p>
+<p>Luego, es correcto usar <code>{}</code> para crear bloques de código. Sí, sin necesidad de <code>if</code> o <code>function</code>. Y estas crean un nuevo ámbito. Así que dentro podemos crear variables con <code>let</code> que sólo serán accesibles dentro de ese bloque.</p>
+<p>Al final lo que ocurre es que en cada ámbito, aunque puedan ser accesibles las de fuera, estamos creando nuevas variables con el mismo nombre. Así que, en el caso de <code>a</code>, la variable que se usa es la de dentro de la función. Y en el caso de <code>b</code>, la variable que se usa es la de dentro del bloque <code>{}</code>.</p>
+<p>Y así el resultado final es <code>70</code>.</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[CSS evoluciona, API gratuita para enviar emails, ir a la universidad para aprender programación...]]></title>
+            <link>https://noticias.dev/#css-evoluciona-api-gratuita-para-enviar-emails-ir-a-la-universidad-para-aprender-programación</link>
+            <guid>https://noticias.dev/#css-evoluciona-api-gratuita-para-enviar-emails-ir-a-la-universidad-para-aprender-programación</guid>
+            <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"css-evoluciona-api-gratuita-para-enviar-emails-ir-a-la-universidad-para-aprender-programación","title":"CSS evoluciona, API gratuita para enviar emails, ir a la universidad para aprender programación...","date":"2023-10-10T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Godzilla programando" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.d8131898.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.d8131898.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.d8131898.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.d8131898.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.d8131898.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.d8131898.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.d8131898.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.d8131898.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.d8131898.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.d8131898.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong><br/><br/>
+HOY a las 18H: <strong>PRUEBA TÉCNICA de JAVASCRIPT</strong><br/>
+MAÑANA 10 octubre: <strong>CURSO de HTML y DESARROLLO WEB desde CERO</strong><br/>
+JUEVES 11 octubre: <strong>CURSO de NODE.JS, CHAT y SOCKETS</strong></p>
+</blockquote>
+<h3 id="-noticias-1">📰 Noticias</h3>
+<ul>
+<li>
+<p>🆕 Pronto podremos <strong>cambiar el tamaño de un textarea según su contenido</strong> con una línea de CSS. Se llama <code>form-sizing: content</code> y te dejo una <a href="https://twitter.com/midudev/status/1711363074022580549">demo para que veas cómo funciona.</a></p>
+</li>
+<li>
+<p>🟦 <a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-3-beta/">¡TypeScript 5.3 se acerca!</a> Soporte para <em>import attributes</em>, mejora en la inferencia al usar <code>switch (true)</code>, mejoras de rendimiento y mucho más.</p>
+</li>
+<li>
+<p>📭 Si buscas una <a href="https://twitter.com/midudev/status/1711055791665340920">API gratuita para enviar emails desde tu app o web</a>, no te pierdas Resend. En muy pocas líneas de código lo puedes conseguir y puedes <strong>enviar gratis hasta 3000 correos.</strong></p>
+</li>
+<li>
+<p>🐶 <a href="https://www.usebruno.com/">Bruno es un cliente de API alternativa de Postman e Insomnia</a>. Es una app nativa para Windows, macOS y Linux. Y es que con los <strong>cambios polémicos de estos dos últimos</strong>, mucha gente está buscando otras opciones.</p>
+</li>
+<li>
+<p>🦀 <a href="https://twitter.com/youyuxi/status/1709943106215530867">Evan You ha anunciado que Vite se pasa a Rust</a>. Van a crear una versión de <em>Rollup</em> (alternativa de Webpack) a <em>Rust</em>. Se llamará <em>Rolldown</em>. Recordemos que hace unos meses <a href="https://twitter.com/youyuxi/status/1644656077169127425">el propio Evan You troleaba con la idea de pasarlo todo a Rust</a>, en referencia a Turbopack de Vercel.</p>
+</li>
+<li>
+<p>🏠 <a href="https://twitter.com/hkanji/status/1710692484282487270">Los datos dan la razón al trabajo en remoto</a>. La gente es más productiva, llega menos tarde, falta menos y es más feliz. Eso sí, parece que también hace que la gente se sienta menos parte de la empresa. ¿Cómo lo ves?</p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript-6">🔥 Reto de JavaScript</h3>
+<p>Tenemos el siguiente código de <em>JavaScript</em>... ¿qué sale en la salida del programa?</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">function</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">createGodzilla</span><span style="color: var(--shiki-color-text)"> ({ size </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">2</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> power </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">100</span><span style="color: var(--shiki-color-text)"> }) {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-keyword)">return</span><span style="color: var(--shiki-color-text)"> { name</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;Godzilla&#39;</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> size</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> power }</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-function)">createGodzilla</span><span style="color: var(--shiki-color-text)">()</span></span>
+<span></span></code></pre>
+<p>Tienes la solución al final de la <em>newsletter</em>.</p>
+<h3 id="-ir-a-la-universidad-o-no-para-aprender-programación">🥫 ¿Ir a la universidad o no para aprender programación?</h3>
+<p>Todo el mundo tiene una opinión al respecto. Por una parte, el famoso <em>Levelsio</em> que tiene diferentes empresas, dice que <a href="https://twitter.com/levelsio/status/1709981239711510723">a día de hoy no lo recomienda y anima a la gente a crear sus propios productos.</a></p>
+<p>En el otro extremo está <em>ThePrimeagen</em> <a href="https://twitter.com/ThePrimeagen/status/1710697975930925324?t=6HU6XtijPup9NkQ-lQ-jVw&amp;s=19">diciendo que vayas a la universidad y tengas hijos cuanto antes</a>.</p>
+<p>Mi opinión es que cada persona es un mundo. Ir a la universidad está genial. Yo fui a la universidad. Pero también es verdad que hoy en día existen muchas alternativas para aprender a programar. Hay que tener en cuenta el tiempo (hablamos de años) y que hay gente que prefiere otro camino.</p>
+<p>¡Simplemente elige el tuyo!</p>
+<h3 id="-bibliotecas-que-no-puedes-perderte">👀 ¡Bibliotecas que no puedes perderte!</h3>
+<ul>
+<li>
+<p>🧩 <a href="https://tailwind-elements.com/">Tailwind Elements son +500</a> componentes gratis y compatibles con Angular, React, Vue y más.</p>
+</li>
+<li>
+<p>📰 <a href="https://github.com/extractus/article-extractor">Article Extractor</a> es una biblioteca para Node, Bun y Deno que te permite <strong>extraer el contenido de un artículo en 2 líneas de código</strong>.</p>
+</li>
+<li>
+<p>📈 Si necesitas <strong>gráficas de alta calidad para tu web</strong>, <em>Trading View</em> tiene una <a href="https://www.tradingview.com/lightweight-charts/">biblioteca de código abierto que se llama Lightweight Charts que es brutal</a>. La usan en producción ellos y muchas otras empresas.</p>
+</li>
+</ul>
+<h3 id="-solución-al-reto-de-javascript-6">✅ Solución al reto de JavaScript</h3>
+<p>La respuesta correcta es un error <code>TypeError: Cannot read properties of undefined (reading &#x27;size&#x27;)</code> y es que hay un error en el código. <strong>Es sutil pero importante.</strong></p>
+<p>Es el tipo de error que no te pasaría en <em>TypeScript</em>, ya que el problema es que aunque pensamos que estamos pasando valores por defecto a los parámetros, como le estamos pasando un objeto, deberíamos hacer una de estas dos formas:</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-comment)">// fíjate que por defecto le pasamos un objeto vacío</span></span>
+<span><span style="color: var(--shiki-token-keyword)">function</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">createGodzilla</span><span style="color: var(--shiki-color-text)"> ({ size </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">2</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> power </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">100</span><span style="color: var(--shiki-color-text)"> } </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> {}) {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-keyword)">return</span><span style="color: var(--shiki-color-text)"> { name</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;Godzilla&#39;</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> size</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> power }</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-comment)">// o podríamos llamar a la función siempre con un objeto</span></span>
+<span><span style="color: var(--shiki-token-function)">createGodzilla</span><span style="color: var(--shiki-color-text)">({})</span></span>
+<span></span></code></pre>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[Secretos oscuros de Mozilla, evolución de despidos tech, el CEO de Shopify la lía...]]></title>
+            <link>https://noticias.dev/#secretos-oscuros-de-mozilla-evolución-de-despidos-tech-el-ceo-de-shopify-la-lía</link>
+            <guid>https://noticias.dev/#secretos-oscuros-de-mozilla-evolución-de-despidos-tech-el-ceo-de-shopify-la-lía</guid>
+            <pubDate>Tue, 03 Oct 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"secretos-oscuros-de-mozilla-evolución-de-despidos-tech-el-ceo-de-shopify-la-lía","title":"Secretos oscuros de Mozilla, evolución de despidos tech, el CEO de Shopify la lía...","date":"2023-10-03T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Un panda rojo programando en frente de una laptop" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.4c8e392f.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.4c8e392f.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.4c8e392f.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.4c8e392f.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.4c8e392f.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.4c8e392f.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.4c8e392f.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.4c8e392f.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.4c8e392f.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.4c8e392f.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong><br/><br/>
+HOY a las 20H: <strong>SUPERAR el SÍNDROME del IMPOSTOR: Cuando piensas que no vales</strong><br/>
+MAÑANA 4 octubre: <strong>CLON de SPOTIFY desde CERO con transiciones</strong><br/>
+JUEVES 5 octubre: <strong>PRUEBA TÉCNICA de NODE.JS REAL para Backend y FullStack</strong></p>
+</blockquote>
+<h3 id="-salseo-con-el-ceo-de-shopify-y-los-side-projects">🥫 Salseo con el CEO de Shopify y los side projects</h3>
+<p>El CEO de Shopify <a href="https://twitter.com/simonvlc/status/1708405042342924795?t=HeDBu5sAJ_vk93aWuKK9aA&amp;s=19">no quiere que sus empleados se distraigan con proeyctos personales.</a> Así lo ha hecho saber en un memo interno.</p>
+<p>En el mismo indica que, aunque es normal que puedas dar clases de yoga en fin de semana o que entrenes un equipo de fútbol uno o dos veces por semana, <strong>cualquier actividad que drene tu energía y te distraiga de Shopify no está permitida y se debe informar a la empresa.</strong></p>
+<p><strong>Es una postura bastante controvertida</strong> ya que no habla específicamente del horario laboral y ya muchas veces han apuntado lo hipócrita que resulta su posición teniendo en cuenta que <a href="https://www.coinbase.com/blog/tobias-lutke-ceo-of-shopify-to-join-coinbase-board-of-directors">él mismo es parte del Board of Directors de otras empresas como Coinbase</a> y que tiene inversiones en otras compañías.</p>
+<h3 id="-reto-de-javascript-7">🔥 Reto de JavaScript</h3>
+<p>Tenemos el siguiente código de <em>JavaScript</em>... ¿qué sale en consola?</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">for</span><span style="color: var(--shiki-color-text)"> (</span><span style="color: var(--shiki-token-keyword)">var</span><span style="color: var(--shiki-color-text)"> i </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">0</span><span style="color: var(--shiki-color-text)">; i </span><span style="color: var(--shiki-token-keyword)">&lt;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">3</span><span style="color: var(--shiki-color-text)">; i</span><span style="color: var(--shiki-token-keyword)">++</span><span style="color: var(--shiki-color-text)">) {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-function)">setTimeout</span><span style="color: var(--shiki-color-text)">(() </span><span style="color: var(--shiki-token-keyword)">=&gt;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(i)</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">1</span><span style="color: var(--shiki-color-text)">);</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-keyword)">for</span><span style="color: var(--shiki-color-text)"> (</span><span style="color: var(--shiki-token-keyword)">let</span><span style="color: var(--shiki-color-text)"> i </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">0</span><span style="color: var(--shiki-color-text)">; i </span><span style="color: var(--shiki-token-keyword)">&lt;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">3</span><span style="color: var(--shiki-color-text)">; i</span><span style="color: var(--shiki-token-keyword)">++</span><span style="color: var(--shiki-color-text)">) {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-function)">setTimeout</span><span style="color: var(--shiki-color-text)">(() </span><span style="color: var(--shiki-token-keyword)">=&gt;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(i)</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">1</span><span style="color: var(--shiki-color-text)">);</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span></code></pre>
+<p>Tienes la solución al final de la <em>newsletter</em>.</p>
+<h3 id="-noticias-2">📰 Noticias</h3>
+<ul>
+<li>
+<p>📡 <a href="https://github.com/nodejs/node/pull/49830">WebSockets va a llegar como tecnología nativa, sin dependencias, a Node.js.</a> Algo que llevamos años pidiendo, por fin, <strong>una realidad.</strong></p>
+</li>
+<li>
+<p>🖼️ <strong>¡Photoshop llega a la web!</strong> Y es impresionante el rendimiento que tiene y <a href="https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a">todas las tecnologías web que usa para conseguirlo</a>. Eso sí, <strong>sólo compatible con Chrome, Edge y Firefox</strong>. Pronto en Safari pero sorprendentemente no funciona en Brave, por ejemplo.</p>
+</li>
+<li>
+<p>🎮 <a href="https://vandal.elespanol.com/noticia/1350765707/epic-games-despide-a-870-empleados-el-16-de-su-plantilla/">Epic Games despide al 16% de su compañía, 870 empleados en total.</a> Mal timing teniendo en cuenta lo que pasó con Unity hace poco. Lo hacen porque &quot;gastan más de lo que ingresan&quot;. En la imagen grande de los despidos en Tech, igualmente, estamos viendo que llevamos unos cuantos <a href="https://layoffs.fyi/">meses seguidos de bajada de despidos</a>. ¡A ver si sigue así!</p>
+</li>
+<li>
+<p>🔫 Brave ha aprovechado el nuevo sistema de privacidad de Chrome para atacar a Google, <a href="https://x.com/brave/status/1707446445261881818">corrigiendo el anuncio de la nueva feature...</a></p>
+</li>
+<li>
+<p>🤖 Ojo, que la IA de Google, Bard, <a href="https://www.20minutos.es/tecnologia/inteligencia-artificial/google-filtraba-error-conversaciones-chatbot-bard-estaban-apareciendo-informacion-buscador-5177101/">está filtrando conversaciones enteras</a>. Parece que ya está arreglado, pero es una muestra más del peligro que pueden tener estas IA conversacionales.</p>
+</li>
+<li>
+<p>🔪 Google acaba con otro de sus productos. En este caso, <a href="https://expansion.mx/tecnologia/2023/09/26/google-podcasts-desaparecera">Google Podcast dejará de existir en 2024.</a></p>
+</li>
+</ul>
+<h3 id="-los-secretos-oscuros-de-mozilla-foundation">🫣 Los secretos oscuros de Mozilla Foundation</h3>
+<p>La fundación Mozilla es la que está detrás del navegador Firefox. <strong>Es una organización sin ánimo de lucro</strong> que se financia con, se supone, donaciones y que tiene como objetivo defender la privacidad y la libertad en Internet.</p>
+<p>Pero... <strong>¿sabías que Mozilla cuenta con dos empresas que sí son con ánimo de lucro?</strong> <strong>Mozilla Corporation</strong> y <strong>MZLA Technologies Corporation</strong>.</p>
+<p>En 2021, Mozilla tenía <strong>activos por valor de mil millones de dólares.</strong> Sólo en <em>cash</em>, tenía 400 millones. Pero... ¿de dónde sale ese dinero?</p>
+<p>Pues igual te sorprende que <strong>la mayoría de los ingresos de Mozilla vienen de un sólo pagador.</strong> De hecho, son aproximadamente el 85% de sus ingresos. ¿Quién es? <strong>Google.</strong></p>
+<p><strong>Google paga unos 400 millones de dólares al año para que Firefox use su buscador por defecto.</strong> <strong>¡Y eso que Firefox es un competidor directo de Chrome!</strong></p>
+<p><strong>¡Las donaciones sólo son 7 millones de dólares!</strong> Para que te hagas una idea, la actual CEO de Mozilla, Mitchell Baker, ganó en 2021 un total de 5.6 millones de dólares. <strong>Pagados por la Mozilla Corporation.</strong></p>
+<p>Si quieres descubrir más sobre las finanzas de Mozilla, que al menos hace levantar alguna ceja, te invito que leas el artículo de <em>Bryan Lunduke</em> donde lo explica todo con detalle: <a href="https://lunduke.locals.com/post/4387539/firefox-money-investigating-the-bizarre-finances-of-mozilla">El dinero de Firefox: las extrañas cuentas de Mozilla</a>.</p>
+<h3 id="-solución-al-reto-de-javascript-7">✅ Solución al reto de JavaScript</h3>
+<p>La respuesta correcta es <code>3 3 3</code> y <code>0 1 2</code>. ¿Por qué? Porque en el primer bucle estamos usando <code>var</code> y en el segundo <code>let</code>. <strong><code>var</code> tiene un alcance de función</strong> y <strong><code>let</code> tiene un alcance de bloque definido por llaves.</strong></p>
+<p>Como el <code>setTimeout</code> se ejecuta después de que el bucle se haya ejecutado por completo, <strong>cuando se ejecuta el callback de <code>setTimeout</code> en el primer bucle, el valor de <code>i</code> es 3.</strong> En el segundo bucle, como <code>let</code> tiene un alcance de bloque, <strong>el valor de <code>i</code> es el que se espera.</strong></p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[¡Llega Bun y pinta muy bien! La muerte de las cookies y el movimiento de Google]]></title>
+            <link>https://noticias.dev/#llega-bun-y-pinta-muy-bien-la-muerte-de-las-cookies-y-el-movimiento-de-google</link>
+            <guid>https://noticias.dev/#llega-bun-y-pinta-muy-bien-la-muerte-de-las-cookies-y-el-movimiento-de-google</guid>
+            <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"llega-bun-y-pinta-muy-bien-la-muerte-de-las-cookies-y-el-movimiento-de-google","title":"¡Llega Bun y pinta muy bien! La muerte de las cookies y el movimiento de Google","date":"2023-09-12T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Una comparación de Bun con npm y pnpm y salgo al lado con corazones en los ojos viendo los resultados" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.7a8d5f7d.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.7a8d5f7d.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.7a8d5f7d.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.7a8d5f7d.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.7a8d5f7d.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.7a8d5f7d.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.7a8d5f7d.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.7a8d5f7d.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.7a8d5f7d.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.7a8d5f7d.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong> (18H - hora España)<br/><br/>
+HOY: <strong>Evento de Apple - iPhone 15 y más</strong><br/>
+MAÑANA 13 septiembre: <strong>MiduConf, conferencia de programación y desarrollo</strong><br/>
+JUEVES 14 septiembre: <strong>Desarrollo API con Bun desde cero</strong></p>
+</blockquote>
+<p>Recuerda que mañana, <strong>13 de septiembre</strong>, celebramos el día de la programción. <strong>256 regalos</strong> y speakers TOP internacionales. <strong><a href="https://www.miduconf.com/">¡Consigue tu ticket gratuito!</a></strong></p>
+<h3 id="-noticias-3">📰 Noticias</h3>
+<ul>
+<li>💸 <a href="https://bun.sh/">Bun 1.0 es una realidad</a>. Es una <strong>alternativa a Node</strong>, npm, Webpack, compilador de TypeScript y test runner. ¡Todo en uno y con una velocidad tremenda!</li>
+</ul>
+<p>De hecho, <a href="https://vercel.com/changelog/bun-install-is-now-supported-with-zero-configuration">Vercel ya lo soporta de forma nativa</a> y puedes bajar los tiempos de tus <a href="https://twitter.com/midudev/status/1701188821772067264">despliegues a casi la mitad</a>.</p>
+<ul>
+<li>
+<p>🍪 Google ya ha incorporado <a href="https://privacysandbox.com/intl/es_es/">Privacy Sandbox</a> en Chrome. ¿Para qué sirve? Básicamente para <strong>matar las cookies de terceros</strong>. Ahora el navegador, si tiene el permiso del usuario, creará un array con tus intereses.</p>
+</li>
+<li>
+<p>💀 <a href="https://nodejs.org/en/blog/announcements/nodejs16-eol"><strong>Node 16 ha llegado a End of Life</strong></a>, esto quiere decir que debes actualizar a la versión 18 en cuanto puedas.</p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript-8">🔥 Reto de JavaScript</h3>
+<p>Tenemos el siguiente código de <em>JavaScript</em>... ¿qué sale en consola?</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">async</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">function</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">fetchInfo</span><span style="color: var(--shiki-color-text)">() {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-keyword)">return</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">await</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">Promise</span><span style="color: var(--shiki-token-function)">.resolve</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-string-expression)">&quot;¡Hecho!&quot;</span><span style="color: var(--shiki-color-text)">)</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">info</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">fetchInfo</span><span style="color: var(--shiki-color-text)">()</span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(info) </span><span style="color: var(--shiki-token-comment)">// -&gt; ???</span></span>
+<span></span></code></pre>
+<p>Tienes la solución al final de la <em>newsletter</em>.</p>
+<h3 id="-ofertaca-de-dondominio">😱 ¡Ofertaca de DonDominio!</h3>
+<p><a href="https://midu.link/dondominio">Consigue tu dominio .dev o .com a 6€ (+ impuestos) usando el cupón <strong>MIDUCONFDD</strong></a></p>
+<h3 id="-qué-ha-pasado-con-gatsby">👀 ¿Qué ha pasado con Gatsby?</h3>
+<p><a href="https://www.gatsbyjs.com/">Gatsby es un framework de React</a> que, durante mucho tiempo, fue <strong>la mayor competencia de Next.js.</strong></p>
+<p>En su día la empresa incluso <strong>consiguió mayor inversión que Vercel</strong>, aunque las cosas han cambiado mucho con el tiempo.</p>
+<p>Hace poco <a href="https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/">Netlify compró Gatsby</a>, no se sabe por cuanto, pero con los despidos recientes de Netlify <a href="https://twitter.com/FredKSchott/status/1693007599803752638">parece que no tiene mucha actividad.</a></p>
+<p><a href="https://twitter.com/wardpeet/status/1693014604694061194">Hay rumores que dicen que el proyecto está muerto</a> aunque <a href="https://twitter.com/Netlify/status/1694035000734216263">Netlify ha salido al paso diciendo que vienen novedades pronto</a>. Sea como sea, no pinta que esté en su mejor momento...</p>
+<h3 id="-salseo-con-las-tecnológicas-españolas">🥫 Salseo con las tecnológicas españolas</h3>
+<p>Dice <a href="https://www.elindependiente.com/economia/2023/09/03/las-tecnologicas-espanolas-se-resignan-ante-las-extranjeras-por-el-robo-de-talento-joven-no-podemos-hacer-nada/">el periódico El Independiente</a> que <strong>&quot;las tecnológicas españolas se resignan ante las extranjeras por el robo de talento joven&quot;</strong>.</p>
+<p>Primero: <strong>El talento no se &quot;roba&quot; porque NO es PROPIEDAD de las tecnológicas españolas.</strong></p>
+<p><strong>&quot;No podemos hacer nada&quot;</strong>, dicen. Sólo hablan de &quot;salarios altos&quot; y hay <strong>0 autocrítica</strong>.</p>
+<p>Sería bueno recordar que la mayoría de la gente está dispuesta a sacrificar el sueldo por una mejor CALIDAD de VIDA.</p>
+<p>Conciliación, formación, flexibilidad, ambiente, cultura... Obvio que el sueldo es importantísimo y claro que habrá que pagar a ese talento como se merece.</p>
+<p>PERO es que mucho talento joven se busca las oportunidades fuera porque están DE SOBRAS preparados y sólo encuentran trabajos PRECARIOS.</p>
+<p>Ahí queda eso. <strong>¿Tú qué opinas?</strong></p>
+<h3 id="-5-consejos-del-creador-de-c-para-juniors">🧑‍🏫 5 consejos del creador de C++ para juniors</h3>
+<ol>
+<li>No te especialices demasiado. Sé flexible</li>
+<li>Construye una vida fuera del ordenador</li>
+<li>Aprende a comunicar tus ideas y saber escuchar</li>
+<li>Piensa en tu carrera a largo plazo. No te quemes</li>
+<li>Todas las habilidades suman en programación</li>
+</ol>
+<p>Los consejos salen de esta <a href="https://youtu.be/-QxI-RP6-HM">entrevista de 3 minutos.</a></p>
+<h3 id="-solución-al-reto-de-javascript-8">✅ Solución al reto de JavaScript</h3>
+<p>La respuesta correcta es <code>Promise { &lt;pending&gt; }</code>. ¿Por qué? Porque <code>fetchInfo</code> es una función asíncrona que devuelve una promesa. Por lo tanto, cuando hacemos <code>const info = fetchInfo()</code> estamos asignando a <code>info</code> una promesa.</p>
+<p>Para obtener el valor de la promesa, debemos usar <code>await</code> o <code>.then</code>. Por ejemplo:</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">async</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">function</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">fetchInfo</span><span style="color: var(--shiki-color-text)">() {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-keyword)">return</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">await</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">Promise</span><span style="color: var(--shiki-token-function)">.resolve</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-string-expression)">&quot;¡Hecho!&quot;</span><span style="color: var(--shiki-color-text)">)</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">info</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">await</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">fetchInfo</span><span style="color: var(--shiki-color-text)">()</span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(info) </span><span style="color: var(--shiki-token-comment)">// -&gt; &quot;¡Hecho!&quot;</span></span>
+<span></span></code></pre>
+<p>El error viene por pensar que, como estamos haciendo el <code>await</code> dentro del <code>fetchInfo</code> y estamos devolviendo el valor, se va a resolver automáticamente. Pero no, hay que esperar a que se resuelva fuera.</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[Estudio de sueldos en programación, novedades de CSS importantes y Scrum apesta]]></title>
+            <link>https://noticias.dev/#estudio-de-sueldos-en-programación-novedades-de-css-importantes-y-scrum-apesta</link>
+            <guid>https://noticias.dev/#estudio-de-sueldos-en-programación-novedades-de-css-importantes-y-scrum-apesta</guid>
+            <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"estudio-de-sueldos-en-programación-novedades-de-css-importantes-y-scrum-apesta","title":"Estudio de sueldos en programación, novedades de CSS importantes y Scrum apesta","date":"2023-09-06T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Una chica que parece programadora con muchos billetes encima de su mesa" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.b78bbada.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.b78bbada.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.b78bbada.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.b78bbada.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.b78bbada.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.b78bbada.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.b78bbada.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.b78bbada.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.b78bbada.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.b78bbada.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong> (18H - hora España)<br/><br/>
+HOY: <strong>CURSO de ASTRO desde CERO</strong><br/>
+MAÑANA 7 septiembre: <strong>Curso de Node.js + MySQL desde CERO</strong><br/>
+13 septiembre: <strong>MiduConf, conferencia de programación y desarrollo</strong><br/></p>
+</blockquote>
+<p>El <strong>13 de septiembre</strong> celebramos el día de la programción. 256 regalos y speakers TOP internacionales. <strong><a href="https://www.miduconf.com/">¡Consigue tu ticket gratuito!</a></strong></p>
+<h3 id="-noticias-4">📰 Noticias</h3>
+<ul>
+<li>
+<p>💸 <a href="https://twitter.com/david_bonilla/status/1698612597358993785">Estudio de salarios de programadores en España</a> de la gente de Manfred. Datos de más de 35.000 devs y perfiles técnicos.</p>
+</li>
+<li>
+<p>🆕 <strong><a href="https://astro.build/blog/astro-3/">Astro, el framework web de moda, ha sacado su versión 3</a></strong>. Incluye de forma nativa la posibilidad de usar <em>View Transitions</em>, mejoras de rendimiento... ¡y pinta brutal!</p>
+</li>
+<li>
+<p>🔪 <strong>¡Node mata al mítico paquete dotenv!</strong> La última versión <em>20.6.0</em> puede leer de forma nativa los ficheros <code>.env</code>. ¡Una dependencia menos! Se usaría así:</p>
+</li>
+</ul>
+<pre><code class="language-sh"><span><span style="color: var(--shiki-token-function)">node</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string)">--env-file=.env</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string)">app.js</span></span>
+<span></span></code></pre>
+<h3 id="-salseos">🥫 Salseos</h3>
+<ul>
+<li>
+<p>🔥 Se ha viralizado un <a href="https://www.youtube.com/watch?v=1Ibr_zStmfU">post en X que dice que Scrum es un C*ncer</a>. Lo cierto es que Scrum es un framework que nació con unos ideales que igual se han ido perdiendo...</p>
+</li>
+<li>
+<p>👴 <strong>Sobre las últimas tecnologías</strong> alguien opina que no le importa un pimiento y que lo importante es entregar valor al usuario.</p>
+</li>
+<li>
+<p>😢 Algunas empresas se vuelven a <a href="https://www.elindependiente.com/economia/2023/09/03/las-tecnologicas-espanolas-se-resignan-ante-las-extranjeras-por-el-robo-de-talento-joven-no-podemos-hacer-nada/">quejar que &quot;les están robando el talento&quot;</a> y que no pueden hacer nada. No todo es dinero, igual mejorar las condiciones laborales ayuda...</p>
+</li>
+</ul>
+<h3 id="-un-meme-de-programación">🤣 Un meme de programación</h3>
+<img src="https://pbs.twimg.com/media/F5MFdrzWAAAztIX?format=webp&amp;name=medium" alt="Un meme de programación. Primera viñeta, un chico que sabe JavaScript buscando trabajo. Segunda viñeta, en la calle tirado sin encontrar nada. Tercera viñeta, alguien se acerca y le dice que necesita uno. En la cuarta viñeta sale llorando el que estaba en la calle porque le dicen que es para hacer PHP."/>
+<h3 id="-cosas-de-css">🎨 Cosas de CSS</h3>
+<ul>
+<li>
+<p>¡Ya han salido los <a href="https://2023.stateofcss.com/es-ES/">resultados del State of CSS 2023!</a>. Un resumen: <strong>Tailwind sigue creciendo pero baja su satisfacción</strong>, CSS ha evolucionado mucho este año, CSS en JS ha pasado de moda pero <a href="https://panda-css.com/">Panda parece que convence</a> y Bootstrap cae muchísimo año tras año.</p>
+</li>
+<li>
+<p><strong>Firefox ya soporta CSS Nesting.</strong> Así que todos los navegadores modernos ya lo pueden usar y <a href="https://caniuse.com/css-nesting">eleva el soporte a un 77% de los usuarios.</a>. Cada vez hay menos excusas para no usarlo:</p>
+</li>
+</ul>
+<pre><code class="language-css"><span><span style="color: var(--shiki-token-function)">.example</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">font-family</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">system-ui</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">font-size</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">1.2</span><span style="color: var(--shiki-token-keyword)">rem</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">  &amp; </span><span style="color: var(--shiki-token-constant)">a</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-constant)">color</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">tomato</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">    &amp;</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-constant)">hover</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-token-constant)"> &amp;:focus {</span></span>
+<span><span style="color: var(--shiki-token-constant)">      color: ivory</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-constant)">background-color</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">tomato</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">    }</span></span>
+<span><span style="color: var(--shiki-color-text)">  }</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span></code></pre>
+<h3 id="-trucos-para-programadores">🪄 Trucos para programadores</h3>
+<ul>
+<li>¿Sabías que puedes <a href="https://twitter.com/midudev/status/1697626615163834866">compartir tus proyectos en localhost a cualquiera con una URL</a>? <code>cloudflared</code> es una alternativa a ngrok.</li>
+</ul>
+<pre><code class="language-sh"><span><span style="color: var(--shiki-token-function)">$</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string)">brew</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string)">install</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string)">cloudflared</span></span>
+<span><span style="color: var(--shiki-token-function)">$</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string)">cloudflared</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string)">tunnel</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string)">--url</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string)">http://localhost:3000</span></span>
+<span></span></code></pre>
+<ul>
+<li>Hay una <strong>pestaña en las Chrome DevTools</strong> que te permite ver de un vistazo todos los detalles del CSS de una página. Se llama <em>CSS Overview</em> y <a href="https://twitter.com/midudev/status/1697590842116989424">te enseño cómo usarlo en esta guía en vídeo.</a></li>
+</ul>
+<h3 id="5-consejos-para-programadores-junior-">5 Consejos para programadores Junior 👨‍💻:</h3>
+<ol>
+<li>No te agobies con los errores, aprende de ellos</li>
+<li>No tengas prisa, valora tu evolución</li>
+<li>Lee el código de otras personas</li>
+<li>Descansa cuando lo necesites</li>
+<li>Practica todo lo que aprendes</li>
+</ol>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[¿RIP Web Developers?, Google asusta y las mejores bases de datos]]></title>
+            <link>https://noticias.dev/#rip-web-developers-google-asusta-y-las-mejores-bases-de-datos</link>
+            <guid>https://noticias.dev/#rip-web-developers-google-asusta-y-las-mejores-bases-de-datos</guid>
+            <pubDate>Tue, 08 Aug 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"rip-web-developers-google-asusta-y-las-mejores-bases-de-datos","title":"¿RIP Web Developers?, Google asusta y las mejores bases de datos","date":"2023-08-08T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Una oficina llena de cosas, con un ordenador encendido. No hay nadie." loading="lazy" width="1000" height="560" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.fab3c9d2.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.fab3c9d2.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.fab3c9d2.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.fab3c9d2.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.fab3c9d2.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.fab3c9d2.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.fab3c9d2.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.fab3c9d2.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.fab3c9d2.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.fab3c9d2.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong> (18H - hora España)<br/><br/>
+HOY: <strong>DevsLeague ¡LA FINAL!: Competición entre programadores</strong><br/>
+JUEVES 3 de agosto: <strong>Curso de Node.js desde cero: Arquitectura MVC con API</strong><br/>
+VIERNES 4 de agosto (16H): <strong>Charlando de programación y desarrollo</strong><br/></p>
+</blockquote>
+
+<h3 id="-noticias-5">📰 Noticias</h3>
+<ul>
+<li>
+<p>🙏 Un minuto de silencio para Bram Moolenaar, creador del famoso editor VIM, que falleció el pasado 3 de agosto a los 62 años de edad tal y como <a href="https://groups.google.com/g/vim_announce/c/tWahca9zkt4?pli=1">informó su familia</a>. <strong>Una gran perdida para el mundo del open source y la programación.</strong></p>
+</li>
+<li>
+<p>👀 Ojo que <strong>Google está trabajando en una iniciativa llamada <a href="https://github.com/RupertBenWiser/Web-Environment-Integrity/blob/main/explainer.md">Web Environment Integrity</a></strong>, una especie de DRM para navegadores y dispositivos. Ya hay voces críticas que dicen que es <a href="https://vivaldi.com/es/blog/la-ultima-mala-idea-de-google/">una forma de <strong>controlar el mercado de navegadores</strong> que acaba con la neutralidad en la red</a></p>
+</li>
+<li>
+<p>📈 Han salido los <a href="https://stateofdb.com/"><strong>resultados de la encuesta State of Database</strong></a>. Algunos datos interesantes: <strong>la gente prefiere SQL sobre noSQL</strong>, PostgreSQL es lo más usado, junto con MySQL y Redis. Y de ORMs tenemos a Supabase, Prisma y Mongoose coronando.</p>
+</li>
+<li>
+<p>🚀 <a href="https://nodejs.org/en">La página web oficial de Node.js ha migrado a Next.js</a>... ¡y se nota mucho la mejora de velocidad! Pruébala y verás.</p>
+</li>
+<li>
+<p>👴 Hablando de Node.js, que sepas que <a href="https://vercel.com/changelog/node-js-14-and-16-are-being-deprecated">Vercel está deprecando las versiones de Node 14 y 16</a>. <strong>Si tienes proyectos que usan estas versiones, debes migrar cuanto antes a la última versión LTS, la 18.</strong></p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript-9">🔥 Reto de JavaScript</h3>
+<p>¿Cuál es la salida de este código en JavaScript?</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-keyword)">typeof</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">NaN</span><span style="color: var(--shiki-color-text)">)</span></span>
+<span></span></code></pre>
+<p>¡Tienes la explicación al final!</p>
+<h3 id="-salseos-1">🥫 Salseos</h3>
+<ul>
+<li>
+<p>💰 <strong>¿El dinero da la felicidad?</strong> La <a href="https://twitter.com/catalinmpit/status/1688262365765103616">historia de un chico de 33 años</a> que, tras conseguir un patrimonio de 3 millones de dólares, ha perdido toda motivación. ¿Qué opinas?</p>
+</li>
+<li>
+<p>🫤 <a href="https://twitter.com/midudev/status/1687745383345086464?s=46&amp;t=Y2CgvDlOg5A_g5tgKYPjpw">Gente en Twitter ha estado quejándose del meme de &quot;Gracias, JavaScript&quot;</a> diciendo que JS no paga tanto o menospreciando el lenguaje respecto a otras opciones. Mi opinión: <strong>deja que la gente le de las gracias a lo que considere y pueda celebrar sus éxitos.</strong></p>
+</li>
+<li>
+<p>☠️ RIP Web Developers. Ese es <a href="https://twitter.com/MindWisdomMoney/status/1687770669658857473?s=20">el clickbait que se repite en Twitter para el enésimo producto que te genera una web con IA</a>. El tema es que <strong>hace años que puedes comprar plantillas si quieres una web genérica.</strong></p>
+</li>
+<li>
+<p>🚗 <strong>¿Podría un equipo crear un Uber en 4 u 8 semanas?</strong> <a href="https://www.instagram.com/reel/Cu96AzYLM8r/">Eso dicen en un podcast.</a> <strong>No parece realista y suena a infravalorar el trabajo del desarrollo</strong>. Igual un MVP básico podría ser posible, pero muchas veces no se tiene en cuenta mucho trabajo que hay detrás de una app o web.</p>
+</li>
+<li>
+<p>🙅‍♂️ ¡Nadie quiere usar los Web Components! Pero... ¿por qué? <a href="https://daverupert.com/2023/07/why-not-webcomponents/">Este artículo desgrana los problemas de esta tecnología</a>. <strong>Spoiler: marketing.</strong></p>
+</li>
+</ul>
+<h3 id="-recursos">🧰 Recursos</h3>
+<ul>
+<li>
+<p>⭐ Si estás buscando alguna biblioteca de Node.js pero no sabes cuál es fiable, <a href="https://nodejstoolbox.com/">Node JS Toolbox te ofrece una puntuación para las bibliotecas más usadas, separadas por categoría.</a></p>
+</li>
+<li>
+<p>🧩 ¡Ha salido una <strong>nueva versión de NextUI</strong>! <a href="https://nextui.org/">Un catálogo de componentes con un estilo muy minimalista, que recuerda a Vercel.</a> Esta nueva versión ha migrado a Tailwind, trae mejores de personalización, mejor rendimiento y nuevos componentes.</p>
+</li>
+<li>
+<p>👟 <a href="https://shoelace.style/">Shoelace es un catálogo de componentes agnóstico al framework</a>. Se puede usar en <em>React</em>, <em>Angular</em> y <em>Vue</em>. Está basado en <em>Web Components</em> y son muy fáciles de usar.</p>
+</li>
+</ul>
+<h3 id="-esto-qué-es">🤯 ¡Esto qué es!</h3>
+<ul>
+<li>
+<p>🍎 <a href="https://github.com/felixrieseberg/macintosh.js">macintosh.js es una máquina virtual de <strong>Apple Macintosh con System 8</strong></a>. Todo desarrollado con <em>JavaScript</em> y <em>Electron</em>. ¡Espectacular!</p>
+</li>
+<li>
+<p>🩻 <strong>¿Has usado alguna vez <em>Backbone</em>?</strong> Es una biblioteca de <em>JavaScript</em> que nació en 2010 y fue muy famosa. Pues bien, <a href="https://backbonejs.org/">la semana pasada salió la versión 1.5.0.</a> ¡Sigue viva!</p>
+</li>
+</ul>
+<h3 id="-la-solución-al-reto-de-javascript">✅ La solución al reto de JavaScript</h3>
+<p>La salida es <code>number</code>. <strong>Aunque es paradójico</strong> porque <code>NaN</code> significa <em>Not a Number</em>, pero en realidad es un valor numérico que quiere decir que no es un número. ¡Ah!</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-keyword)">typeof</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">NaN</span><span style="color: var(--shiki-color-text)">) </span><span style="color: var(--shiki-token-comment)">// -&gt; number</span></span>
+<span></span></code></pre>
+<p>Hay otros valores especiales númericos como <code>Infinity</code> o <code>-Infinity</code>. ¿Lo sabías?</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[Stack Overflow planta cara a ChatGPT, el mercado tech se recupera y salseo en el mundo del desarrollo web]]></title>
+            <link>https://noticias.dev/#stack-overflow-planta-cara-a-chatgpt-el-mercado-tech-se-recupera-y-salseo-en-el-mundo-del-desarrollo-web</link>
+            <guid>https://noticias.dev/#stack-overflow-planta-cara-a-chatgpt-el-mercado-tech-se-recupera-y-salseo-en-el-mundo-del-desarrollo-web</guid>
+            <pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"stack-overflow-planta-cara-a-chatgpt-el-mercado-tech-se-recupera-y-salseo-en-el-mundo-del-desarrollo-web","title":"Stack Overflow planta cara a ChatGPT, el mercado tech se recupera y salseo en el mundo del desarrollo web","date":"2023-08-01T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Stack Overflow de libros y ordenadores" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.9af2a1b9.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.9af2a1b9.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.9af2a1b9.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.9af2a1b9.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.9af2a1b9.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.9af2a1b9.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.9af2a1b9.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.9af2a1b9.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.9af2a1b9.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.9af2a1b9.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong> (18H - hora España)<br/><br/>
+HOY: <strong>DevsLeague: Competición de creadores de contenido de programación</strong><br/>
+MAÑANA 2 de agosto: <strong>Pruebas técnicas en programación, revisión y entrevista</strong><br/>
+JUEVES 3 de agosto: <strong>Curso de Node.js desde cero: API con Express</strong><br/></p>
+</blockquote>
+<h3 id="-noticias-6">📰 Noticias</h3>
+<ul>
+<li>
+<p>📚 <a href="https://twitter.com/StackOverflow/status/1684529654743330817">Stack Overflow ha anunciado OverflowAI</a>, un conjunto de productos para competir con ChatGPT usando toda la información que tienen de su comunidad.</p>
+</li>
+<li>
+<p>🪄 Parece magia, pero es <em>CSS</em>. ¡Ya tienes la última versión de Chrome y Edge con <a href="https://www.youtube.com/watch?v=AbCYziNyjvk">soporte para animaciones basadas en el scroll</a>! Con <strong>0 líneas de JavaScript</strong>.</p>
+</li>
+<li>
+<p>📡 <a href="https://www.youtube.com/watch?v=YmZE1HXjpd4">Curso de Introducción a Express y creación de APIs con Node.js desde cero</a></p>
+</li>
+<li>
+<p>👀 Si buscas un servicio de monitorización de webs y APIs, <a href="https://www.openstatus.dev/">tienes que conocer Open Status.</a> Es un producto <strong>totalmente de código abierto</strong> y que puedes desplegar donde quieras, para usarlo sólo pagando el <em>hosting</em>.</p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript-10">🔥 Reto de JavaScript</h3>
+<p>¡Ojo con este código! Te advierto que es correcto usar los <code>case</code> sin llaves, eso funciona. Pero... ¿cuál es el problema? ¿Es que no devuelve lo que esperamos? ¿Da algún error? ¿Qué sale en la consola?</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">function</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">dameOpcion</span><span style="color: var(--shiki-color-text)">(opcion) {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-keyword)">switch</span><span style="color: var(--shiki-color-text)"> (opcion) {</span></span>
+<span><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">case</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">1</span><span style="color: var(--shiki-color-text)">:</span></span>
+<span><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">mensaje</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&quot;Opción 1 seleccionada.&quot;</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">case</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">2</span><span style="color: var(--shiki-color-text)">:</span></span>
+<span><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">mensaje</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&quot;Opción 2 seleccionada.&quot;</span><span style="color: var(--shiki-color-text)">; </span></span>
+<span><span style="color: var(--shiki-color-text)">    </span><span style="color: var(--shiki-token-keyword)">default</span><span style="color: var(--shiki-color-text)">:</span></span>
+<span><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">mensaje</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&quot;Opción no reconocida.&quot;</span><span style="color: var(--shiki-color-text)">;</span></span>
+<span><span style="color: var(--shiki-color-text)">  }</span></span>
+<span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-keyword)">return</span><span style="color: var(--shiki-color-text)"> mensaje</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-function)">dameOpcion</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-constant)">1</span><span style="color: var(--shiki-color-text)">))</span></span>
+<span></span></code></pre>
+<p>Tienes la <strong>solución al final</strong> de la <em>newsletter</em>.</p>
+<h3 id="-salseos-2">🥫 Salseos</h3>
+<ul>
+<li>
+<p>🐍 <strong>Guillermo Rauch</strong> ha compartido el número de <a href="https://twitter.com/rauchg/status/1684725866729971712">versiones diferentes instaladas de Python en su máquina</a>. Alguien le ha hecho un <a href="https://twitter.com/jeanmarcalkazzi/status/1676325612825313281">diagrama para evitarlo.</a></p>
+</li>
+<li>
+<p>🇺🇸 Gente influyente del mercado tecnológico en USA están <a href="https://twitter.com/paulg/status/1685313934973165568">cabreados porque Europa va a pedir una Visa a los turistas de allí.</a> Ah, la hipotenusa.</p>
+</li>
+<li>
+<p>📭 ¿Alguna vez te has imaginado <strong>cómo es el día a día de un Senior Manager en Amazon</strong>? Sí, has acertado, <a href="https://newsletter.pragmaticengineer.com/p/a-day-in-the-life-of-a-senior-manager">cientos de correos te esperan en tu bandeja de entrada</a>.</p>
+</li>
+<li>
+<p>🍅 El bueno de <a href="https://twitter.com/t3dotgg/status/1685041189542838272">Theo Browne ha sacado un tuit para darle picante al desarrollo web</a>. Y mucha gente no ha perdido la oportunidad de sacarse toda la bilis.</p>
+</li>
+</ul>
+<h3 id="-ojo-con-esto">😮 ¡Ojo con esto!</h3>
+<ul>
+<li>
+<p>📈 Ojo con el mercado tech. Datos que demuestran que <a href="https://twitter.com/AznWeng/status/1678396820295147520">Google, Amazon, Microsoft y Meta están volviendo a contratar</a>. Respecto a finales del primer trimestre <strong>han subido sus ofertas un 100%, 40%, 85% y 162% respectivamente</strong>. ¡Pinta bien! Veremos si la tendencia sigue al alza.</p>
+</li>
+<li>
+<p>🗜️ La gente de <em>VSCode</em> han compartido <a href="https://code.visualstudio.com/blogs/2023/07/20/mangling-vscode">la técnica que han usado para disminuir el tamaño de la aplicación un 20%</a>. <strong>¡Muy interesante!</strong></p>
+</li>
+<li>
+<p>🔥 Están trabajando en una <a href="https://github.com/domfarolino/observable">interesante propuesta para añadir Observables a los eventos del DOM</a>. <strong>¡Pinta de lujo!</strong> Menos código y más potencia. Ya hacía falta.</p>
+</li>
+</ul>
+<h3 id="-recursos-1">🧰 Recursos</h3>
+<ul>
+<li>
+<p>👮‍♂️ <a href="https://github.com/fabian-hiller/valibot">Valibot es una biblioteca super pequeña que te permite validar los tipos</a> de un objeto en tiempo de ejecución. Una <strong>alternativa pequeña a zod</strong>.</p>
+</li>
+<li>
+<p>🗺️ Crea <a href="https://chartkick.com/mapkick-js">mapas interactivos de JavaScript con muy pocas líneas gracias a Mapkick</a>, una alternativa más liviana de Leaflet.</p>
+</li>
+<li>
+<p>⚛️ Si usas React, la gente de <a href="https://twitter.com/aidenybai/status/1685710426040832000">Million ha sacado una optimización automática para tus apps</a>. <strong>No necesitas cambiar tu código</strong>, instalas la librería, configuras el plugin y usa una versión optimizada del VDOM para hacer tu app más rápida.</p>
+</li>
+<li>
+<p>♿️ Si necesitas crear una modal o diálogo accesible, <a href="https://a11y-dialog.netlify.app/">a11y dialog es lo que necesitas</a>.</p>
+</li>
+</ul>
+<h3 id="-solución-al-reto-de-javascript-9">✅ Solución al reto de JavaScript</h3>
+<p>El error será &quot;SyntaxError: Identifier &#x27;mensaje&#x27; has already been declared.&quot; En <em>JavaScript</em>, las variables declaradas con <code>const</code> tienen un alcance (scope) de bloque, lo que significa que solo están disponibles dentro del bloque donde fueron declaradas y <strong>no pueden ser recreadas ni reasignadas</strong>. Los bloques se limitan por las llaves <code>{}</code>. Al usar el <code>case</code> sin llaves, estamos intentando crear dos veces la misma constante en el mismo <em>scope</em>.</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[Twitter desaparece, tecnologías más demandadas en España y problemas para los programadores de la India]]></title>
+            <link>https://noticias.dev/#twitter-desaparece-tecnologías-más-demandadas-en-españa-y-problemas-para-los-programadores-de-la-india</link>
+            <guid>https://noticias.dev/#twitter-desaparece-tecnologías-más-demandadas-en-españa-y-problemas-para-los-programadores-de-la-india</guid>
+            <pubDate>Tue, 25 Jul 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"twitter-desaparece-tecnologías-más-demandadas-en-españa-y-problemas-para-los-programadores-de-la-india","title":"Twitter desaparece, tecnologías más demandadas en España y problemas para los programadores de la India","date":"2023-07-25T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Un pájaro volando delante de un edificio con forma de X" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b34a0434.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b34a0434.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b34a0434.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b34a0434.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b34a0434.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b34a0434.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b34a0434.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b34a0434.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b34a0434.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b34a0434.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong> (18H - hora España)<br/><br/>
+HOY: <strong>DevsLeague: Competición de creadores de contenido de programación</strong><br/>
+MAÑANA 26 de julio: <strong>Revisando webs y portfolios de la comunidad</strong><br/>
+JUEVES 27 de julio: <strong>Curso de Node.js desde cero: API con Express</strong><br/></p>
+</blockquote>
+<h3 id="-noticias-7">📰 Noticias</h3>
+<ul>
+<li>
+<p>📈 <a href="https://www.youtube.com/watch?v=yB4n_K7dZV8&amp;feature=youtu.be">¡Primera clase del curso de Node.js publicada!</a> Es <strong>100% gratis y en español</strong>. Desde cero hasta crear tus primeras aplicaciones, pasando por callbacks y asincronía.</p>
+</li>
+<li>
+<p>🐦 <strong>Twitter desaparece</strong> tal y como lo conocemos. <a href="https://twitter.com/elonmusk/status/1683171310388535296">Elon Musk ha anunciado que pasará a llamarse X</a>. Ya ha cambiado el logo en diferentes sitios.</p>
+</li>
+<li>
+<p>💥 <a href="https://nativephp.com/">Native PHP es una tecnología que te permite desarrolla apps de escritorio nativas</a> con PHP. Algo parecido a <em>Electron</em> y <em>Tauri</em> pero <strong>con el lenguaje que llevan años matando.</strong></p>
+</li>
+<li>
+<p>👋 <a href="https://twitter.com/dan_abramov/status/1682029195843739649">Dan Abramov, mítico y archiconocido desarrollador de React, deja Meta</a>. Todavía no se sabe su próximo destino pero las apuestas apuntan a <em>Vercel</em> o <em>Shopify</em>. ¿Tú qué dices?</p>
+</li>
+<li>
+<p>🇪🇸 <strong>Las tecnologías más demandadas en España</strong> son <em>JavaScript</em>, <em>React</em>, <em>TypeScript</em>, <em>Node.js</em> y <em>Docker</em>, <a href="https://cult.honeypot.io/software-developer-salaries-2023/software-developer-salaries-spain/">según un reporte de Honeypot.</a></p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript-11">🔥 Reto de JavaScript</h3>
+<p>Este reto seguro que te sorprende. ¿Realmente existe el tercer parámetro en el callback de <code>forEach</code>? ¿O esto no funciona? ¡Averigua la salida de la consola!</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">numbers</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> [</span><span style="color: var(--shiki-token-constant)">1</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">2</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">3</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">4</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">5</span><span style="color: var(--shiki-color-text)">]</span></span>
+<span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">squares</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> []</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-constant)">numbers</span><span style="color: var(--shiki-token-function)">.forEach</span><span style="color: var(--shiki-color-text)">((num</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> index</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> what) </span><span style="color: var(--shiki-token-keyword)">=&gt;</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">  what[index] </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> num </span><span style="color: var(--shiki-token-keyword)">*</span><span style="color: var(--shiki-color-text)"> num</span></span>
+<span><span style="color: var(--shiki-color-text)">})</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(numbers)</span></span>
+<span></span></code></pre>
+<p>Tienes la <strong>solución al final</strong> de la <em>newsletter</em>.</p>
+<h3 id="-salseo">🥫 Salseo</h3>
+<ul>
+<li>
+<p>🇮🇳 El <strong>CEO de Stability AI</strong> dice que <a href="https://www.cnbc.com/2023/07/18/stability-ai-ceo-most-outsourced-coders-in-india-will-go-in-2-years.html">la mayoría de los programadores de la India van a desaparecer por culpa de la IA</a>. Pero ninguno de Francia. La opinión hay que pillarla con pinzas, que <a href="https://www.forbes.com/sites/kenrickcai/2023/06/04/stable-diffusion-emad-mostaque-stability-ai-exaggeration/">no es la primera vez que se le acusa de inventarse cosas.</a></p>
+</li>
+<li>
+<p>🤖 Hay <a href="https://twitter.com/svpino/status/1681614284613099520">reportes que dicen que <strong>GPT-4 funciona peor que antes</strong></a>. También la <strong>generación de código</strong>. Yo tengo que decir que he notado una mejora de velocidad a costa de calidad. ¿Cómo lo ves tú?</p>
+</li>
+</ul>
+<h3 id="-recursos-y-curiosidad">🧰 Recursos y curiosidad</h3>
+<ul>
+<li>
+<p>👨‍💻 ¿Quieres <strong>mejorar practicando programación</strong>? <a href="https://twitter.com/midudev/status/1682796190557954051">En este vídeo te he dejado los recursos que uso yo para subir de nivel programando</a>.</p>
+</li>
+<li>
+<p>🧩 <a href="https://www.prismane.io/">Prismane es un catálogo con más de 100 componentes de React</a> para crear tu próxima página web mucho más rápido.</p>
+</li>
+<li>
+<p>📐 ¿Te cuesta aprender <strong>CSS Flexbox</strong>? <a href="https://www.flexer.dev">Este playground te puede ayudar a entenderlo</a> y generar los estilos que necesitas.</p>
+</li>
+<li>
+<p>🆕 <a href="https://fullystacked.net/posts/new-font-face-syntax"><code>@font-face</code> estrena nueva sintaxis</a>. Ya está soportado en todos los navegadores modernos pero todavía pasarán meses hasta que se pueda usar con garantías.</p>
+</li>
+<li>
+<p>😱 <strong><a href="https://twitter.com/midudev/status/1683507582089170944">¿A qué edad te enteraste que <em>TypeScript</em> está desarrollado con... <em>TypeScript</em>?</a></strong> Es una técnica llamada <em>Compiler Bootstraping</em> y es más común de lo que crees. También pasa lo mismo con <em>Java</em>, <em>Rust</em>, <em>Python</em> y muchos más.</p>
+</li>
+</ul>
+<h3 id="️-changelog">♻️ Changelog</h3>
+<ul>
+<li>
+<p>🦕 <a href="https://deno.com/blog/fresh-1.3">Deno Fresh 1.3 lanzado</a>. Este framework es una especie de <code>Next.js</code> pero que usa Deno, Preact y con arquitectura de islas. <strong>¡Super interesante!</strong></p>
+</li>
+<li>
+<p>🧑‍🚀 <a href="https://github.com/withastro/astro/releases/tag/astro%402.9.0">Astro 2.9.0</a> viene con soporte experimental para <em>View Transitions</em> <strong>sin necesidad de escribir JavaScript</strong>. ¡Y pinta de lujo!</p>
+</li>
+</ul>
+<h3 id="-solución-al-reto-de-javascript-10">✅ Solución al reto de JavaScript</h3>
+<p>La salida de la consola es <code>[ 1, 4, 9, 16, 25 ]</code>. ¿Cómo es esto posible? El tercer parámetro del callback de <code>forEach</code> es el array que se está iterando. Por lo tanto, podemos modificarlo. En este caso, estamos modificando el array <code>numbers</code> dentro del callback. Por eso, cuando hacemos <code>console.log(numbers)</code> nos devuelve el array modificado.</p>
+<p>Otra cosa es que sea buena idea. De hecho, mejor usar un <code>.map</code> en este caso. ¿Te la sabías? ¡Cuéntamelo en Twitter!</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[El futuro de JavaScript, nuevas unidades de CSS para el viewport y el adiós de las cookies más cerca]]></title>
+            <link>https://noticias.dev/#el-futuro-de-javascript-nuevas-unidades-de-css-para-el-viewport-y-el-adiós-de-las-cookies-más-cerca</link>
+            <guid>https://noticias.dev/#el-futuro-de-javascript-nuevas-unidades-de-css-para-el-viewport-y-el-adiós-de-las-cookies-más-cerca</guid>
+            <pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"el-futuro-de-javascript-nuevas-unidades-de-css-para-el-viewport-y-el-adiós-de-las-cookies-más-cerca","title":"El futuro de JavaScript, nuevas unidades de CSS para el viewport y el adiós de las cookies más cerca","date":"2023-07-18T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Un chico usando el ordenador y una chica usando el móvil en una ciudad futurista" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.d8ba2ac7.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.d8ba2ac7.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.d8ba2ac7.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.d8ba2ac7.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.d8ba2ac7.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.d8ba2ac7.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.d8ba2ac7.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.d8ba2ac7.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.d8ba2ac7.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.d8ba2ac7.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong> (18H - hora España)<br/><br/>
+HOY: <strong>Curso Strapi + Next.js 13</strong><br/>
+MAÑANA 19 de julio: <strong>Revisando webs y portfolios de la comunidad</strong><br/>
+JUEVES 20 de julio: <strong>Curso de Node.js desde cero</strong><br/>
+¡Y el <strong>25 de julio</strong> arranca la <a href="https://www.devsleague.com/">DEVS LEAGUE</a>!<br/><strong>¡La Competición de creadores de contenido de programación</strong>!</p>
+</blockquote>
+<h3 id="-noticias-8">📰 Noticias</h3>
+<ul>
+<li>
+<p>🍪 Llega <strong>Chrome 115</strong> y con ello la <a href="https://developer.chrome.com/blog/new-in-chrome-115/#topics-api">Topics API</a>, una tecnología que viene a matar las cookies. Podrás llamar al método <code>document.browsingTopics()</code> y te devolverá los temas de interés del usuario, sin necesidad de rastrear su historial.</p>
+</li>
+<li>
+<p>🪄 Y, ojo, que en la misma versión también llegan las <em>Scroll Driven Animations</em>, que nos permitirá <strong>animar elementos con CSS según el scroll</strong>. ¡Cuando instales la nueva versión, <a href="https://scroll-driven-animations.style/">mira estas demostraciones</a>!</p>
+</li>
+<li>
+<p>Hablando de las Scroll Driven Animations, Google ha sacado un <a href="https://developer.chrome.com/blog/scroll-animation-performance-case-study/">extenso artículo que te explica las mejoras de rendimiento</a> que ofrece respecto a usar JavaScript para conseguir lo mismo.</p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript-12">🔥 Reto de JavaScript</h3>
+<p>Hablando del <code>Optional Chaining</code>, tenemos un código que lo usa para recuperar el valor de <code>street</code> pero también usa otro operador para asegurarse que tenemos valor... <strong>¿Cuál es la salida en consola?</strong></p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">user</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">  name</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&quot;midu&quot;</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span><span style="color: var(--shiki-color-text)">  address</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">    street</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">false</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span><span style="color: var(--shiki-color-text)">    city</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&quot;Barcelona&quot;</span></span>
+<span><span style="color: var(--shiki-color-text)">  }</span></span>
+<span><span style="color: var(--shiki-color-text)">};</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">street</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">user</span><span style="color: var(--shiki-color-text)">?.</span><span style="color: var(--shiki-token-constant)">address</span><span style="color: var(--shiki-color-text)">?.street </span><span style="color: var(--shiki-token-keyword)">??</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&quot;Sin calle&quot;</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(street) </span><span style="color: var(--shiki-token-comment)">// -&gt; ¿?</span></span>
+<span></span></code></pre>
+<p>Tienes la solución al final de la <em>newsletter</em>.</p>
+<h3 id="-el-futuro-de-javascript">🚀 El futuro de JavaScript</h3>
+<ul>
+<li>
+<p>❓ ¿Conoces el operador Optional Chaining del reto anterior? Es <code>?.</code> y <strong>nos ayuda a acceder a propiedades anidadas de un objeto pero comprobando que el camino existe</strong>. Pues pronto podremos también hacer asignaciones usándolo <code>persona?.name = &#x27;midu&#x27;</code>. <a href="https://github.com/tc39/proposal-optional-chaining-assignment">Más información en la propuesta</a>.</p>
+</li>
+<li>
+<p>🙌  ¡Por fin <strong>podremos transformar Arrays en Objetos con <code>groupBy</code></strong>! Así podemos agrupar elementos de un array por una propiedad. Ya está en la fase 3, así que pronto lo tendremos en JavaScript. Ejemplo:</p>
+</li>
+</ul>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">array</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> [</span><span style="color: var(--shiki-token-constant)">1</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">2</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">3</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">4</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">5</span><span style="color: var(--shiki-color-text)">]</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">group</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">Object</span><span style="color: var(--shiki-token-function)">.groupBy</span><span style="color: var(--shiki-color-text)">(array</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> (num</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> index) </span><span style="color: var(--shiki-token-keyword)">=&gt;</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-keyword)">return</span><span style="color: var(--shiki-color-text)"> num </span><span style="color: var(--shiki-token-keyword)">%</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">2</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">===</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">0</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">?</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;par&#39;</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;impar&#39;</span></span>
+<span><span style="color: var(--shiki-color-text)">})</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(group) </span><span style="color: var(--shiki-token-comment)">// =&gt;  { impar: [1, 3, 5], par: [2, 4] }</span></span>
+<span></span></code></pre>
+<h3 id="-cositas-de-css">🎨 Cositas de CSS</h3>
+<ul>
+<li>
+<p>📱 <strong>¿Conoces la unidad <code>vh</code>?</strong> Es la altura del <em>viewport</em>. Muchas veces usamos <code>100vh</code> para indicar que debe usar toda la altura de la pantalla. Pero... <strong>¿sabías que no hace lo que espera en móvil?</strong> Por suerte <a href="https://ishadeed.com/article/new-viewport-units">han sacado nuevas unidades, especialmente interesante la <code>dvh</code></a>.</p>
+</li>
+<li>
+<p>✨ La aplicación web de Threads trae <strong>un montón de detalles en su CSS</strong>. Si quieres descubrir todos los trucos que usan, <a href="https://ishadeed.com/article/threads-app-css/">aquí tienes un artículo que te lo explica</a>.</p>
+</li>
+</ul>
+<h3 id="-sube-de-nivel">📈 Sube de nivel</h3>
+<ul>
+<li>
+<p>👨‍💻 <strong>¿Quieres practicar Pruebas Técnicas reales?</strong> <a href="https://pruebastecnicas.com/">He creado un recurso donde cada mes publicaremos una nueva prueba técnica.</a> Sólo tienes que crear una Pull Request con tu solución. Las mejores vendrán a un directo a defender su prueba.</p>
+</li>
+<li>
+<p>🇬🇧 Saber inglés multiplica tus posibilidades de éxito. Pero no todo el mundo puede pagar un curso. Aquí tienes <a href="https://twitter.com/midudev/status/1680952060240330753">5 CURSOS GRATUITOS para aprender Inglés</a></p>
+</li>
+<li>
+<p>🏗️ <a href="https://www.instagram.com/p/CuzNBM6Na6Q/">Aprende Patrones de Diseño de Software</a>, gratis y en español. Tiene ejemplos de diferentes lenguajes de programación y muchos ejemplos de cada uno.</p>
+</li>
+</ul>
+<h3 id="-recursos-que-no-debes-perderte">🧰 Recursos que no debes perderte</h3>
+<ul>
+<li>
+<p>🛞 <a href="https://driverjs.com/">driver.js es una biblioteca escrita en Vanilla JS que te permite crear <strong>tours de usuario</strong></a>. Es decir, que puedes crear un tutorial para que el usuario sepa cómo usar tu web. ¡Muy útil para onboarding!</p>
+</li>
+<li>
+<p>⚡ <a href="https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma">Web Vitals es una extensión de Addy Osmani</a> que te muestra las métricas de rendimiento de una web. Ofrece datos de laboratorio (tus datos locales) y datos de campo (los datos de usuarios reales). ¡Muy útil para ver cómo va tu web!</p>
+</li>
+<li>
+<p>🥳 ¿Quieres comparar cómo se crea un componente, se maneja un estado o se añaden eventos en React, Vue, Angular o Svelte? <a href="https://component-party.dev/">Component.party te muestra de un vistazo sus diferencias.</a></p>
+</li>
+</ul>
+<h3 id="-solución-al-reto-de-javascript-11">✅ Solución al reto de JavaScript</h3>
+<p>El otro operador era el Nullish Coalescing Operator <code>??</code>, que revisa si el operando de la izquierda es <code>null</code> o <code>undefined</code> y, si lo es, devuelve el operando de la derecha. En este caso, <code>street</code> es <code>false</code>, así que no es <code>null</code> ni <code>undefined</code>, así que <strong>no se asigna el valor de la derecha</strong>.</p>
+<p>No confundas el operador <code>??</code> con <code>||</code> que sí revisa valores <em>falsy</em>.</p>
+<p>Por lo tanto, la salida en consola será <code>false</code>.</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[¡ChatGPT lo vuelve a hacer! + Reddit deja React + Google Analytics ilegal y entrevistas rotas en programación]]></title>
+            <link>https://noticias.dev/#chatgpt-lo-vuelve-a-hacer--reddit-deja-react--google-analytics-ilegal-y-entrevistas-rotas-en-programación</link>
+            <guid>https://noticias.dev/#chatgpt-lo-vuelve-a-hacer--reddit-deja-react--google-analytics-ilegal-y-entrevistas-rotas-en-programación</guid>
+            <pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"chatgpt-lo-vuelve-a-hacer--reddit-deja-react--google-analytics-ilegal-y-entrevistas-rotas-en-programación","title":"¡ChatGPT lo vuelve a hacer! + Reddit deja React + Google Analytics ilegal y entrevistas rotas en programación","date":"2023-07-11T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Ultron programando en una computadora" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.a5c167a3.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.a5c167a3.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.a5c167a3.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.a5c167a3.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.a5c167a3.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.a5c167a3.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.a5c167a3.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.a5c167a3.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.a5c167a3.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.a5c167a3.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong> (18H - hora España)<br/><br/>
+HOY: <strong>Desarrollamos la API de Threads desde cero</strong><br/>
+MAÑANA 12 de julio: <strong>Revisando webs y portfolios de la comunidad</strong><br/>
+JUEVES 13 de julio: <strong>¡Haz una prueba técnica para desarrolladores Front-End!</strong><br/>
+20 de julio: <strong>Curso de Node.js desde cero</strong><br/><br/>
+¡Y el <strong>25 de julio</strong> arranca la <a href="https://www.devsleague.com/">DEVS LEAGUE</a>!<br/><strong>¡La Competición de creadores de contenido de programación</strong>!</p>
+</blockquote>
+<h3 id="-noticias-9">📰 Noticias</h3>
+<ul>
+<li>
+<p>🤖 <a href="https://hipertextual.com/2023/07/chatgpt-lanza-code-interpreter-complemento">ChatGPT ha sacado oficialmente su <em>Code Interpreter</em></a> y las primeras pruebas te vuelan la cabeza. Te permite subir ficheros, analizarlos, transformarlos... y te genera el <strong>código en Python</strong>. ¡Espectacular!</p>
+</li>
+<li>
+<p>🍃 <a href="https://www.youtube.com/watch?v=CLkxRnRQtDE">¡Viene nueva versión de Tailwind!</a> Con <strong>mejoras de rendimiento</strong> (la mitad de tiempo), mucho <strong>más inteligente</strong> (¡no necesitarás indicarle la configuración de <em>content</em>, lo hace automáticamente!) y catálogo de componentes llamado <em>Catalyst</em>.</p>
+</li>
+<li>
+<p>🚀 <a href="https://www.theregister.com/2023/07/07/gitlab_outage/">GitLab desplegó en viernes y... bueno, <strong>no le fue bien</strong></a>. También es verdad que les podía haber pasado cualquier otro día. ¡Pero ahí queda la historia!</p>
+</li>
+<li>
+<p>🆕 <a href="https://prettier.io/blog/2023/07/05/3.0.0.html">Prettier sube de versión</a> con novedades y cambios que rompen. <a href="https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md#440-2023-07-06">Vite llega a su versión 4.4</a> con la novedad que están probando LightingCSS, una <strong>alternativa más rápida de PostCSS</strong>.</p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript-13">🔥 Reto de JavaScript</h3>
+<p>¿Cuál es la salida en <em>Consola</em> del siguiente código JavaScript? Tienes la solución al final de la <em>newsletter</em>.</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">numbers</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> [</span><span style="color: var(--shiki-token-constant)">1</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">2</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">3</span><span style="color: var(--shiki-color-text)">]</span></span>
+<span><span style="color: var(--shiki-color-text)">numbers[</span><span style="color: var(--shiki-token-constant)">10</span><span style="color: var(--shiki-color-text)">] </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">11</span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-constant)">numbers</span><span style="color: var(--shiki-color-text)">.</span><span style="color: var(--shiki-token-constant)">length</span><span style="color: var(--shiki-color-text)">)</span></span>
+<span></span></code></pre>
+<p>¡Tienes la solución al final de la <em>newsletter</em>!</p>
+<h3 id="-salseos-3">🥫 Salseos</h3>
+<ul>
+<li>
+<p>🦊 <a href="https://twitter.com/midudev/status/1677591994992934913">La evolución de uso de Firefox no pinta bien.</a> Sigue cayendo y ya tiene una cuota de mercado menor al 5%. No quiero sonar catastrofista pero... <strong>¿podrá aguntar mucho más así?</strong></p>
+</li>
+<li>
+<p>👨‍💻 <strong>Las entrevista de programación están rotas.</strong> Lo explica una persona con más de 30 años de experiencia en el mundo del desarrollo donde, a pesar de contar con recomendaciones, <a href="https://twitter.com/catalinmpit/status/1678067310081310720">le pedían hacer ejercicios en una pizarra blanca.</a></p>
+</li>
+<li>
+<p>🔪 <strong>Siempre que saca algo ChatGPT, se mata algo o alguien.</strong> En este caso <a href="https://twitter.com/nickfloats/status/1678067608975822849">Twitter se ha llenado de mensajes matando a los Data Analyst</a>. ¡Larga vida al análisis de datos!</p>
+</li>
+<li>
+<p>🥊 Mientra que <a href="https://deno.com/blog/commonjs-is-hurting-javascript"><em>Deno</em> dice que <em>CommonJS</em> está haciendo daño a <em>JavaScript</em></a>, <a href="https://bun.sh/blog/commonjs-is-not-going-away"><em>Bun</em> dice que lo va a soportar y que <strong>aceptemos que no se va a ir a ningún lado</strong>.</a></p>
+</li>
+</ul>
+<h3 id="-ojo-con-esto-1">👀 ¡Ojo con esto!</h3>
+<ul>
+<li>
+<p>💚 Parece que <a href="https://twitter.com/icarusgkx/status/1678128674481094656?t=UVpWwz9pAHrC-CMcqct6Cg&amp;s=33">Kick, la competencia de Twitch, usa Vue y Tailwind</a>. Esto, mientras se confirma que <a href="https://twitter.com/luciascarlet/status/1677011510479179778">Reddit deja React y se pasa a Lit</a>.</p>
+</li>
+<li>
+<p>🧑‍⚖️ ¡Cuidado! <a href="https://techcrunch.com/2023/07/03/google-analytics-sweden-gdpr-fines/">En Suecia consideran que <strong>Google Analytics es ilegal</strong></a> porque no cumple la GDPR (ley de privacidad de datos de la UE). Ni con aviso de cookies. Se suman a otros paises como <a href="https://twitter.com/rtayar/status/1499290761036275714">Francia o Italia</a>.</p>
+</li>
+</ul>
+<blockquote>
+<p>¡Actualización! Unas horas después de enviar la lista de correo, resulta que <a href="https://twitter.com/analyticsnerd/status/1678459561215229953">la UE y EEUU han llegado a un acuerdo.</a> Por lo que <strong>Google Analytics, que llevaba años siendo virtualmente ilegal en Europa, vuelve a ser legal</strong>.</p>
+</blockquote>
+<h3 id="-recursos-para-programadores">🧰 Recursos para programadores</h3>
+<ul>
+<li>📈 Una <a href="https://www.react-graph-gallery.com/">espectacular galería de gráficas</a> desarrolladas con React y D3.js.</li>
+<li>⚡ Entiende [<a href="https://www.youtube.com/watch?v=ZKH3DLT4BKw">https://www.youtube.com/watch?v=ZKH3DLT4BKw</a>], de la mano de <strong>Addy Osmani</strong>.</li>
+<li>🪟 <a href="https://react95.github.io/React95/?path=/story/all--all">React 95 es un catálogo de componentes para simular Windows 95</a>. <strong>No sé por qué querrías hacer esto</strong>, pero ahora puedes.</li>
+<li>🎧 <em>Spotify</em> ha sacado su <a href="https://developer.spotify.com/blog/2023-07-03-typescript-sdk">SDK con soporte para TypeScript</a>.</li>
+<li>📐 En CSS ya no sólo tendremos las <em>Container Queries</em> (como Media Queries para a nivel de elementos)... ¡es que <strong>también podrán tener estados</strong>! <a href="https://ishadeed.com/article/css-state-queries/">Este artículo te lo explica para, por ejemplo, detectar si un elemento está sticky o no.</a></li>
+</ul>
+<h3 id="-solución-al-reto-de-javascript-12">✅ Solución al reto de JavaScript</h3>
+<p>¡Esta era fácil! ¿No? La respuesta es <strong>11</strong>. Te explico:</p>
+<ul>
+<li>No pasa nada que sea <code>const</code> ya que no estamos reasignando el array.</li>
+<li>Al asignar el valor <code>11</code> en la posición <code>10</code> del array, se crean las posiciones <code>3</code> a <code>9</code> en memoria, pero se dejan  vacías.</li>
+<li>Al hacer <code>console.log(numbers.length)</code> nos devuelve <code>11</code> porque es la longitud del array, aunque solo tenga 3 elementos.</li>
+</ul>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[Nueva versión de JavaScript 2023, GitHub se pasa a React, usa jQuery en 2023 y gana 60K$ al mes]]></title>
+            <link>https://noticias.dev/#nueva-versión-de-javascript-2023-github-se-pasa-a-react-usa-jquery-en-2023-y-gana-60k-al-mes</link>
+            <guid>https://noticias.dev/#nueva-versión-de-javascript-2023-github-se-pasa-a-react-usa-jquery-en-2023-y-gana-60k-al-mes</guid>
+            <pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"nueva-versión-de-javascript-2023-github-se-pasa-a-react-usa-jquery-en-2023-y-gana-60k-al-mes","title":"Nueva versión de JavaScript 2023, GitHub se pasa a React, usa jQuery en 2023 y gana 60K$ al mes","date":"2023-07-04T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Un pulpo gato programando" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.f8f8c9ba.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.f8f8c9ba.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.f8f8c9ba.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.f8f8c9ba.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.f8f8c9ba.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.f8f8c9ba.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.f8f8c9ba.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.f8f8c9ba.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.f8f8c9ba.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.f8f8c9ba.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong> (18H - hora España)<br/><br/>
+HOY: <strong>Desarrollo Web desde 0 con Astro y transiciones CSS entre páginas</strong><br/>
+MAÑANA 5 de julio: <strong>Creamos la base de datos de Twitter desde cero con MySQL</strong><br/>
+JUEVES 6 de julio: <strong>Charla con BettaTech. ¿Mercado saturado? ¿Ir a la universidad? ¿Proyectos personales?</strong><br/>
+20 de julio: <strong>Curso de Node.js desde cero</strong><br/><br/>
+¡Y el <strong>25 de julio</strong> arranca la <a href="https://www.devsleague.com/">DEVS LEAGUE</a>!<br/><strong>¡La Competición de creadores de contenido de programación</strong>!</p>
+</blockquote>
+<h3 id="-noticias-10">📰 Noticias</h3>
+<ul>
+<li>🆕 <strong>¡Tenemos nueva versión de JavaScript!</strong> <strong>ECMAScript 2023</strong> ya es oficial. Trae novedades importantes como <a href="https://github.com/tc39/proposal-array-find-from-last">nuevos métodos de array <code>findLast</code> y <code>findLastIndex</code></a> para buscar elementos en un array a la inversa. Y todos los <a href="https://github.com/tc39/proposal-change-array-by-copy">nuevos métodos <code>toReversed</code>, <code>toSorted</code>, <code>toSpliced</code> y <code>with</code></a> que devuelven una copia del array.</li>
+</ul>
+<blockquote>
+<p>¿Sabes qué es ECMAScript? Podríamos decir que es <em>la receta</em> para crear JavaScript. Es una especificación que define cómo debe funcionar el lenguaje.</p>
+</blockquote>
+<ul>
+<li>
+<p>🐙 Poca gente se ha fijado, pero <strong>GitHub está migrando poco a poco su web a React</strong>. Todas las nuevas partes están hechas con la biblioteca de Meta. Por ejemplo, <a href="https://github.com/midudev/aprendiendo-react/blob/master/README.md">el nuevo explorador de archivos está hecho con React</a>.</p>
+</li>
+<li>
+<p>⚛️ <strong>Next.js ha sacado una nueva versión</strong>. Es algo que podríamos decir todas las semanas. Pero <a href="https://nextjs.org/blog/next-11-1">esta trae importantes mejoras de rendimiento</a> tras unas cuantas versiones que han empeorado el rendimiento.</p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript-14">🔥 Reto de JavaScript</h3>
+<p>¿Cuál es la salida en <em>Consola</em> del siguiente código JavaScript? Tienes la solución al final de la <em>newsletter</em>.</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">obj</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> {</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">1</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">1</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">2</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">2</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">3</span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">3</span></span>
+<span><span style="color: var(--shiki-color-text)">}</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">keys</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">JSON</span><span style="color: var(--shiki-token-function)">.stringify</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-constant)">Object</span><span style="color: var(--shiki-token-function)">.keys</span><span style="color: var(--shiki-color-text)">(obj))</span></span>
+<span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">values</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">JSON</span><span style="color: var(--shiki-token-function)">.stringify</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-constant)">Object</span><span style="color: var(--shiki-token-function)">.values</span><span style="color: var(--shiki-color-text)">(obj))</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(keys </span><span style="color: var(--shiki-token-keyword)">===</span><span style="color: var(--shiki-color-text)"> values)</span></span>
+<span></span></code></pre>
+<p><em>Tienes la solución al reto al final de la newsletter.</em></p>
+<h3 id="--salseos">🥫  Salseos</h3>
+<ul>
+<li>
+<p>📹 Tienes un <a href="https://www.youtube.com/watch?v=bFJY2Jymh2k">resumen de los salseos y las noticias de JavaScript en mi canal de YouTube.</a></p>
+</li>
+<li>
+<p>🐦 <strong>Twitter ha limitado el número de posts</strong> que puedes ver al día. Pero ese no es el salseo. El salseo es que [hay programadores de Twitter pidiendo ayuda en foros](Ingenieros web de Twitter pidiendo ayuda a ingenieros... ¡que hayan trabajado en antes! <em>This is fine</em>.</p>
+</li>
+<li>
+<p>👴 Un archivo de <strong>14.000 líneas de PHP con HTML, CSS y JavaScript todo mezclado</strong>. ¡Con jQuery! Nada de flexbox, todo floats. Parece una pesadilla, pero <a href="https://twitter.com/levelsio/status/1675829733668319233">es un proyecto que factura más de 60.000$ al mes.</a></p>
+</li>
+<li>
+<p>🚨 <strong>Kent C. Dodds dice que normalmente el problema de rendimiento de las webs son del backend.</strong> Y que está bien intentar ahorrarte unos milisegundos en el frontend. Yo no estoy de acuerdo, ya te digo, pero <a href="https://twitter.com/kentcdodds/status/1674994384369258496">te dejo su mensaje para que opines por ti mismo.</a></p>
+</li>
+</ul>
+<h3 id="️--recursos">🛠️  Recursos</h3>
+<ul>
+<li>
+<p>🏗️ <a href="https://www.youtube.com/watch?v=tqhLK0Fb5_4">Charla sobre los principios para escalar desarrollo de aplicaciones Frontend</a>. Es de <strong>Malte Ubl, CTO de Vercel</strong>.</p>
+</li>
+<li>
+<p>✍️ Hoy vas a <strong>aprender SVG y cómo funcionan elementos <code>&lt;path&gt;</code></strong> con este <a href="https://www.nan.fyi/svg-paths">tutorial interactivo espectacular</a>.</p>
+</li>
+<li>
+<p>🌏 <code>next-international</code> es una <a href="https://github.com/QuiiBz/next-international#app-router">biblioteca para hacer <em>i18N</em> en tus proyectos de Next.js</a>. ¿Lo mejor? Compatible con <em>React Server Components</em>, carga sólo las traducciones que necesita y muy fácil de usar.</p>
+</li>
+</ul>
+<h3 id="-solución-al-reto-de-javascript-13">✅ Solución al reto de JavaScript</h3>
+<p>La solución es <code>false</code>. <code>Object.keys(obj)</code> devuelve un array con las claves del objeto. En este caso será el array <code>[&quot;1&quot;, &quot;2&quot;, &quot;3&quot;]</code>. Fíjate que son cadenas de texto, ya que las llaves de los objetos siempre son strings. <code>Object.values(obj)</code> devuelve los valores del objeto <code>[1, 2, 3]</code> (son números). Al transformar ambos en una cadena de texto con <code>JSON.stringify</code> nos queda:</p>
+<pre><code class="language-javascript"><span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">keys</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;[&quot;1&quot;, &quot;2&quot;, &quot;3&quot;]&#39;</span></span>
+<span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">values</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-string-expression)">&#39;[1, 2, 3]&#39;</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(keys </span><span style="color: var(--shiki-token-keyword)">===</span><span style="color: var(--shiki-color-text)"> values) </span><span style="color: var(--shiki-token-comment)">// false</span></span>
+<span></span></code></pre>
+<h3 id="️-sabías-que-tengo-un-podcast">🎙️ ¿Sabías que tengo un podcast?</h3>
+<p>¿Los devs siempre deben tener proyectos personales? <a href="https://open.spotify.com/show/1Et8hZk1DwKw6PtBFGpwSD">Es el episodio de mi último podcast.</a> Lo he tenido un poco abandonado, pero mi idea es ir <strong>grabando episodios de forma más continua</strong>. ¡Si lo escuchas y te gusta, <strong>compártelo</strong>! Así seguro que me animo a seguir grabando más capítulos.</p>
+<p>Puedes encontrarme en <a href="https://open.spotify.com/show/1Et8hZk1DwKw6PtBFGpwSD">Spotify</a>, <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly93d3cuaXZvb3guY29tL3BvZGNhc3Qtd3Rmcm9udF9mZ19mMTY0NzM1Nl9maWx0cm9fMS54bWw=">Google</a> y <a href="https://itunes.apple.com/us/podcast/wtfront/id1448113230?mt=2">iTunes</a>.</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
+            <title><![CDATA[10 cosas que todo programador debería saber, Figma Dev Mode y el creador de Copilot se queja]]></title>
+            <link>https://noticias.dev/#10-cosas-que-todo-programador-debería-saber-figma-dev-mode-y-el-creador-de-copilot-se-queja</link>
+            <guid>https://noticias.dev/#10-cosas-que-todo-programador-debería-saber-figma-dev-mode-y-el-creador-de-copilot-se-queja</guid>
+            <pubDate>Tue, 27 Jun 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"10-cosas-que-todo-programador-debería-saber-figma-dev-mode-y-el-creador-de-copilot-se-queja","title":"10 cosas que todo programador debería saber, Figma Dev Mode y el creador de Copilot se queja","date":"2023-06-27T00:00Z"}</script>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Una chica en una oficina de su casa con su gato, programando en su computadora" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.b1341976.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.b1341976.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.b1341976.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.b1341976.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.b1341976.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.b1341976.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.b1341976.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.b1341976.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.b1341976.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.b1341976.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+
+<blockquote>
+<p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong> (18H - hora España)<br/>
+HOY 27 de JUNIO, <strong>Curso de SQL desde cero</strong><br/>
+¡Y el próximo <strong>27 de JULIO</strong> arranca la <a href="https://www.devsleague.com/">DevsLeague</a>!<br/><strong>Competición de creadores de contenido de programación</strong>! Pronto más detalles.</p>
+</blockquote>
+<h3 id="-noticias-11">📰 Noticias</h3>
+<ul>
+<li>
+<p>😱 <strong>Figma</strong> ha revolucionado la forma de trabajar en diseño y desarrollo con <a href="https://youtu.be/__ABPkb0aF8">Figma Dev Mode</a>. ¡Y viene con una <a href="https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension">extensión de Visual Studio Code</a>!</p>
+</li>
+<li>
+<p>🗃️ <code>package.json</code>, <code>eslintrc</code>, <code>tsconfig.json</code>, <code>.gitignore</code>... ¿Demasiados archivos de configuración en la raíz de nuestros proyectos? <a href="https://dotmeta.org/">La iniciativa <em>dotmeta</em> busca usar una sola carpeta para todo.</a></p>
+</li>
+<li>
+<p>📈 Han salido los <a href="https://survey.stackoverflow.co/2023/">resultados de la encuesta de Stack Overflow 2023.</a>. Aquí tienes <a href="https://www.youtube.com/watch?v=7rgvapDYPo0">mi vídeo reaccionando a los resultados.</a></p>
+</li>
+<li>
+<p>🥳 ¡Ya somos 50.000 personas en la comunidad de desarrollo! ¿Faltas tú? <a href="https://discord.com/invite/midudev">¡Entra a nuestro Discord y forma parte de ella!</a></p>
+</li>
+</ul>
+<h3 id="-reto-de-javascript-15">🔥 Reto de JavaScript</h3>
+<p>¿Cuál es la salida de este código? ¿O es que acaso da un error de sintaxis?</p>
+<pre><code class="language-js"><span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">result</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> (() </span><span style="color: var(--shiki-token-keyword)">=&gt;</span><span style="color: var(--shiki-color-text)"> (</span></span>
+<span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-constant)">5</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">10</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">15</span></span>
+<span><span style="color: var(--shiki-color-text)">))()</span></span>
+<span></span>
+<span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(result)</span></span>
+<span></span></code></pre>
+<p><em>Tienes la solución del reto al final de la newsletter</em></p>
+<h3 id="--salseos-1">🥫  Salseos</h3>
+<ul>
+<li>
+<p>💸 El &quot;creador&quot; de GitHub Copilot se ha quejado que <a href="https://twitter.com/alexgraveley/status/1671213996735594503">&quot;sólo&quot; le pagaron 20.000$ de compensación por desarrollar la herramienta</a>.</p>
+</li>
+<li>
+<p>🐌 Mucha gente se está quejando que <a href="https://twitter.com/flybayer/status/1671254924020289537">las últimas versiones de Next.js son lentas para desarrollar</a>. Alguien ha aprovechado para hurgar en la herida y <a href="https://twitter.com/icarusgkx/status/1672329051720040448?t=JxVwhDX4MtQeqso3Z71K6A&amp;s=33">compararlo con Nuxt</a>.</p>
+</li>
+<li>
+<p>⚛️ Parece que todas las semanas vamos a tener una pelea sobre React. Ahora es Fred K. Schoot, creador de Astro, que no ve claro que Next.js use una versión Canary de React. <a href="https://twitter.com/t3dotgg/status/1673343428820697089">Aquí tienes el hilo.</a></p>
+</li>
+</ul>
+<h3 id="️--recursos-1">🛠️  Recursos</h3>
+<ul>
+<li>
+<p>🦊 <a href="https://developer.mozilla.org/en-US/play">Mozilla ha sacado su propio CodePen para MDN</a>. No es muy destacable pero sorprende el movimiento.</p>
+</li>
+<li>
+<p>📐 <a href="https://github.com/shuding/react-wrap-balancer/releases/tag/1.0.0"><code>react-wrap-balance</code> es un componente que evita que tu texto no esté balanceado</a> (por ejemplo, cuando en dos líneas queda una palabra suelta). Ahora, si tu navegador soporta la propiedad nativa de CSS <code>text-wrap: balance</code>, lo usa y evita usar JavaScript.</p>
+</li>
+<li>
+<p>✍️ <a href="https://novel.sh/">Novel, es un editor al estilo de Notion</a> que puedes integrar en cualquier sitio. No sólo visualmente es brutal, es que tiene hasta integración con ChatGPT, para darte sugerencias de lo que escribir.</p>
+</li>
+</ul>
+<h3 id="-solución-al-reto-de-javascript-14">✅ Solución al reto de JavaScript</h3>
+<p>En consola aparecerá <code>15</code>. ¿Por qué? Porque el operador coma <code>,</code> devuelve el último valor de la expresión. En este caso, <code>15</code>. Sí, la coma <code>,</code> <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Comma_operator">en ese contexto se comporta como un operador</a>.</p>
+<p>Por lo demás, estamos usando una IIFE (función autoinvocada) para que el resultado de la expresión se guarde en la variable <code>result</code>. Y la arrow function devuelve directamente la expresión.</p>
+<h3 id="-lectura-interesante">📚 Lectura interesante</h3>
+<p><a href="https://blog.ossph.org/programming-principles-every-developer-should-know">10 principios que todo desarrollador debería saber</a> es un artículo que te explica conceptos como <code>KISS, </code>YAGNI<code>o</code>SOLID` con ejemplos de código. Muy interesante para mejorar en programación.</p>
+</article>]]></content:encoded>
+            <author>miduga@gmail.com (Miguel Ángel Durán)</author>
+        </item>
+        <item>
             <title><![CDATA[Angular cambia su sintaxis y ChatGPT dando keys válidas de Windows]]></title>
             <link>https://noticias.dev/#angular-cambia-su-sintaxis-y-chatgpt-dando-keys-válidas-de-windows</link>
             <guid>https://noticias.dev/#angular-cambia-su-sintaxis-y-chatgpt-dando-keys-válidas-de-windows</guid>
             <pubDate>Wed, 21 Jun 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"angular-cambia-su-sintaxis-y-chatgpt-dando-keys-válidas-de-windows","title":"Angular cambia su sintaxis y ChatGPT dando keys válidas de Windows","date":"2023-06-21T00:00Z"}</script>
-<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=3840&amp;q=75"/><div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Un chico con gafas escuchando música y desarrollando en su portátil" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e9f0cef9.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
 
 <blockquote>
 <p><strong><a href="https://twitch.tv/midudev">Próximos directos en Twitch 🟣</a></strong> (18H - hora España)</p>
@@ -57,7 +1349,7 @@
 <span><span style="color: var(--shiki-token-constant)">console</span><span style="color: var(--shiki-token-function)">.log</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-string-expression)">&#39;¿Cuántos segundos han pasado?&#39;</span><span style="color: var(--shiki-color-text)">)</span></span>
 <span></span></code></pre>
 <p><em>Tienes la solución al reto al final de la newsletter.</em></p>
-<h3 id="--salseos">🥫  Salseos</h3>
+<h3 id="--salseos-2">🥫  Salseos</h3>
 <ul>
 <li>
 <p>💀 <strong>Google ha matado Google Domains</strong> y se <a href="https://newsroom.squarespace.com/blog/googledomains">lo ha vendido a SquareSpace</a>. No es la primera vez que Google mata uno de sus productos pero sorprende en un producto que tenía 10 millones de dominios. <a href="https://twitter.com/GergelyOrosz/status/1669579242357530624">A la gente no le ha gustado ni un pelo.</a></p>
@@ -94,7 +1386,7 @@
             <guid>https://noticias.dev/#adiós-javascript-y-el-consejo-de-bill-gates-para-mejorar-en-programación</guid>
             <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"adiós-javascript-y-el-consejo-de-bill-gates-para-mejorar-en-programación","title":"¿Adiós JavaScript? Y el consejo de Bill Gates para mejorar en programación","date":"2023-06-14T00:00Z"}</script>
-<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=3840&amp;q=75"/><div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Una ciudad a lo lejos en llamas con las letras JS (de JavaScript) en grande, en el centro" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.a3b248ff.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
 
 <h3 id="--noticias-1">📰  Noticias</h3>
 <ul>
@@ -116,7 +1408,7 @@
 <span></span>
 <span><span style="color: var(--shiki-token-function)">run</span><span style="color: var(--shiki-token-punctuation)">(Button)</span></span>
 <span></span></code></pre>
-<h3 id="-reto-de-javascript">🔥 Reto de JavaScript</h3>
+<h3 id="-reto-de-javascript-16">🔥 Reto de JavaScript</h3>
 <p>¿Cuál es la salida del <code>console.log</code> del siguiente código? ¡Piénsalo bien!</p>
 <pre><code class="language-js"><span><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">promise</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">new</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">Promise</span><span style="color: var(--shiki-color-text)">((resolve</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> reject) </span><span style="color: var(--shiki-token-keyword)">=&gt;</span><span style="color: var(--shiki-color-text)"> {</span></span>
 <span><span style="color: var(--shiki-color-text)">  </span><span style="color: var(--shiki-token-function)">reject</span><span style="color: var(--shiki-color-text)">(</span><span style="color: var(--shiki-token-string-expression)">&quot;Error&quot;</span><span style="color: var(--shiki-color-text)">)</span></span>
@@ -137,7 +1429,7 @@
 <p>Pensar que vas a ser uno de los mejores desarrolladores de software del mundo sin trabajar junto a alguien con más antigüedad... Dudo que esa sea una visión muy artesanal.</p>
 </blockquote>
 <p><a href="https://www.genbeta.com/desarrollo/secreto-para-convertirte-gran-desarrollador-bill-gates-experiencia-no-tuya">Extraído de GenbetaDev</a></p>
-<h3 id="--salseos-1">🥫  Salseos</h3>
+<h3 id="--salseos-3">🥫  Salseos</h3>
 <ul>
 <li>🔥 Douglas Crockford, creador de JSON, ha dicho que <strong>deberíamos dejar de usar JavaScript</strong>. <a href="https://www.youtube.com/watch?v=lc5Np9OqDHU">Puedes ver la charla aquí</a>. ¿Qué opinas?</li>
 </ul>
@@ -154,7 +1446,7 @@
             <guid>https://noticias.dev/#10-años-de-react-y-14-de-nodejs</guid>
             <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"10-años-de-react-y-14-de-nodejs","title":"10 años de React y 14 de Node.js","date":"2023-06-06T00:00Z"}</script>
-<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=3840&amp;q=75"/><div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="El número 10 rodeado de planetas y estrellas en forma de átomo" loading="lazy" width="1456" height="816" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.32ea6ed6.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
 
 <h3 id="--noticias-2">📰  Noticias</h3>
 <ul>
@@ -163,7 +1455,7 @@
 <li>🔥 <strong>¡Ojo con Safari!</strong> <a href="https://developer.apple.com/documentation/safari-release-notes/safari-17-release-notes">La beta de Safari 17 soporta instalación de Progressive Web Apps</a>, notificaciones Web Push, JPEG XL, el atributo popover y muchas cosas más. Apple le está dando bastante foco a su navegador.</li>
 <li>🆕 <strong>TypeScript 5.1</strong> ya es una realidad. Dos novedades destacadas: mejoras en los <code>return</code> implícitos de <code>undefined</code> y mejor soporte a JSX para React Server Components. <a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/">Mira todas las novedades en este artículo de su blog.</a></li>
 </ul>
-<h3 id="--salseos-2">🥫  Salseos</h3>
+<h3 id="--salseos-4">🥫  Salseos</h3>
 <ul>
 <li>🤖 Alguien dice haber supervisado un proyecto con dos desarrolladores: un senior con 19 años de experiencia y otro que usa IA y No Code con 4 años de experiencia. Spoiler: Dicen que han echado al primero. <a href="https://twitter.com/advany/status/1664451798793584642?t=cs49sGPKDSub5nvFkxo0xg">Lee la historia completa</a></li>
 </ul>
@@ -182,7 +1474,7 @@
             <guid>https://noticias.dev/#la-primera-newsletter-de-muchas</guid>
             <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<article><script type="text/metadata">{"id":"la-primera-newsletter-de-muchas","title":"La primera newsletter de muchas","date":"2023-05-15T00:00Z"}</script>
-<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="" loading="lazy" width="1200" height="650" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=3840&amp;q=75"/><div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
+<div class="relative mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-900 [&amp;+*]:mt-8"><img alt="Una ciudad futurista, un hombre con una maleta de negocios y una chica que va al trabajo" loading="lazy" width="1200" height="650" decoding="async" data-nimg="1" style="color:transparent" sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.555f89f9.webp&amp;w=3840&amp;q=75"/><div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 dark:ring-white/10"></div></div>
 
 <h3 id="--noticias-3">📰  Noticias</h3>
 <ul>
@@ -190,7 +1482,7 @@
 <li>⚛️ Ahora React va a tener también <a href="https://react.dev/blog/2023/05/03/react-canaries">canary releases</a> para que puedas probar las novedades antes de que salgan en la versión estable.</li>
 <li>❌ Las propiedades privadas de clases en JavaScript <a href="https://lea.verou.me/2023/04/private-fields-considered-harmful/">no se llevan bien con los Proxy</a> y hay gente que está dejando de usarlo por eso. Lo explica <strong>Lea Verou</strong>.</li>
 </ul>
-<h3 id="--salseos-3">🥫  Salseos</h3>
+<h3 id="--salseos-5">🥫  Salseos</h3>
 <ul>
 <li>🤔 <a href="https://twitter.com/dhh/status/1655076668787097607">TypeScript te quita la felicidad</a> según David Heinemeier Hansson, creador de Ruby on Rails.</li>
 <li>👋 <a href="https://twitter.com/tannerlinsley/status/1657059988760829952">Adiós React, Hola Wordpress</a>. Tanner Linsley, creador de React Query, ha comentado que han migrado la página de nozzle.io de React a Wordpress. ¡En 2023! Muy interesantes las razones.</li>
