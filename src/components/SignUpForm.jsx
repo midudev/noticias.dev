@@ -1,6 +1,21 @@
-import { useId } from 'react'
+import { useEffect, useId } from 'react'
 import { useNewsletter, RESULTS } from '@/hooks/useNewsletter'
 import { Button } from '@/components/Button'
+
+if (typeof window !== 'undefined') {
+  window.CustomSubstackWidget = {
+    substackUrl: "midudev.substack.com",
+    placeholder: "pepito@gmail.com",
+    buttonText: "Suscribirse",
+    theme: "custom",
+    colors: {
+      primary: "#FFFFFF",
+      input: "#000000",
+      email: "#FFFFFF",
+      text: "#000000",
+    },
+  };
+}
 
 export function SignUpForm() {
   const { result, register } = useNewsletter()
@@ -33,36 +48,18 @@ export function SignUpForm() {
     return '¡Me apunto!'
   }
 
+  useEffect(() => {
+    // load asynchronously a script
+    const script = document.createElement('script')
+    script.src = 'https://substackapi.com/widget.js'
+    script.id = id
+    script.async = true
+    document.body.appendChild(script)
+  }, [])
+
   return (
-    <div>
-      <form
-        className="relative flex items-center pr-1 mt-8 isolate"
-        onSubmit={handleSubmit}
-      >
-        <label htmlFor={id} className="sr-only">
-          Escribe aquí tu email
-        </label>
-        <input
-          required
-          type="email"
-          autoComplete="email"
-          name="email"
-          id={id}
-          placeholder="Escribe aquí tu email"
-          className="peer w-0 flex-auto bg-transparent px-4 py-2.5 text-base text-white placeholder:text-gray-300 focus:outline-none sm:text-[0.8125rem]/6"
-        />
-        <Button
-          className={getButtonClasses()}
-          disabled={result !== RESULTS.IDLE}
-          loading={result === RESULTS.LOADING}
-          type="submit"
-          arrow={result === RESULTS.IDLE}
-        >
-          {getButtonLiteral()}
-        </Button>
-        <div className="absolute inset-0 transition rounded-lg -z-10 peer-focus:ring-4 peer-focus:ring-sky-300/15" />
-        <div className="absolute inset-0 -z-10 rounded-lg bg-white/2.5 ring-1 ring-white/15 transition peer-focus:ring-sky-300" />
-      </form>
+    <div className='mt-4'>
+      <div id="custom-substack-embed"></div>
       <small className="block mt-2 italic text-yellow-200/80">
         ¡+33.000 desarrolladores suscritos! 🎉
       </small>
